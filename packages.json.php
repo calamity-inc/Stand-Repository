@@ -1,5 +1,14 @@
 <?php
 $packages = [
+	"lua/natives-1681379138" => [
+		"priority" => 8,
+		"files" => [
+			"lib/natives-1681379138/init.lua" => "stand.gg/dl/lua/lib/natives-1681379138/init.lua",
+			"lib/natives-1681379138/uno.lua" => "stand.gg/dl/lua/lib/natives-1681379138/uno.lua",
+			"lib/natives-1681379138/g.lua" => "stand.gg/dl/lua/lib/natives-1681379138/g.lua",
+			"lib/natives-1681379138/g-uno.lua" => "stand.gg/dl/lua/lib/natives-1681379138/g-uno.lua",
+		],
+	],
 	"lua/natives-1676318796" => [
 		"priority" => 7,
 		"files" => [
