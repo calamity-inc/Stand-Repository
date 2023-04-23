@@ -156,7 +156,7 @@ $packages = [
 	],
 	"lua/Example Scripts" => [
 		"priority" => -1,
-		"version" => "100.10",
+		"version" => "102",
 		"author" => "Stand Development Team",
 		"depends" => [
 			"lua/natives-1663599433",
@@ -168,6 +168,8 @@ $packages = [
 			"Example Scripts/Draw Loop.pluto" => "stand.gg/dl/lua/Example Scripts/Draw Loop.pluto",
 			"Example Scripts/Dump Runtime.pluto" => "stand.gg/dl/lua/Example Scripts/Dump Runtime.pluto",
 			"Example Scripts/Explosive Hits.pluto" => "stand.gg/dl/lua/Example Scripts/Explosive Hits.pluto",
+			"Example Scripts/Lang 1.pluto" => "stand.gg/dl/lua/Example Scripts/Lang 1.pluto",
+			"Example Scripts/Lang 2.pluto" => "stand.gg/dl/lua/Example Scripts/Lang 2.pluto",
 			"Example Scripts/Notification Colours.pluto" => "stand.gg/dl/lua/Example Scripts/Notification Colours.pluto",
 			"Example Scripts/Online Version.pluto" => "stand.gg/dl/lua/Example Scripts/Online Version.pluto",
 			"Example Scripts/UI3D.pluto" => "stand.gg/dl/lua/Example Scripts/UI3D.pluto",
