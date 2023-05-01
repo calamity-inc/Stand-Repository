@@ -436,6 +436,3 @@ foreach($packages as $name => &$package)
 		unset($package["resources_version"]);
 	}
 }
-
-header("Content-Type: application/json");
-echo json_encode($packages);
