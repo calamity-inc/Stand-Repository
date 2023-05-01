@@ -116,6 +116,26 @@ $packages = [
 			"lib/slaxdom.lua" => "stand.gg/dl/lua/lib/slaxdom.lua",
 		]
 	],
+	"lua/LanceScript" => [
+		"priority" => 3,
+		"author" => "lance (unmaintained)",
+		"depends" => [
+			"lua/natives-1676318796",
+		],
+		"version" => "11.2",
+		"files" => [
+			"LanceScript.pluto" => "raw.githubusercontent.com/calamity-inc/LanceScript/b73ae187f37a8ab024038145ce11d28204959960/LanceScript.pluto",
+			"store/lancescript/translations/english.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-script-repository/ff517b0fe8fd55bd1a63185bf1cba7cd40b62a58/store/lancescript/translations/english.lua",
+		],
+		"resources" => [
+			"resources/lancescript/lancescript_logo.png" => "raw.githubusercontent.com/calamity-inc/LanceScript/b73ae187f37a8ab024038145ce11d28204959960/resources/lancescript/lancescript_logo.png",
+		],
+		"trash" => [
+			"store/lancescript/lyrics",
+			"store/lancescript/translations/selected_language.txt",
+			"store/lancescript",
+		],
+	],
 	"lua/iniparser" => [
 		"author" => "well-in-that-case",
 		"files" => [
