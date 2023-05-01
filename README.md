@@ -1,6 +1,6 @@
 # Stand Repository
 
-A smaller, self-hostable version of Stand's packages source.
+Stand's packages source.
 
 ## Development
 
