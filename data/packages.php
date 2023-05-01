@@ -228,6 +228,88 @@ $packages = [
 			"No Police Helicopters.lua" => "stand.gg/dl/lua/No Police Helicopters 1.0.lua",
 		],
 	],
+	"lua/translations" => [
+		"author" => "Jackz",
+		"is_dependency" => true,
+		"version" => "1.4.3",
+		"files" => [
+			"lib/translations.lua" => "jackz.me/stand/get-lua.php?script=lib/translations&source=repo",
+		]
+	],
+	"lua/jackzvehiclelib" => [
+		"author" => "Jackz",
+		"is_dependency" => true,
+		"version" => "1.3.2",
+		"files" => [
+			"lib/jackzvehiclelib.lua" => "jackz.me/stand/get-lua.php?script=lib/jackzvehiclelib&source=repo",
+		]
+	],
+	"lua/Vehicle Options" => [
+		"priority" => 1,
+		"author" => "Jackz",
+		"depends" => [
+			"lua/natives-1627063482",
+			"lua/json",
+			"lua/translations",
+			"lua/jackzvehiclelib",
+		],
+		"version" => "3.10.7",
+		"files" => [
+			"Vehicle Options.lua" => "jackz.me/stand/get-lua.php?script=jackz_vehicles&source=repo",
+		]
+	],
+	"lua/Actions" => [
+		"priority" => 1,
+		"author" => "Jackz",
+		"depends" => [
+			"lua/natives-1627063482",
+		],
+		"version" => "1.11.8",
+		"files" => [
+			"Actions.lua" => "jackz.me/stand/get-lua.php?script=actions&source=repo",
+		],
+		"resources_version" => "r2",
+		"resources" => [
+			"resources/jackz_actions/actions_data.lua" => "jackz.me/stand/resources/jackz_actions/actions_data.min.lua",
+		],
+	],
+	"lua/Stand Chat" => [
+		"author" => "Jackz",
+		"depends" => [
+			"lua/natives-1627063482",
+			"lua/json",
+			"lua/translations",
+		],
+		"version" => "1.2.30",
+		"files" => [
+			"Stand Chat.lua" => "jackz.me/stand/get-lua.php?script=jackz_chat&source=repo",
+		]
+	],
+	"lua/Train Control" => [
+		"author" => "Jackz",
+		"depends" => [
+			"lua/natives-1627063482",
+		],
+		"version" => "1.1.9",
+		"files" => [
+			"Train Control.lua" => "jackz.me/stand/get-lua.php?script=train_control&source=repo",
+		]
+	],
+	"lua/Jackz Vehicle Builder" => [
+		"author" => "Jackz",
+		"depends" => [
+			"lua/natives-1627063482",
+			"lua/json",
+			"lua/jackzvehiclelib",
+		],
+		"version" => "1.25.9",
+		"files" => [
+			"Jackz Vehicle Builder.lua" => "jackz.me/stand/get-lua.php?script=jackz_vehicle_builder&source=repo",
+		],
+		"resources" => [
+			"resources/objects.txt" => "jackz.me/stand/resources/objects.txt"
+		]
+	],
 	"lua/JerryScript" => [
 		"priority" => 2,
 		"author" => "jerry123",
@@ -333,6 +415,17 @@ $packages = [
 			"store/Heist Control/GTAHaXUI/stat.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.2.0/store/Heist Control/GTAHaXUI/stat.txt",
 			"store/Heist Control/Image/HC Banner.png" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.0.7/store/Heist Control/Image/HC Banner.png",
 			"store/Heist Control/Image/Logo.ytd" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.0.7/store/Heist Control/Image/Logo.ytd",
+		],
+	],
+	"lua/JinxScript" => [
+		"priority" => 3,
+		"author" => "Prisuhm",
+		"depends" => [
+			"lua/natives-1672190175-uno"
+		],
+		"version" => "3.90",
+		"files" => [
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/main/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
