@@ -395,18 +395,18 @@ $packages = [
 	"lua/MusinessBanager" => [
 		"priority" => 3,
 		"author" => "Stand Development Team; formerly ICYPhoenix & Ren",
-		"version" => "403f783",
+		"version" => "64e4ecd",
 		"files" => [
-			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/403f78382e08dc0ab2cab5047e7b73ecd7a42fab/MusinessBanagersource.lua",
+			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/MusinessBanagersource.lua",
 		],
-		"resources_version" => "r4",
+		"resources_version" => "r5",
 		"resources" => [
-			"resources/Musiness Banager/Translations/de.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/ce02262fcbef5544e401189dccc8f863e7bd1957/resources/Musiness Banager/Translations/de.txt",
-			"resources/Musiness Banager/Translations/es.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/ce02262fcbef5544e401189dccc8f863e7bd1957/resources/Musiness Banager/Translations/es.txt",
-			"resources/Musiness Banager/Translations/fr.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/ce02262fcbef5544e401189dccc8f863e7bd1957/resources/Musiness Banager/Translations/fr.txt",
-			"resources/Musiness Banager/Translations/ko.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/ce02262fcbef5544e401189dccc8f863e7bd1957/resources/Musiness Banager/Translations/ko.txt",
-			"resources/Musiness Banager/Translations/pl.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/ce02262fcbef5544e401189dccc8f863e7bd1957/resources/Musiness Banager/Translations/pl.txt",
-			"resources/Musiness Banager/Translations/zh.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/ce02262fcbef5544e401189dccc8f863e7bd1957/resources/Musiness Banager/Translations/zh.txt",
+			"resources/Musiness Banager/Translations/de.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/resources/Musiness Banager/Translations/de.txt",
+			"resources/Musiness Banager/Translations/es.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/resources/Musiness Banager/Translations/es.txt",
+			"resources/Musiness Banager/Translations/fr.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/resources/Musiness Banager/Translations/fr.txt",
+			"resources/Musiness Banager/Translations/ko.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/resources/Musiness Banager/Translations/ko.txt",
+			"resources/Musiness Banager/Translations/pl.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/resources/Musiness Banager/Translations/pl.txt",
+			"resources/Musiness Banager/Translations/zh.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/resources/Musiness Banager/Translations/zh.txt",
 		]
 	],
 	"lua/Heist Control" => [
