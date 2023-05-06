@@ -245,7 +245,7 @@ $packages = [
 			"lua/natives-1627063482",
 		],
 		"files" => [
-			"No Police Helicopters.lua" => "stand.gg/dl/lua/No Police Helicopters 1.0.lua",
+			"No Police Helicopters.lua" => "jackz.me/stand/get-lua.php?script=no_police_helis.lua&source=repo",
 		],
 	],
 	"lua/translations" => [
@@ -290,7 +290,8 @@ $packages = [
 		],
 		"resources_version" => "r2",
 		"resources" => [
-			"resources/jackz_actions/actions_data.lua" => "jackz.me/stand/resources/jackz_actions/actions_data.min.lua",
+			"resources/jackz_actions/animations.txt" => "jackz.me/stand/get-lua.php?script=resources/jackz_actions/animations.txt&source=repo"
+			"resources/jackz_actions/actions_data.lua" => "jackz.me/stand/get-lua.php?script=resources/jackz_actions/actions_data.lua&source=repo",
 		],
 	],
 	"lua/Stand Chat" => [
