@@ -239,13 +239,13 @@ $packages = [
 		]
 	],
 	"lua/No Police Helicopters" => [
-		"version" => "1.0",
+		"version" => "1.1",
 		"author" => "Jackz",
 		"depends" => [
 			"lua/natives-1627063482",
 		],
 		"files" => [
-			"No Police Helicopters.lua" => "stand.gg/dl/lua/No Police Helicopters 1.0.lua",
+			"No Police Helicopters.lua" => "jackz.me/stand/get-lua.php?script=no_police_helis.lua&source=repo",
 		],
 	],
 	"lua/translations" => [
@@ -283,14 +283,16 @@ $packages = [
 		"author" => "Jackz",
 		"depends" => [
 			"lua/natives-1627063482",
+			"lua/translations",
 		],
-		"version" => "1.11.8",
+		"version" => "1.11.9",
 		"files" => [
 			"Actions.lua" => "jackz.me/stand/get-lua.php?script=actions&source=repo",
 		],
-		"resources_version" => "r2",
+		"resources_version" => "r3",
 		"resources" => [
-			"resources/jackz_actions/actions_data.lua" => "jackz.me/stand/resources/jackz_actions/actions_data.min.lua",
+			"resources/jackz_actions/animations.txt" => "jackz.me/stand/get-lua.php?script=resources/jackz_actions/animations.txt&source=repo",
+			"resources/jackz_actions/actions_data.lua" => "jackz.me/stand/get-lua.php?script=resources/jackz_actions/actions_data.lua&source=repo",
 		],
 	],
 	"lua/Stand Chat" => [
@@ -322,12 +324,16 @@ $packages = [
 			"lua/json",
 			"lua/jackzvehiclelib",
 		],
-		"version" => "1.25.9",
+		"version" => "1.25.10",
 		"files" => [
 			"Jackz Vehicle Builder.lua" => "jackz.me/stand/get-lua.php?script=jackz_vehicle_builder&source=repo",
 		],
+		"resources_version" => "r2",
 		"resources" => [
-			"resources/objects.txt" => "jackz.me/stand/resources/objects.txt"
+			"resources/objects.txt" => "jackz.me/stand/get-lua.php?script=resources/objects.txt&source=repo",
+			"resources/peds.txt" => "jackz.me/stand/get-lua.php?script=resources/peds.txt&source=repo",
+			"resources/vehicles.txt" => "jackz.me/stand/get-lua.php?script=resources/vehicles.txt&source=repo",
+			"resources/particles.txt" => "jackz.me/stand/get-lua.php?script=resources/particles.txt&source=repo",
 		]
 	],
 	"lua/JerryScript" => [
