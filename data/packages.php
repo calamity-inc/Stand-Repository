@@ -239,7 +239,7 @@ $packages = [
 		]
 	],
 	"lua/No Police Helicopters" => [
-		"version" => "1.0",
+		"version" => "1.1",
 		"author" => "Jackz",
 		"depends" => [
 			"lua/natives-1627063482",
@@ -285,7 +285,7 @@ $packages = [
 			"lua/natives-1627063482",
 			"lua/translations",
 		],
-		"version" => "1.11.8",
+		"version" => "1.11.9",
 		"files" => [
 			"Actions.lua" => "jackz.me/stand/get-lua.php?script=actions&source=repo",
 		],
@@ -324,7 +324,7 @@ $packages = [
 			"lua/json",
 			"lua/jackzvehiclelib",
 		],
-		"version" => "1.25.9",
+		"version" => "1.25.10",
 		"files" => [
 			"Jackz Vehicle Builder.lua" => "jackz.me/stand/get-lua.php?script=jackz_vehicle_builder&source=repo",
 		],
