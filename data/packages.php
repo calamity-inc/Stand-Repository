@@ -283,6 +283,7 @@ $packages = [
 		"author" => "Jackz",
 		"depends" => [
 			"lua/natives-1627063482",
+			"lua/translations",
 		],
 		"version" => "1.11.8",
 		"files" => [
@@ -290,7 +291,7 @@ $packages = [
 		],
 		"resources_version" => "r2",
 		"resources" => [
-			"resources/jackz_actions/animations.txt" => "jackz.me/stand/get-lua.php?script=resources/jackz_actions/animations.txt&source=repo"
+			"resources/jackz_actions/animations.txt" => "jackz.me/stand/get-lua.php?script=resources/jackz_actions/animations.txt&source=repo",
 			"resources/jackz_actions/actions_data.lua" => "jackz.me/stand/get-lua.php?script=resources/jackz_actions/actions_data.lua&source=repo",
 		],
 	],
