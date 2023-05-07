@@ -289,7 +289,7 @@ $packages = [
 		"files" => [
 			"Actions.lua" => "jackz.me/stand/get-lua.php?script=actions&source=repo",
 		],
-		"resources_version" => "r2",
+		"resources_version" => "r3",
 		"resources" => [
 			"resources/jackz_actions/animations.txt" => "jackz.me/stand/get-lua.php?script=resources/jackz_actions/animations.txt&source=repo",
 			"resources/jackz_actions/actions_data.lua" => "jackz.me/stand/get-lua.php?script=resources/jackz_actions/actions_data.lua&source=repo",
@@ -328,6 +328,7 @@ $packages = [
 		"files" => [
 			"Jackz Vehicle Builder.lua" => "jackz.me/stand/get-lua.php?script=jackz_vehicle_builder&source=repo",
 		],
+		"resources_version" => "r2",
 		"resources" => [
 			"resources/objects.txt" => "jackz.me/stand/get-lua.php?script=resources/objects.txt&source=repo",
 			"resources/peds.txt" => "jackz.me/stand/get-lua.php?script=resources/peds.txt&source=repo",
