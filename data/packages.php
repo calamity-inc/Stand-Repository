@@ -330,9 +330,9 @@ $packages = [
 		],
 		"resources" => [
 			"resources/objects.txt" => "jackz.me/stand/get-lua.php?script=resources/objects.txt&source=repo",
-			"resources/peds.txt" => "jackz.me/stand/get-lua.php?script=resources/objects.txt&source=repo",
-			"resources/vehicles.txt" => "jackz.me/stand/get-lua.php?script=resources/objects.txt&source=repo",
-			"resources/particles.txt" => "jackz.me/stand/get-lua.php?script=resources/objects.txt&source=repo",
+			"resources/peds.txt" => "jackz.me/stand/get-lua.php?script=resources/peds.txt&source=repo",
+			"resources/vehicles.txt" => "jackz.me/stand/get-lua.php?script=resources/vehicles.txt&source=repo",
+			"resources/particles.txt" => "jackz.me/stand/get-lua.php?script=resources/particles.txt&source=repo",
 		]
 	],
 	"lua/JerryScript" => [
