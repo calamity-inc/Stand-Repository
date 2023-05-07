@@ -1,0 +1,8 @@
+name: Validate Syntax
+on: [ push ]
+jobs:
+  validate-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: php -l data/packages.php
