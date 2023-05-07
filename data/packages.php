@@ -329,7 +329,10 @@ $packages = [
 			"Jackz Vehicle Builder.lua" => "jackz.me/stand/get-lua.php?script=jackz_vehicle_builder&source=repo",
 		],
 		"resources" => [
-			"resources/objects.txt" => "jackz.me/stand/resources/objects.txt"
+			"resources/objects.txt" => "jackz.me/stand/get-lua.php?script=resources/objects.txt&source=repo",
+			"resources/peds.txt" => "jackz.me/stand/get-lua.php?script=resources/objects.txt&source=repo",
+			"resources/vehicles.txt" => "jackz.me/stand/get-lua.php?script=resources/objects.txt&source=repo",
+			"resources/particles.txt" => "jackz.me/stand/get-lua.php?script=resources/objects.txt&source=repo",
 		]
 	],
 	"lua/JerryScript" => [
