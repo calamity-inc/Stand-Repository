@@ -1,5 +1,5 @@
 name: Validate Syntax
-on: [ push ]
+on: [ push, pull_request ]
 jobs:
   validate-syntax:
     runs-on: ubuntu-latest
