@@ -368,10 +368,10 @@ $packages = [
 	],
 	"lua/JSlangLib" => [
 		"is_dependency" => true,
-		"version" => "1.14.6",
+		"version" => "1.14.8",
 		"author" => "jerry123",
 		"files" => [
-			"lib/JSlangLib.lua" => "raw.githubusercontent.com/Jerrrry123/JerryScript/1.14.6/lib/JSlangLib.lua",
+			"lib/JSlangLib.lua" => "raw.githubusercontent.com/Jerrrry123/JerryScript/1.14.8/lib/JSlangLib.lua",
 		],
 	],
 	"lua/JSkeyLib" => [
