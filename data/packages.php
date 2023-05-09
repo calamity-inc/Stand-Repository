@@ -125,7 +125,7 @@ $packages = [
 		"version" => "11.2",
 		"files" => [
 			"LanceScript.pluto" => "raw.githubusercontent.com/calamity-inc/LanceScript/b73ae187f37a8ab024038145ce11d28204959960/LanceScript.pluto",
-			"store/lancescript/translations/english.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-script-repository/ff517b0fe8fd55bd1a63185bf1cba7cd40b62a58/store/lancescript/translations/english.lua",
+			"store/lancescript/translations/english.lua" => "raw.githubusercontent.com/calamity-inc/LanceScript/9e6100b81539209088822bcab9ba0a261a08b7d6/store/lancescript/translations/english.lua",
 		],
 		"resources" => [
 			"resources/lancescript/lancescript_logo.png" => "raw.githubusercontent.com/calamity-inc/LanceScript/b73ae187f37a8ab024038145ce11d28204959960/resources/lancescript/lancescript_logo.png",
