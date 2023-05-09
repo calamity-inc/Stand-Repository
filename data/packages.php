@@ -176,7 +176,7 @@ $packages = [
 	],
 	"lua/Example Scripts" => [
 		"priority" => -1,
-		"version" => "102",
+		"version" => "103",
 		"author" => "Stand Development Team",
 		"depends" => [
 			"lua/natives-1663599433",
@@ -184,17 +184,18 @@ $packages = [
 		"files" => [
 			"Example Scripts/Chat.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Chat.pluto",
 			"Example Scripts/Countdown.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Countdown.pluto",
-			"Example Scripts/DirectX.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/DirectX.pluto",
+			"Example Scripts/DirectX.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/DirectX.pluto",
 			"Example Scripts/Draw Loop.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Draw Loop.pluto",
 			"Example Scripts/Dump Runtime.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Dump Runtime.pluto",
 			"Example Scripts/Explosive Hits.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Explosive Hits.pluto",
 			"Example Scripts/Lang 1.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Lang 1.pluto",
 			"Example Scripts/Lang 2.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Lang 2.pluto",
-			"Example Scripts/Notification Colours.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Notification Colours.pluto",
+			"Example Scripts/Notification Colours.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/Notification Colours.pluto",
 			"Example Scripts/Online Version.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Online Version.pluto",
+			"Example Scripts/Player Commands.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/Player Commands.pluto",
 			"Example Scripts/UI3D.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/UI3D.pluto",
 			"Example Scripts/Vehicle No Decals.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Vehicle No Decals.pluto",
-			"Example Scripts/Vehicle Spawn.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Vehicle Spawn.pluto",
+			"Example Scripts/Vehicle Spawn.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/Vehicle Spawn.pluto",
 		],
 		"resources" => [
 			"resources/Example Scripts/Heart.png" => "stand.gg/dl/lua/resources/Example Scripts/Heart.png",
