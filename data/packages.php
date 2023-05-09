@@ -448,11 +448,11 @@ $packages = [
 		"priority" => 3,
 		"author" => "Prisuhm",
 		"depends" => [
-			"lua/natives-1672190175-uno"
+			"lua/natives-1681379138"
 		],
-		"version" => "3.90",
+		"version" => "0.40.0",
 		"files" => [
-			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/16d42a42e6813eecb99f9391950105315749b1d8/JinxScript.pluto",
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/65d1271bbce669e14e12fc9d684eee332fb48580/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
