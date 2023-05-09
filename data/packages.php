@@ -460,7 +460,10 @@ $packages = [
 		"author" => "acjoker8818",
 		"version" => "0.30.1",
 		"depends" => [
-			"lua/natives-1663599433"
+			"lua/natives-1663599433",
+			"lua/ScaleformLib",
+			"lua/quaternionLib",
+			"lua/pretty.json",
 		],
 		"files" => [
 			"AcjokerScript.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.30.1/AcjokerScript.pluto",
