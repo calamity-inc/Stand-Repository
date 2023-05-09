@@ -451,7 +451,7 @@ $packages = [
 		],
 		"version" => "3.90",
 		"files" => [
-			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/main/JinxScript.pluto",
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/16d42a42e6813eecb99f9391950105315749b1d8/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
