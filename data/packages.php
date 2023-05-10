@@ -538,12 +538,11 @@ $packages = [
                     "lua/natives-1681379138"
                 ],
                 "files" => [
-                    "NovaHook.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaHook/main/NovaHook.pluto",
-                    "store/NovaHook/webhook_url.txt" => "raw.githubusercontent.com/NovaPlays134/NovaHook/main/store/NovaHook/webhook_url.txt"
+                    "NovaHook.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.0/NovaHook.pluto",
                 ],
                 "resources" => [
-                    "resources/NovaHook/NovaHook_logo.png" => "https://raw.githubusercontent.com/NovaPlays134/NovaHook/main/resources/NovaHook/NovaHook_logo.png",
-                    "resources/NovaHook/webhook_logo.png" => "https://raw.githubusercontent.com/NovaPlays134/NovaHook/main/resources/NovaHook/webhook_logo.png"
+                    "resources/NovaHook/NovaHook_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.0/resources/NovaHook/NovaHook_logo.png",
+                    "resources/NovaHook/webhook_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.0/resources/NovaHook/webhook_logo.png"
                 ],
         ],
 ];
