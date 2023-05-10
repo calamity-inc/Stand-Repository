@@ -144,20 +144,20 @@ $packages = [
 	],
 	"lua/WiriScript" => [
 		"priority" => 3,
-		"version" => "29",
+		"version" => "29.5",
 		"author" => "Nowiry",
 		"depends" => [
 			"lua/natives-1660775568-uno",
 			"lua/pretty.json",
 		],
 		"files" => [
-			"WiriScript.lua" => "raw.githubusercontent.com/nowiry/WiriScript/v29/WiriScript.lua",
-			"lib/wiriscript/functions.lua" => "raw.githubusercontent.com/nowiry/WiriScript/v29/lib/wiriscript/functions.lua",
-			"lib/wiriscript/guided_missile.lua" => "raw.githubusercontent.com/nowiry/WiriScript/v29/lib/wiriscript/guided_missile.lua",
-			"lib/wiriscript/homing_missiles.lua" => "raw.githubusercontent.com/nowiry/WiriScript/v29/lib/wiriscript/homing_missiles.lua",
-			"lib/wiriscript/orbital_cannon.lua" => "raw.githubusercontent.com/nowiry/WiriScript/v29/lib/wiriscript/orbital_cannon.lua",
-			"lib/wiriscript/ped_list.lua" => "raw.githubusercontent.com/nowiry/WiriScript/v29/lib/wiriscript/ped_list.lua",
-			"lib/wiriscript/ufo.lua" => "raw.githubusercontent.com/nowiry/WiriScript/v29/lib/wiriscript/ufo.lua",
+			"WiriScript.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/WiriScript.lua",
+			"lib/wiriscript/functions.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/lib/wiriscript/functions.lua",
+			"lib/wiriscript/guided_missile.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/lib/wiriscript/guided_missile.lua",
+			"lib/wiriscript/homing_missiles.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/lib/wiriscript/homing_missiles.lua",
+			"lib/wiriscript/orbital_cannon.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/lib/wiriscript/orbital_cannon.lua",
+			"lib/wiriscript/ped_list.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/lib/wiriscript/ped_list.lua",
+			"lib/wiriscript/ufo.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/lib/wiriscript/ufo.lua",
 		],
 		"resources" => [
 			"resources/WiriTextures.ytd" => "raw.githubusercontent.com/nowiry/WiriScript/v18/resources/WiriTextures.ytd"
