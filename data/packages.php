@@ -529,6 +529,23 @@ $packages = [
 			"../Constructs",
 		],
 	],
+        "lua/NovaHook" => [
+                "priority" => 2,
+                "author" => "Nova_Plays",
+                "version" => "1.0",
+                "description" => "A simple script for sending detections and classifications, as well as new sessions and in-game chat, to a Discord webhook.",
+                "depends" => [
+                    "lua/natives-1681379138"
+                ],
+                "files" => [
+                    "NovaHook.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaHook/main/NovaHook.pluto",
+                    "store/NovaHook/webhook_url.txt" => "raw.githubusercontent.com/NovaPlays134/NovaHook/main/store/NovaHook/webhook_url.txt"
+                ],
+                "resources" => [
+                    "resources/NovaHook/NovaHook_logo.png" => "https://raw.githubusercontent.com/NovaPlays134/NovaHook/main/resources/NovaHook/NovaHook_logo.png",
+                    "resources/NovaHook/webhook_logo.png" => "https://raw.githubusercontent.com/NovaPlays134/NovaHook/main/resources/NovaHook/webhook_logo.png"
+                ],
+        ],
 ];
 
 foreach($packages as $name => &$package)
