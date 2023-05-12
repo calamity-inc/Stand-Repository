@@ -458,7 +458,7 @@ $packages = [
 	"lua/AcjokerScript" => [
 		"priority" => 2,
 		"author" => "acjoker8818",
-		"version" => "0.31.0",
+		"version" => "0.31.2",
 		"depends" => [
 			"lua/natives-1663599433",
 			"lua/ScaleformLib",
