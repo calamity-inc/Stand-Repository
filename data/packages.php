@@ -533,7 +533,7 @@ $packages = [
 		"priority" => 1,
 		"author" => "Nova_Plays",
 		"version" => "1.1.2",
-		"description" => "A simple script for sending detections and classifications, as well as new sessions and in-game chat, to a Discord webhook.",
+		"description" => "Allows you to send detections, classifications, player list, and in-game chat to a Discord webhook.",
 		"depends" => [
 			"lua/natives-1681379138"
 		],
