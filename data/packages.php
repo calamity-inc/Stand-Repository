@@ -530,7 +530,7 @@ $packages = [
 		],
 	],
 	"lua/NovaHook" => [
-		"priority" => 2,
+		"priority" => 1,
 		"author" => "Nova_Plays",
 		"version" => "1.1.2",
 		"description" => "A simple script for sending detections and classifications, as well as new sessions and in-game chat, to a Discord webhook.",
