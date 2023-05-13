@@ -545,6 +545,18 @@ $packages = [
 			"resources/NovaHook/webhook_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.1.2/resources/NovaHook/webhook_logo.png"
 		],
 	],
+	"lua/SlotBot" => [
+		"priority" => 2,
+		"author" => "hexarobi",
+		"description" => "Automatically spin rigged slot machine. Check the box, AFK for a few mins and make a quick $50mil, repeat the next day.",
+		"version" => "0.24r",
+		"depends" => [
+			"lua/natives-1663599433"
+		],
+		"files" => [
+			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/38b67618c17a26dffce1a616864be34c420bf228/SlotBot.lua"
+		],
+	],
 ];
 
 foreach($packages as $name => &$package)
