@@ -549,12 +549,12 @@ $packages = [
 		"priority" => 2,
 		"author" => "hexarobi",
 		"description" => "Automatically spin rigged slot machine. Check the box, AFK for a few mins and make a quick $50mil, repeat the next day.",
-		"version" => "0.24r",
+		"version" => "0.25r",
 		"depends" => [
 			"lua/natives-1663599433"
 		],
 		"files" => [
-			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/38b67618c17a26dffce1a616864be34c420bf228/SlotBot.lua"
+			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/dbfed92873627fa7dbc7305de4ed8c57099a10cc/SlotBot.lua"
 		],
 	],
 ];
