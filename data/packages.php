@@ -548,7 +548,7 @@ $packages = [
 	"lua/SlotBot" => [
 		"priority" => 2,
 		"author" => "hexarobi",
-		"description" => "Automatically spin rigged slot machine. Check the box, AFK for a few mins and make a quick $50mil, repeat the next day.",
+		"description" => "Automates spinning and rigging slot machines.",
 		"version" => "0.25r",
 		"depends" => [
 			"lua/natives-1663599433"
