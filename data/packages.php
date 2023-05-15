@@ -513,7 +513,7 @@ $packages = [
 		],
 		"files" => [
 			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/58d3c90dbb0cd3cd36f8c93d55276d7e96dae828/Constructor.lua",
-			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/edf67b2210b45675dd18a0127177ef7ed2205fa6/lib/auto-updater.lua",
+			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/a4a3dc7973b352b79dcf44e5056becc67a5af20a/lib/auto-updater.lua",
 			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/lib/constructor/constants.lua",
 			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/lib/constructor/constructor_lib.lua",
 			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/lib/constructor/convertors.lua",
