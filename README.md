@@ -12,3 +12,13 @@ Packages Source: http://localhost/packages.json.php
 ```
 
 Note that Stand only refreshes packages upon injection.
+
+## Run PHP with Docker
+
+You can optionally run PHP using docker.
+Install [Docker for Windows](https://docs.docker.com/desktop/install/windows-install/), 
+then run the following command in this directory to run the PHP server.
+
+```bash
+docker run -d -p 80:80 -v "${PWD}:/var/www/html" php:7.2-apache
+```
