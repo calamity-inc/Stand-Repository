@@ -459,7 +459,7 @@ $packages = [
 	"lua/AcjokerScript" => [
 		"priority" => 2,
 		"author" => "acjoker8818",
-		"version" => "0.31.2",
+		"version" => "0.32.0",
 		"depends" => [
 			"lua/natives-1663599433",
 			"lua/ScaleformLib",
@@ -467,9 +467,9 @@ $packages = [
 			"lua/pretty.json",
 		],
 		"files" => [
-			"AcjokerScript.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.31.2/AcjokerScript.pluto",
-			"resources/AcjokerScript/ACJSTables.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.31.2/resources/AcjokerScript/ACJSTables.pluto",
-			"resources/AcjokerScript/translations.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.31.2/resources/AcjokerScript/translations.pluto",
+			"AcjokerScript.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.32.0/AcjokerScript.pluto",
+			"resources/AcjokerScript/ACJSTables.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.32.0/resources/AcjokerScript/ACJSTables.pluto",
+			"resources/AcjokerScript/translations.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.32.0/resources/AcjokerScript/translations.pluto",
 		],
 		"resources_version" => "r2",
 		"resources" => [
