@@ -176,7 +176,7 @@ $packages = [
 	],
 	"lua/Example Scripts" => [
 		"priority" => -1,
-		"version" => "103.1",
+		"version" => "104",
 		"author" => "Stand Development Team",
 		"depends" => [
 			"lua/natives-1663599433",
@@ -190,6 +190,7 @@ $packages = [
 			"Example Scripts/Explosive Hits.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Explosive Hits.pluto",
 			"Example Scripts/Lang 1.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Lang 1.pluto",
 			"Example Scripts/Lang 2.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Lang 2.pluto",
+			"Example Scripts/Lang 3.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/104/Lang 3.pluto",
 			"Example Scripts/Notification Colours.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/Notification Colours.pluto",
 			"Example Scripts/Online Version.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Online Version.pluto",
 			"Example Scripts/Player Commands.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103.1/Player Commands.pluto",
@@ -419,24 +420,23 @@ $packages = [
 	"lua/Heist Control" => [
 		"priority" => 3,
 		"author" => "IceDoomfist",
-		"version" => "3.3.0",
-        "description" => "Complete Your Heists With Ease! 300+ features for earning money, helping heists and extra unlocks.",
+		"version" => "3.3.1",
 		"depends" => [
 			"lua/natives-1681379138",
 		],
 		"files" => [
-			"Heist Control.lua" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.0/Heist Control.lua",
-			"store/Heist Control/Language/Chinese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.0/store/Heist Control/Language/Chinese.txt",
-			"store/Heist Control/Language/Custom.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.0/store/Heist Control/Language/Custom.txt",
-			"store/Heist Control/Language/English.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.0/store/Heist Control/Language/English.txt",
-			"store/Heist Control/Language/French.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.0/store/Heist Control/Language/French.txt",
-			"store/Heist Control/Language/German.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.0/store/Heist Control/Language/German.txt",
-			"store/Heist Control/Language/Japanese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.0/store/Heist Control/Language/Japanese.txt",
-			"store/Heist Control/Language/Korean.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.0/store/Heist Control/Language/Korean.txt",
-			"store/Heist Control/Language/Polish.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.0/store/Heist Control/Language/Polish.txt",
-			"store/Heist Control/Language/Portuguese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.0/store/Heist Control/Language/Portuguese.txt",
-			"store/Heist Control/Language/Russian.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.0/store/Heist Control/Language/Russian.txt",
-			"store/Heist Control/Language/Spanish.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.0/store/Heist Control/Language/Spanish.txt",
+			"Heist Control.lua" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/Heist Control.lua",
+			"store/Heist Control/Language/Chinese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/Chinese.txt",
+			"store/Heist Control/Language/Custom.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/Custom.txt",
+			"store/Heist Control/Language/English.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/English.txt",
+			"store/Heist Control/Language/French.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/French.txt",
+			"store/Heist Control/Language/German.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/German.txt",
+			"store/Heist Control/Language/Japanese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/Japanese.txt",
+			"store/Heist Control/Language/Korean.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/Korean.txt",
+			"store/Heist Control/Language/Polish.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/Polish.txt",
+			"store/Heist Control/Language/Portuguese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/Portuguese.txt",
+			"store/Heist Control/Language/Russian.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/Russian.txt",
+			"store/Heist Control/Language/Spanish.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/Spanish.txt",
 		],
 		"resources_version" => "r2",
 		"resources" => [
@@ -459,7 +459,7 @@ $packages = [
 	"lua/AcjokerScript" => [
 		"priority" => 2,
 		"author" => "acjoker8818",
-		"version" => "0.31.2",
+		"version" => "0.32.0",
 		"depends" => [
 			"lua/natives-1663599433",
 			"lua/ScaleformLib",
@@ -467,9 +467,9 @@ $packages = [
 			"lua/pretty.json",
 		],
 		"files" => [
-			"AcjokerScript.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.31.2/AcjokerScript.pluto",
-			"resources/AcjokerScript/ACJSTables.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.31.2/resources/AcjokerScript/ACJSTables.pluto",
-			"resources/AcjokerScript/translations.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.31.2/resources/AcjokerScript/translations.pluto",
+			"AcjokerScript.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.32.0/AcjokerScript.pluto",
+			"resources/AcjokerScript/ACJSTables.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.32.0/resources/AcjokerScript/ACJSTables.pluto",
+			"resources/AcjokerScript/translations.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.32.0/resources/AcjokerScript/translations.pluto",
 		],
 		"resources_version" => "r2",
 		"resources" => [
@@ -503,7 +503,8 @@ $packages = [
 	"lua/Constructor" => [
 		"priority" => 2,
 		"author" => "hexarobi",
-		"version" => "0.37r",
+		"description" => "Load and edit custom map, vehicle and skin files in JSON, XML or INI format.",
+		"version" => "0.37.2r",
 		"depends" => [
 			"lua/natives-1672190175",
 			"lua/iniparser",
@@ -512,8 +513,8 @@ $packages = [
 			"lua/quaternionLib",
 		],
 		"files" => [
-			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/Constructor.lua",
-			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/lib/auto-updater.lua",
+			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/58d3c90dbb0cd3cd36f8c93d55276d7e96dae828/Constructor.lua",
+			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/a4a3dc7973b352b79dcf44e5056becc67a5af20a/lib/auto-updater.lua",
 			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/lib/constructor/constants.lua",
 			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/lib/constructor/constructor_lib.lua",
 			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/lib/constructor/convertors.lua",
