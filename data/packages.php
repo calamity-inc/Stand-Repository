@@ -164,7 +164,6 @@ $packages = [
 		]
 	],
 	"lua/Keramis Sounds" => [
-		"priority" => 1,
 		"version" => "01-25-repo",
 		"author" => "scriptcat",
 		"depends" => [
