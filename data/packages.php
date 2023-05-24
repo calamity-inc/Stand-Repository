@@ -392,6 +392,7 @@ $packages = [
 	"lua/LazScript" => [
 		"priority" => 1,
 		"author" => "Leandro Zazzi",
+		"description" => "Great for people who want additional vehicle appearance options.",
 		"version" => "1.1",
 		"depends" => [
 			"lua/natives-1640181023"
