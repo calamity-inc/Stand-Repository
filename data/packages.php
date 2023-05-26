@@ -459,22 +459,32 @@ $packages = [
 	"lua/AcjokerScript" => [
 		"priority" => 2,
 		"author" => "acjoker8818",
-		"version" => "0.32.0",
+		"version" => "0.33.0",
 		"depends" => [
-			"lua/natives-1663599433",
+			"lua/natives-1681379138",
 			"lua/ScaleformLib",
 			"lua/quaternionLib",
 			"lua/pretty.json",
 		],
 		"files" => [
-			"AcjokerScript.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.32.0/AcjokerScript.pluto",
-			"resources/AcjokerScript/ACJSTables.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.32.0/resources/AcjokerScript/ACJSTables.pluto",
-			"resources/AcjokerScript/translations.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.32.0/resources/AcjokerScript/translations.pluto",
+			"AcjokerScript.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/AcjokerScript.pluto",
+			"resources/AcjokerScript/ACJSTables.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/ACJSTables.pluto",
+			"resources/AcjokerScript/translations.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/translations.pluto",
+			"resources/AcjokerScript/Languages/de.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/Languages/de.pluto",
+			"resources/AcjokerScript/Languages/es.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/Languages/es.pluto",
+			"resources/AcjokerScript/Languages/fr.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/Languages/fr.pluto",
+			"resources/AcjokerScript/Languages/ko.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/Languages/ko.pluto",
+			"resources/AcjokerScript/Languages/lt.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/Languages/lt.pluto",
+			"resources/AcjokerScript/Languages/nl.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/Languages/nl.pluto",
+			"resources/AcjokerScript/Languages/pl.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/Languages/pl.pluto",
+			"resources/AcjokerScript/Languages/pt.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/Languages/pt.pluto",
+			"resources/AcjokerScript/Languages/ru.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/Languages/ru.pluto",
+			"resources/AcjokerScript/Languages/zh.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/Languages/zh.pluto",
 		],
-		"resources_version" => "r2",
+		"resources_version" => "r3",
 		"resources" => [
 			"resources/AcjokerScript/intrologo.png" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.30.0/resources/AcjokerScript/intrologo.png",
-			"resources/AcjokerScript/gizmoUtils.lua" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.30.0/resources/AcjokerScript/gizmoUtils.lua"
+			"resources/AcjokerScript/gizmoUtils.lua" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.33.0/resources/AcjokerScript/gizmoUtils.lua"
 		]
 	],
 	"lua/xml2lua" => [
