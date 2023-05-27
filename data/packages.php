@@ -451,9 +451,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-1681379138"
 		],
-		"version" => "0.40.2",
+		"version" => "0.41",
 		"files" => [
-			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/e261f79aab1e2915abaa70d007f5ecd1f997c6b0/JinxScript.pluto",
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/4d01844686d26646209bbb94cd293e2d1650ae34/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
