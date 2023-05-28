@@ -1,12 +1,18 @@
 <?php
 $packages = [
 	"lua/natives-1681379138" => [
+		"is_dependency" => true,
+		"version" => "r2",
 		"priority" => 8,
 		"files" => [
-			"lib/natives-1681379138/init.lua" => "stand.gg/dl/lua/lib/natives-1681379138/init.lua",
-			"lib/natives-1681379138/uno.lua" => "stand.gg/dl/lua/lib/natives-1681379138/uno.lua",
-			"lib/natives-1681379138/g.lua" => "stand.gg/dl/lua/lib/natives-1681379138/g.lua",
-			"lib/natives-1681379138/g-uno.lua" => "stand.gg/dl/lua/lib/natives-1681379138/g-uno.lua",
+			"lib/natives-1681379138/init.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/init.lua",
+			"lib/natives-1681379138/init.source.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/init.source.lua",
+			"lib/natives-1681379138/uno.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/uno.lua",
+			"lib/natives-1681379138/uno.source.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/uno.source.lua",
+			"lib/natives-1681379138/g.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/g.lua",
+			"lib/natives-1681379138/g.source.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/g.source.lua",
+			"lib/natives-1681379138/g-uno.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/g-uno.lua",
+			"lib/natives-1681379138/g-uno.source.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/g-uno.source.lua",
 		],
 	],
 	"lua/natives-1676318796" => [
