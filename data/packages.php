@@ -579,12 +579,12 @@ $packages = [
         "priority" => 1,
         "author" => "Davus",
         "description" => "Manage, store and equip your favourite weapon builds.",
-        "version" => "v1.5.2",
+        "version" => "v1.5.3",
         "depends" => [
             "lua/natives-1663599433"
         ],
         "files" => [
-            "Custom Loadout.pluto" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.2/src/custom-loadout.pluto"
+            "Custom Loadout.pluto" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.3/src/custom-loadout.pluto"
         ],
         "resources" => [
             "lib/custom-loadout/component_resources.lua" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.2/src/lib/custom-loadout/component_resources.lua"
