@@ -575,6 +575,21 @@ $packages = [
 			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/dbfed92873627fa7dbc7305de4ed8c57099a10cc/SlotBot.lua"
 		],
 	],
+    "lua/Custom Loadout" => [
+        "priority" => 1,
+        "author" => "Davus",
+        "description" => "Manage, store and equip your favourite weapon builds.",
+        "version" => "v1.5.2",
+        "depends" => [
+            "lua/natives-1663599433"
+        ],
+        "files" => [
+            "Custom Loadout.pluto" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.2/src/custom-loadout.pluto"
+        ],
+        "resources" => [
+            "lib/custom-loadout/component_resources.lua" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.2/src/lib/custom-loadout/component_resources.lua"
+        ]
+    ],
 ];
 
 foreach($packages as $name => &$package)
