@@ -500,6 +500,13 @@ $packages = [
 		"resources" => [
 			"resources/AcjokerScript/intrologo.png" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.34.1/resources/AcjokerScript/intrologo.png",
 			"resources/AcjokerScript/gizmoUtils.lua" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.34.1/resources/AcjokerScript/gizmoUtils.lua"
+		],
+		"trash" => [
+			"resources/AcjokerScript/Bodyguards",
+			"resources/AcjokerScript/Settings",
+			"resources/AcjokerScript/Songs",
+			"resources/AcjokerScript/Vehicles",
+			"resources/AcjokerScript",
 		]
 	],
 	"lua/xml2lua" => [
