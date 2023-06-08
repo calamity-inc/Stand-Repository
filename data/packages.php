@@ -181,7 +181,7 @@ $packages = [
 	],
 	"lua/Example Scripts" => [
 		"priority" => -1,
-		"version" => "104",
+		"version" => "105",
 		"author" => "Stand Development Team",
 		"depends" => [
 			"lua/natives-1663599433",
@@ -198,7 +198,7 @@ $packages = [
 			"Example Scripts/Lang 3.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/104/Lang 3.pluto",
 			"Example Scripts/Notification Colours.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/Notification Colours.pluto",
 			"Example Scripts/Online Version.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Online Version.pluto",
-			"Example Scripts/Player Commands.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103.1/Player Commands.pluto",
+			"Example Scripts/Player Commands.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/105/Player Commands.pluto",
 			"Example Scripts/UI3D.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/UI3D.pluto",
 			"Example Scripts/Vehicle No Decals.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Vehicle No Decals.pluto",
 			"Example Scripts/Vehicle Spawn.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/Vehicle Spawn.pluto",
