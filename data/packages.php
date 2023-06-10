@@ -567,7 +567,6 @@ $packages = [
 		"priority" => 1,
 		"author" => "Nova_Plays",
 		"version" => "1.0.1",
-		"description" => "A script with: Self, Online, Vehicle, Weapon, World, Player Trolling and Player Vehicle options.",
 		"depends" => [
 			"lua/ScaleformLib",
 		],
