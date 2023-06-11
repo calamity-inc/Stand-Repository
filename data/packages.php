@@ -564,7 +564,7 @@ $packages = [
 		],
 	],
 	"lua/NovaScript" => [
-		"priority" => 1,
+		"priority" => 2,
 		"author" => "Nova_Plays",
 		"version" => "1.0.1",
 		"depends" => [
