@@ -563,6 +563,30 @@ $packages = [
 			"../Constructs",
 		],
 	],
+	"lua/NovaScript" => [
+		"priority" => 2,
+		"author" => "Nova_Plays",
+		"version" => "1.0.1",
+		"depends" => [
+			"lua/ScaleformLib",
+		],
+		"files" => [
+			"NovaScript.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.1/NovaScript.pluto",
+			"lib/NovaScript/Modules/self.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.1/lib/NovaScript/Modules/self.pluto",
+			"lib/NovaScript/Modules/online.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.1/lib/NovaScript/Modules/online.pluto",
+			"lib/NovaScript/Modules/vehicle.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.1/lib/NovaScript/Modules/vehicle.pluto",
+			"lib/NovaScript/Modules/weapon.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.1/lib/NovaScript/Modules/weapon.pluto",
+			"lib/NovaScript/Modules/world.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.1/lib/NovaScript/Modules/world.pluto",
+			"lib/NovaScript/Modules/player_menu.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.1/lib/NovaScript/Modules/player_menu.pluto",
+			"lib/NovaScript/functions.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.1/lib/NovaScript/functions.pluto",
+			"lib/NovaScript/tables.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.1/lib/NovaScript/tables.pluto",
+			"lib/NovaScript/NovaScript_natives.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.1/lib/NovaScript/NovaScript_natives.pluto",
+			"lib/NovaScript/NovaS_translations.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.1/lib/NovaScript/NovaS_translations.pluto",
+		],
+		"resources" => [
+			"lib/NovaScript/NovaScript_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.1/lib/NovaScript/NovaScript_logo.png",
+		],
+	],
 	"lua/NovaHook" => [
 		"priority" => 1,
 		"author" => "Nova_Plays",
