@@ -151,7 +151,7 @@ $packages = [
 	"lua/WiriScript" => [
 		"priority" => 3,
 		"version" => "29.51",
-		"author" => "Nowiry",
+		"author" => "acjoker8818, Nowiry",
 		"depends" => [
 			"lua/natives-1660775568-uno",
 			"lua/pretty.json",
