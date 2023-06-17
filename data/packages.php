@@ -584,7 +584,7 @@ $packages = [
 			"lib/NovaScript/NovaS_translations.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/lib/NovaScript/NovaS_translations.pluto",
 		],
 		"resources" => [
-			"lib/NovaScript/NovaScript_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/lib/NovaScript/NovaScript_logo.png",
+			"lib/NovaScript/NovaScript_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.0/lib/NovaScript/NovaScript_logo.png",
 		],
 	],
 	"lua/NovaHook" => [
