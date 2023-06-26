@@ -410,9 +410,9 @@ $packages = [
 	"lua/MusinessBanager" => [
 		"priority" => 3,
 		"author" => "Stand Development Team; formerly ICYPhoenix & Ren",
-		"version" => "4b00c01",
+		"version" => "e94d676",
 		"files" => [
-			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/4b00c016890fc2f43fb780ccaed93e7ed59d0bae/MusinessBanagersource.lua",
+			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/e94d676c5dd0a599298c787d870e633b3291fbb9/MusinessBanagersource.lua",
 		],
 		"resources_version" => "r5",
 		"resources" => [
