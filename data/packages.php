@@ -605,6 +605,7 @@ $packages = [
 		"priority" => 1,
 		"author" => "Nova",
 		"version" => "1.0.0",
+		"description" => "A contextual overlay that provides additional information on focused players.",
 		"files" => [
 			"NovaLay.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/NovaLay.pluto",
 		],
