@@ -604,10 +604,10 @@ $packages = [
 	"lua/NovaLay" => [
 		"priority" => 1,
 		"author" => "Nova",
-		"version" => "1.0.2",
+		"version" => "1.0.4",
 		"description" => "A contextual overlay that provides additional information on focused players.",
 		"files" => [
-			"NovaLay.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.2/NovaLay.pluto",
+			"NovaLay.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.4/NovaLay.pluto",
 		],
 		"resources" => [
 			"resources/NovaLay/Blip.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/Blip.png",
