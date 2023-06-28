@@ -579,7 +579,7 @@ $packages = [
 	],
 	"lua/NovaScript" => [
 		"priority" => 2,
-		"author" => "Nova_Plays",
+		"author" => "Nova",
 		"version" => "1.1.1",
 		"depends" => [
 			"lua/ScaleformLib",
@@ -603,7 +603,7 @@ $packages = [
 	],
 	"lua/NovaHook" => [
 		"priority" => 1,
-		"author" => "Nova_Plays",
+		"author" => "Nova",
 		"version" => "1.1.2",
 		"description" => "Allows you to send detections, classifications, player list, and in-game chat to a Discord webhook.",
 		"depends" => [
