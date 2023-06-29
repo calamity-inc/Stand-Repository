@@ -1,5 +1,18 @@
 <?php
 $packages = [
+	"lua/natives-2944a" => [
+		"priority" => 9,
+		"files" => [
+			"lib/natives-2944a/init.lua" => "stand.gg/dl/lua/lib/natives-2944a/init.lua",
+			"lib/natives-2944a/init.source.lua" => "stand.gg/dl/lua/lib/natives-2944a/init.source.lua",
+			"lib/natives-2944a/uno.lua" => "stand.gg/dl/lua/lib/natives-2944a/uno.lua",
+			"lib/natives-2944a/uno.source.lua" => "stand.gg/dl/lua/lib/natives-2944a/uno.source.lua",
+			"lib/natives-2944a/g.lua" => "stand.gg/dl/lua/lib/natives-2944a/g.lua",
+			"lib/natives-2944a/g.source.lua" => "stand.gg/dl/lua/lib/natives-2944a/g.source.lua",
+			"lib/natives-2944a/g-uno.lua" => "stand.gg/dl/lua/lib/natives-2944a/g-uno.lua",
+			"lib/natives-2944a/g-uno.source.lua" => "stand.gg/dl/lua/lib/natives-2944a/g-uno.source.lua",
+		],
+	],
 	"lua/natives-1681379138" => [
 		"is_dependency" => true,
 		"version" => "r2",
@@ -181,12 +194,13 @@ $packages = [
 	],
 	"lua/Example Scripts" => [
 		"priority" => -1,
-		"version" => "105.1",
+		"version" => "105.2",
 		"author" => "Stand Development Team",
 		"depends" => [
 			"lua/natives-1663599433",
 		],
 		"files" => [
+			"Example Scripts/Async HTTP.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/105.2/Async HTTP.pluto",
 			"Example Scripts/Chat.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Chat.pluto",
 			"Example Scripts/Countdown.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Countdown.pluto",
 			"Example Scripts/DirectX.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/DirectX.pluto",
@@ -195,7 +209,7 @@ $packages = [
 			"Example Scripts/Explosive Hits.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Explosive Hits.pluto",
 			"Example Scripts/Lang 1.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Lang 1.pluto",
 			"Example Scripts/Lang 2.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Lang 2.pluto",
-			"Example Scripts/Lang 3.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/104/Lang 3.pluto",
+			"Example Scripts/Lang 3.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/105.2/Lang 3.pluto",
 			"Example Scripts/Notification Colours.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/Notification Colours.pluto",
 			"Example Scripts/Online Version.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Online Version.pluto",
 			"Example Scripts/Player Commands.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/105.1/Player Commands.pluto",
@@ -409,9 +423,9 @@ $packages = [
 	"lua/MusinessBanager" => [
 		"priority" => 3,
 		"author" => "Stand Development Team; formerly ICYPhoenix & Ren",
-		"version" => "4b00c01",
+		"version" => "e94d676",
 		"files" => [
-			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/4b00c016890fc2f43fb780ccaed93e7ed59d0bae/MusinessBanagersource.lua",
+			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/e94d676c5dd0a599298c787d870e633b3291fbb9/MusinessBanagersource.lua",
 		],
 		"resources_version" => "r5",
 		"resources" => [
@@ -565,7 +579,7 @@ $packages = [
 	],
 	"lua/NovaScript" => [
 		"priority" => 2,
-		"author" => "Nova_Plays",
+		"author" => "Nova",
 		"version" => "1.1.1",
 		"depends" => [
 			"lua/ScaleformLib",
@@ -589,7 +603,7 @@ $packages = [
 	],
 	"lua/NovaHook" => [
 		"priority" => 1,
-		"author" => "Nova_Plays",
+		"author" => "Nova",
 		"version" => "1.1.2",
 		"description" => "Allows you to send detections, classifications, player list, and in-game chat to a Discord webhook.",
 		"depends" => [
@@ -615,22 +629,22 @@ $packages = [
 			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/dbfed92873627fa7dbc7305de4ed8c57099a10cc/SlotBot.lua"
 		],
 	],
-    "lua/Custom Loadout" => [
-        "priority" => 1,
-        "author" => "Davus",
-        "description" => "Manage, store and equip your favourite weapon builds.",
-        "version" => "v1.5.4",
-        "depends" => [
-            "lua/natives-1663599433"
-        ],
-        "files" => [
-            "Custom Loadout.pluto" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.3/src/custom-loadout.pluto"
-        ],
-        "resources_version" => "r2",
-        "resources" => [
-            "lib/custom-loadout/component_resources.lua" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.4/src/lib/custom-loadout/component_resources.lua"
-        ]
-    ],
+	"lua/Custom Loadout" => [
+		"priority" => 1,
+		"author" => "Davus",
+		"description" => "Manage, store and equip your favourite weapon builds.",
+		"version" => "v1.5.4",
+		"depends" => [
+			"lua/natives-1663599433"
+		],
+		"files" => [
+			"Custom Loadout.pluto" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.3/src/custom-loadout.pluto"
+		],
+		"resources_version" => "r2",
+		"resources" => [
+			"lib/custom-loadout/component_resources.lua" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.4/src/lib/custom-loadout/component_resources.lua"
+		]
+	],
 ];
 
 foreach($packages as $name => &$package)
