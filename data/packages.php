@@ -601,6 +601,21 @@ $packages = [
 			"lib/NovaScript/NovaScript_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.0/lib/NovaScript/NovaScript_logo.png",
 		],
 	],
+	"lua/NovaLay" => [
+		"priority" => 1,
+		"author" => "Nova",
+		"version" => "1.0.5",
+		"description" => "A contextual overlay that provides additional information on focused players.",
+		"files" => [
+			"NovaLay.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.5/NovaLay.pluto",
+		],
+		"resources" => [
+			"resources/NovaLay/Blip.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/Blip.png",
+			"resources/NovaLay/user_blip.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/user_blip.png",
+			"resources/NovaLay/GTA_Map.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/GTA_Map.png",
+			"resources/NovaLay/GTA_Map2.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/GTA_Map2.png"
+		],
+	],
 	"lua/NovaHook" => [
 		"priority" => 1,
 		"author" => "Nova",
