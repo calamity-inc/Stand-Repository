@@ -580,25 +580,41 @@ $packages = [
 	"lua/NovaScript" => [
 		"priority" => 2,
 		"author" => "Nova",
-		"version" => "1.1.1",
+		"version" => "1.2.2",
 		"depends" => [
 			"lua/ScaleformLib",
 		],
 		"files" => [
-			"NovaScript.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/NovaScript.pluto",
-			"lib/NovaScript/Modules/self.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/lib/NovaScript/Modules/self.pluto",
-			"lib/NovaScript/Modules/online.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/lib/NovaScript/Modules/online.pluto",
-			"lib/NovaScript/Modules/vehicle.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/lib/NovaScript/Modules/vehicle.pluto",
-			"lib/NovaScript/Modules/weapon.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/lib/NovaScript/Modules/weapon.pluto",
-			"lib/NovaScript/Modules/world.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/lib/NovaScript/Modules/world.pluto",
-			"lib/NovaScript/Modules/player_menu.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/lib/NovaScript/Modules/player_menu.pluto",
-			"lib/NovaScript/functions.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/lib/NovaScript/functions.pluto",
-			"lib/NovaScript/tables.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/lib/NovaScript/tables.pluto",
-			"lib/NovaScript/NovaScript_natives.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/lib/NovaScript/NovaScript_natives.pluto",
-			"lib/NovaScript/NovaS_translations.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.1.1/lib/NovaScript/NovaS_translations.pluto",
+			"NovaScript.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/NovaScript.pluto",
+			"lib/NovaScript/Modules/self.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/self.pluto",
+			"lib/NovaScript/Modules/online.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/online.pluto",
+			"lib/NovaScript/Modules/vehicle.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/vehicle.pluto",
+			"lib/NovaScript/Modules/weapon.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/weapon.pluto",
+			"lib/NovaScript/Modules/world.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/world.pluto",
+			"lib/NovaScript/Modules/bodyguards.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/bodyguards.pluto",
+			"lib/NovaScript/Modules/player_menu.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/player_menu.pluto",
+			"lib/NovaScript/functions.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/functions.pluto",
+			"lib/NovaScript/tables.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/tables.pluto",
+			"lib/NovaScript/NovaScript_natives.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/NovaScript_natives.pluto",
+			"lib/NovaScript/NovaS_translations.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/NovaS_translations.pluto",
 		],
 		"resources" => [
 			"lib/NovaScript/NovaScript_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.0/lib/NovaScript/NovaScript_logo.png",
+		],
+	],
+	"lua/NovaLay" => [
+		"priority" => 1,
+		"author" => "Nova",
+		"version" => "1.0.5",
+		"description" => "A contextual overlay that provides additional information on focused players.",
+		"files" => [
+			"NovaLay.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.5/NovaLay.pluto",
+		],
+		"resources" => [
+			"resources/NovaLay/Blip.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/Blip.png",
+			"resources/NovaLay/user_blip.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/user_blip.png",
+			"resources/NovaLay/GTA_Map.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/GTA_Map.png",
+			"resources/NovaLay/GTA_Map2.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/GTA_Map2.png"
 		],
 	],
 	"lua/NovaHook" => [
@@ -621,12 +637,12 @@ $packages = [
 		"priority" => 2,
 		"author" => "hexarobi",
 		"description" => "Automates spinning and rigging slot machines.",
-		"version" => "0.25r",
+		"version" => "0.26r",
 		"depends" => [
 			"lua/natives-1663599433"
 		],
 		"files" => [
-			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/dbfed92873627fa7dbc7305de4ed8c57099a10cc/SlotBot.lua"
+			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/8c2a1d883edfbffd1f1b1af9f064995afba15b44/SlotBot.lua"
 		],
 	],
 	"lua/Custom Loadout" => [
