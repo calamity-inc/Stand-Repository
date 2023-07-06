@@ -1,12 +1,31 @@
 <?php
 $packages = [
+	"lua/natives-2944a" => [
+		"priority" => 9,
+		"files" => [
+			"lib/natives-2944a/init.lua" => "stand.gg/dl/lua/lib/natives-2944a/init.lua",
+			"lib/natives-2944a/init.source.lua" => "stand.gg/dl/lua/lib/natives-2944a/init.source.lua",
+			"lib/natives-2944a/uno.lua" => "stand.gg/dl/lua/lib/natives-2944a/uno.lua",
+			"lib/natives-2944a/uno.source.lua" => "stand.gg/dl/lua/lib/natives-2944a/uno.source.lua",
+			"lib/natives-2944a/g.lua" => "stand.gg/dl/lua/lib/natives-2944a/g.lua",
+			"lib/natives-2944a/g.source.lua" => "stand.gg/dl/lua/lib/natives-2944a/g.source.lua",
+			"lib/natives-2944a/g-uno.lua" => "stand.gg/dl/lua/lib/natives-2944a/g-uno.lua",
+			"lib/natives-2944a/g-uno.source.lua" => "stand.gg/dl/lua/lib/natives-2944a/g-uno.source.lua",
+		],
+	],
 	"lua/natives-1681379138" => [
+		"is_dependency" => true,
+		"version" => "r2",
 		"priority" => 8,
 		"files" => [
-			"lib/natives-1681379138/init.lua" => "stand.gg/dl/lua/lib/natives-1681379138/init.lua",
-			"lib/natives-1681379138/uno.lua" => "stand.gg/dl/lua/lib/natives-1681379138/uno.lua",
-			"lib/natives-1681379138/g.lua" => "stand.gg/dl/lua/lib/natives-1681379138/g.lua",
-			"lib/natives-1681379138/g-uno.lua" => "stand.gg/dl/lua/lib/natives-1681379138/g-uno.lua",
+			"lib/natives-1681379138/init.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/init.lua",
+			"lib/natives-1681379138/init.source.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/init.source.lua",
+			"lib/natives-1681379138/uno.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/uno.lua",
+			"lib/natives-1681379138/uno.source.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/uno.source.lua",
+			"lib/natives-1681379138/g.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/g.lua",
+			"lib/natives-1681379138/g.source.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/g.source.lua",
+			"lib/natives-1681379138/g-uno.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/g-uno.lua",
+			"lib/natives-1681379138/g-uno.source.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/g-uno.source.lua",
 		],
 	],
 	"lua/natives-1676318796" => [
@@ -144,27 +163,26 @@ $packages = [
 	],
 	"lua/WiriScript" => [
 		"priority" => 3,
-		"version" => "29.5",
-		"author" => "Nowiry",
+		"version" => "29.51",
+		"author" => "acjoker8818, Nowiry",
 		"depends" => [
 			"lua/natives-1660775568-uno",
 			"lua/pretty.json",
 		],
 		"files" => [
-			"WiriScript.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/WiriScript.lua",
-			"lib/wiriscript/functions.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/lib/wiriscript/functions.lua",
-			"lib/wiriscript/guided_missile.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/lib/wiriscript/guided_missile.lua",
-			"lib/wiriscript/homing_missiles.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/lib/wiriscript/homing_missiles.lua",
-			"lib/wiriscript/orbital_cannon.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/lib/wiriscript/orbital_cannon.lua",
-			"lib/wiriscript/ped_list.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/lib/wiriscript/ped_list.lua",
-			"lib/wiriscript/ufo.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.5/lib/wiriscript/ufo.lua",
+			"WiriScript.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.51/WiriScript.lua",
+			"lib/wiriscript/functions.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.51/lib/wiriscript/functions.lua",
+			"lib/wiriscript/guided_missile.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.51/lib/wiriscript/guided_missile.lua",
+			"lib/wiriscript/homing_missiles.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.51/lib/wiriscript/homing_missiles.lua",
+			"lib/wiriscript/orbital_cannon.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.51/lib/wiriscript/orbital_cannon.lua",
+			"lib/wiriscript/ped_list.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.51/lib/wiriscript/ped_list.lua",
+			"lib/wiriscript/ufo.lua" => "raw.githubusercontent.com/acjoker8818/WiriScript/v29.51/lib/wiriscript/ufo.lua",
 		],
 		"resources" => [
 			"resources/WiriTextures.ytd" => "raw.githubusercontent.com/nowiry/WiriScript/v18/resources/WiriTextures.ytd"
 		]
 	],
 	"lua/Keramis Sounds" => [
-		"priority" => 1,
 		"version" => "01-25-repo",
 		"author" => "scriptcat",
 		"depends" => [
@@ -176,12 +194,13 @@ $packages = [
 	],
 	"lua/Example Scripts" => [
 		"priority" => -1,
-		"version" => "104",
+		"version" => "105.2",
 		"author" => "Stand Development Team",
 		"depends" => [
 			"lua/natives-1663599433",
 		],
 		"files" => [
+			"Example Scripts/Async HTTP.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/105.2/Async HTTP.pluto",
 			"Example Scripts/Chat.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Chat.pluto",
 			"Example Scripts/Countdown.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Countdown.pluto",
 			"Example Scripts/DirectX.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/DirectX.pluto",
@@ -190,10 +209,10 @@ $packages = [
 			"Example Scripts/Explosive Hits.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Explosive Hits.pluto",
 			"Example Scripts/Lang 1.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Lang 1.pluto",
 			"Example Scripts/Lang 2.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Lang 2.pluto",
-			"Example Scripts/Lang 3.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/104/Lang 3.pluto",
+			"Example Scripts/Lang 3.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/105.2/Lang 3.pluto",
 			"Example Scripts/Notification Colours.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/Notification Colours.pluto",
 			"Example Scripts/Online Version.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Online Version.pluto",
-			"Example Scripts/Player Commands.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103.1/Player Commands.pluto",
+			"Example Scripts/Player Commands.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/105.1/Player Commands.pluto",
 			"Example Scripts/UI3D.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/UI3D.pluto",
 			"Example Scripts/Vehicle No Decals.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Vehicle No Decals.pluto",
 			"Example Scripts/Vehicle Spawn.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/Vehicle Spawn.pluto",
@@ -392,6 +411,7 @@ $packages = [
 	"lua/LazScript" => [
 		"priority" => 1,
 		"author" => "Leandro Zazzi",
+		"description" => "Great for people who want additional vehicle appearance options.",
 		"version" => "1.1",
 		"depends" => [
 			"lua/natives-1640181023"
@@ -403,9 +423,9 @@ $packages = [
 	"lua/MusinessBanager" => [
 		"priority" => 3,
 		"author" => "Stand Development Team; formerly ICYPhoenix & Ren",
-		"version" => "64e4ecd",
+		"version" => "e94d676",
 		"files" => [
-			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/MusinessBanagersource.lua",
+			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/e94d676c5dd0a599298c787d870e633b3291fbb9/MusinessBanagersource.lua",
 		],
 		"resources_version" => "r5",
 		"resources" => [
@@ -420,12 +440,12 @@ $packages = [
 	"lua/Heist Control" => [
 		"priority" => 3,
 		"author" => "IceDoomfist",
-		"version" => "3.3.1",
+		"version" => "3.3.2",
 		"depends" => [
 			"lua/natives-1681379138",
 		],
 		"files" => [
-			"Heist Control.lua" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/Heist Control.lua",
+			"Heist Control.lua" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.2/Heist Control.lua",
 			"store/Heist Control/Language/Chinese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/Chinese.txt",
 			"store/Heist Control/Language/Custom.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/Custom.txt",
 			"store/Heist Control/Language/English.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.1/store/Heist Control/Language/English.txt",
@@ -451,30 +471,56 @@ $packages = [
 		"depends" => [
 			"lua/natives-1681379138"
 		],
-		"version" => "0.40.2",
+		"version" => "0.43.1",
 		"files" => [
-			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/e261f79aab1e2915abaa70d007f5ecd1f997c6b0/JinxScript.pluto",
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/c1bdd9be7d47dfcc7531bc336fa30ecf8b3b4457/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
 		"priority" => 2,
 		"author" => "acjoker8818",
-		"version" => "0.32.0",
+		"version" => "0.35.2",
 		"depends" => [
-			"lua/natives-1663599433",
+			"lua/natives-1681379138",
 			"lua/ScaleformLib",
 			"lua/quaternionLib",
 			"lua/pretty.json",
 		],
 		"files" => [
-			"AcjokerScript.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.32.0/AcjokerScript.pluto",
-			"resources/AcjokerScript/ACJSTables.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.32.0/resources/AcjokerScript/ACJSTables.pluto",
-			"resources/AcjokerScript/translations.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.32.0/resources/AcjokerScript/translations.pluto",
+			"AcjokerScript.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/AcjokerScript.pluto",
+			"resources/AcjokerScript/ACJSTables.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/ACJSTables.pluto",
+			"resources/AcjokerScript/translations.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/translations.pluto",
+			"resources/AcjokerScript/Modules/Bodyguards.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Bodyguards.pluto",
+			"resources/AcjokerScript/Modules/Functions.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Functions.pluto",
+			"resources/AcjokerScript/Modules/Online.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Online.pluto",
+			"resources/AcjokerScript/Modules/Players.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Players.pluto",
+			"resources/AcjokerScript/Modules/Scaleform.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Scaleform.pluto",
+			"resources/AcjokerScript/Modules/Self.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Self.pluto",
+			"resources/AcjokerScript/Modules/Settings.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Settings.pluto",
+			"resources/AcjokerScript/Modules/Vehicles.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Vehicles.pluto",
+			"resources/AcjokerScript/Modules/Weapons.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Weapons.pluto",
+			"resources/AcjokerScript/Modules/Languages/de.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Languages/de.pluto",
+			"resources/AcjokerScript/Modules/Languages/es.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Languages/es.pluto",
+			"resources/AcjokerScript/Modules/Languages/fr.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Languages/fr.pluto",
+			"resources/AcjokerScript/Modules/Languages/ko.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Languages/ko.pluto",
+			"resources/AcjokerScript/Modules/Languages/lt.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Languages/lt.pluto",
+			"resources/AcjokerScript/Modules/Languages/nl.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Languages/nl.pluto",
+			"resources/AcjokerScript/Modules/Languages/pl.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Languages/pl.pluto",
+			"resources/AcjokerScript/Modules/Languages/pt.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Languages/pt.pluto",
+			"resources/AcjokerScript/Modules/Languages/ru.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Languages/ru.pluto",
+			"resources/AcjokerScript/Modules/Languages/zh.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.35.2/resources/AcjokerScript/Modules/Languages/zh.pluto",
 		],
-		"resources_version" => "r2",
+		"resources_version" => "r4",
 		"resources" => [
-			"resources/AcjokerScript/intrologo.png" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.30.0/resources/AcjokerScript/intrologo.png",
-			"resources/AcjokerScript/gizmoUtils.lua" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.30.0/resources/AcjokerScript/gizmoUtils.lua"
+			"resources/AcjokerScript/intrologo.png" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.34.3/resources/AcjokerScript/intrologo.png",
+			"resources/AcjokerScript/gizmoUtils.lua" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.34.3/resources/AcjokerScript/gizmoUtils.lua"
+		],
+		"trash" => [
+			"resources/AcjokerScript/Bodyguards",
+			"resources/AcjokerScript/Settings",
+			"resources/AcjokerScript/Songs",
+			"resources/AcjokerScript/Vehicles",
+			"resources/AcjokerScript",
 		]
 	],
 	"lua/xml2lua" => [
@@ -531,9 +577,49 @@ $packages = [
 			"../Constructs",
 		],
 	],
+	"lua/NovaScript" => [
+		"priority" => 2,
+		"author" => "Nova",
+		"version" => "1.2.2",
+		"depends" => [
+			"lua/ScaleformLib",
+		],
+		"files" => [
+			"NovaScript.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/NovaScript.pluto",
+			"lib/NovaScript/Modules/self.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/self.pluto",
+			"lib/NovaScript/Modules/online.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/online.pluto",
+			"lib/NovaScript/Modules/vehicle.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/vehicle.pluto",
+			"lib/NovaScript/Modules/weapon.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/weapon.pluto",
+			"lib/NovaScript/Modules/world.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/world.pluto",
+			"lib/NovaScript/Modules/bodyguards.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/bodyguards.pluto",
+			"lib/NovaScript/Modules/player_menu.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/Modules/player_menu.pluto",
+			"lib/NovaScript/functions.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/functions.pluto",
+			"lib/NovaScript/tables.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/tables.pluto",
+			"lib/NovaScript/NovaScript_natives.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/NovaScript_natives.pluto",
+			"lib/NovaScript/NovaS_translations.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.2.2/lib/NovaScript/NovaS_translations.pluto",
+		],
+		"resources" => [
+			"lib/NovaScript/NovaScript_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.0/lib/NovaScript/NovaScript_logo.png",
+		],
+	],
+	"lua/NovaLay" => [
+		"priority" => 1,
+		"author" => "Nova",
+		"version" => "1.0.5",
+		"description" => "A contextual overlay that provides additional information on focused players.",
+		"files" => [
+			"NovaLay.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.5/NovaLay.pluto",
+		],
+		"resources" => [
+			"resources/NovaLay/Blip.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/Blip.png",
+			"resources/NovaLay/user_blip.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/user_blip.png",
+			"resources/NovaLay/GTA_Map.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/GTA_Map.png",
+			"resources/NovaLay/GTA_Map2.png" => "raw.githubusercontent.com/NovaPlays134/NovaLay/1.0.0/resources/NovaLay/GTA_Map2.png"
+		],
+	],
 	"lua/NovaHook" => [
 		"priority" => 1,
-		"author" => "Nova_Plays",
+		"author" => "Nova",
 		"version" => "1.1.2",
 		"description" => "Allows you to send detections, classifications, player list, and in-game chat to a Discord webhook.",
 		"depends" => [
@@ -551,13 +637,29 @@ $packages = [
 		"priority" => 2,
 		"author" => "hexarobi",
 		"description" => "Automates spinning and rigging slot machines.",
-		"version" => "0.25r",
+		"version" => "0.26r",
 		"depends" => [
 			"lua/natives-1663599433"
 		],
 		"files" => [
-			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/dbfed92873627fa7dbc7305de4ed8c57099a10cc/SlotBot.lua"
+			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/8c2a1d883edfbffd1f1b1af9f064995afba15b44/SlotBot.lua"
 		],
+	],
+	"lua/Custom Loadout" => [
+		"priority" => 1,
+		"author" => "Davus",
+		"description" => "Manage, store and equip your favourite weapon builds.",
+		"version" => "v1.5.4",
+		"depends" => [
+			"lua/natives-1663599433"
+		],
+		"files" => [
+			"Custom Loadout.pluto" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.3/src/custom-loadout.pluto"
+		],
+		"resources_version" => "r2",
+		"resources" => [
+			"lib/custom-loadout/component_resources.lua" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.4/src/lib/custom-loadout/component_resources.lua"
+		]
 	],
 ];
 
