@@ -442,12 +442,12 @@ $packages = [
 	"lua/Heist Control" => [
 		"priority" => 3,
 		"author" => "IceDoomfist",
-		"version" => "3.3.3",
+		"version" => "3.3.4",
 		"depends" => [
 			"lua/natives-1681379138",
 		],
 		"files" => [
-			"Heist Control.lua" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.3/Heist Control.lua",
+			"Heist Control.lua" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.4/Heist Control.lua",
 			"store/Heist Control/Language/Chinese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.3/store/Heist Control/Language/Chinese.txt",
 			"store/Heist Control/Language/Custom.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.3/store/Heist Control/Language/Custom.txt",
 			"store/Heist Control/Language/English.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.3/store/Heist Control/Language/English.txt",
