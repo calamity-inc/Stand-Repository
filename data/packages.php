@@ -160,7 +160,7 @@ $packages = [
 		"author" => "well-in-that-case",
 		"version" => "0.2.10",
 		"files" => [
-			"lib/iniparser.lua" => "raw.githubusercontent.com/calamity-inc/iniparser/0.2.10/iniparser.lua",
+			"lib/iniparser.lua" => "raw.githubusercontent.com/calamity-inc/iniparser/7a84a2ae8559f850a80b6b23ff16e3e60770918c/iniparser.lua",
 		],
 	],
 	"lua/WiriScript" => [
