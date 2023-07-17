@@ -555,7 +555,7 @@ $packages = [
 		"priority" => 2,
 		"author" => "hexarobi",
 		"description" => "Load and edit custom map, vehicle and skin files in JSON, XML or INI format.",
-		"version" => "0.38r",
+		"version" => "0.39r",
 		"depends" => [
 			"lua/natives-1672190175",
 			"lua/iniparser",
