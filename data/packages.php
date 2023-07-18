@@ -528,7 +528,7 @@ $packages = [
 			"resources/AcjokerScript",
 		]
 	],
-	"lua/AdvancedChat" => [
+	"lua/Advanced Chat" => [
 		"priority" => 1,
 		"author" => "acjoker8818",
 		"description" => "Changes the GTA chat into a custom chat that you can change color, size, and location of the messages",
