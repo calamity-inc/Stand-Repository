@@ -528,6 +528,18 @@ $packages = [
 			"resources/AcjokerScript",
 		]
 	],
+	"lua/AdvancedChat" => [
+		"priority" => 1,
+		"author" => "acjoker8818",
+		"description" => "Changes the GTA chat into a custom chat that you can change color, size, and location of the messages",
+		"version" => "0.1.2",
+		"depends" => [
+			"lua/natives-1681379138"
+		],
+		"files" => [
+			"Advanced Chat.pluto" => "raw.githubusercontent.com/acjoker8818/Advanced-Chat/0.1.2/Advanced Chat.pluto"
+		],
+	],
 	"lua/xml2lua" => [
 		"is_dependency" => true,
 		"author" => "Paul Chakravarti",
