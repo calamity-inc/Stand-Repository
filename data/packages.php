@@ -531,7 +531,7 @@ $packages = [
 	"lua/Advanced Chat" => [
 		"priority" => 1,
 		"author" => "acjoker8818",
-		"description" => "Changes the GTA chat into a custom chat that you can change color, size, and location of the messages",
+		"description" => "Replaces the chatbox with a more customisable one.",
 		"version" => "0.1.2",
 		"depends" => [
 			"lua/natives-1681379138"
