@@ -196,7 +196,7 @@ $packages = [
 	],
 	"lua/Example Scripts" => [
 		"priority" => -1,
-		"version" => "105.2",
+		"version" => "106",
 		"author" => "Stand Development Team",
 		"depends" => [
 			"lua/natives-1663599433",
@@ -208,7 +208,7 @@ $packages = [
 			"Example Scripts/DirectX.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/DirectX.pluto",
 			"Example Scripts/Draw Loop.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Draw Loop.pluto",
 			"Example Scripts/Dump Runtime.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Dump Runtime.pluto",
-			"Example Scripts/Explosive Hits.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Explosive Hits.pluto",
+			"Example Scripts/Explosive Hits.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/106/Explosive Hits.pluto",
 			"Example Scripts/Lang 1.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Lang 1.pluto",
 			"Example Scripts/Lang 2.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Lang 2.pluto",
 			"Example Scripts/Lang 3.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/105.2/Lang 3.pluto",
