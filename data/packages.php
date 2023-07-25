@@ -1,4 +1,8 @@
 <?php
+define("PRIORITY_USEFUL_POPULAR", 3);
+define("PRIORITY_USEFUL_UNPOPULAR", 2);
+define("PRIORITY_BLOATWARE", 1);
+
 $packages = [
 	"lua/natives-2944a" => [
 		"priority" => 9,
@@ -136,7 +140,7 @@ $packages = [
 		]
 	],
 	"lua/LanceScript" => [
-		"priority" => 3,
+		"priority" => PRIORITY_BLOATWARE,
 		"author" => "lance (unmaintained)",
 		"depends" => [
 			"lua/natives-1676318796",
@@ -164,7 +168,7 @@ $packages = [
 		],
 	],
 	"lua/WiriScript" => [
-		"priority" => 3,
+		"priority" => PRIORITY_BLOATWARE,
 		"version" => "29.51",
 		"author" => "acjoker8818, Nowiry",
 		"depends" => [
@@ -288,7 +292,6 @@ $packages = [
 		]
 	],
 	"lua/Vehicle Options" => [
-		"priority" => 1,
 		"author" => "Jackz",
 		"depends" => [
 			"lua/natives-1627063482",
@@ -302,7 +305,7 @@ $packages = [
 		]
 	],
 	"lua/Actions" => [
-		"priority" => 1,
+		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "Jackz",
 		"depends" => [
 			"lua/natives-1627063482",
@@ -360,7 +363,7 @@ $packages = [
 		]
 	],
 	"lua/JerryScript" => [
-		"priority" => 2,
+		"priority" => PRIORITY_BLOATWARE,
 		"author" => "jerry123",
 		"version" => "1.14.8",
 		"depends" => [
@@ -411,7 +414,7 @@ $packages = [
 		]
 	],
 	"lua/LazScript" => [
-		"priority" => 1,
+		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "Leandro Zazzi",
 		"description" => "Great for people who want additional vehicle appearance options.",
 		"version" => "1.1",
@@ -423,7 +426,7 @@ $packages = [
 		]
 	],
 	"lua/MusinessBanager" => [
-		"priority" => 3,
+		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "Stand Development Team; formerly ICYPhoenix & Ren",
 		"version" => "e94d676",
 		"files" => [
@@ -440,7 +443,7 @@ $packages = [
 		]
 	],
 	"lua/Heist Control" => [
-		"priority" => 3,
+		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "IceDoomfist",
 		"version" => "3.3.5",
 		"depends" => [
@@ -468,7 +471,7 @@ $packages = [
 		],
 	],
 	"lua/JinxScript" => [
-		"priority" => 3,
+		"priority" => PRIORITY_BLOATWARE,
 		"author" => "Prisuhm",
 		"depends" => [
 			"lua/natives-1681379138"
@@ -479,7 +482,7 @@ $packages = [
 		],
 	],
 	"lua/AcjokerScript" => [
-		"priority" => 2,
+		"priority" => PRIORITY_BLOATWARE,
 		"author" => "acjoker8818",
 		"version" => "0.37.0",
 		"depends" => [
@@ -529,7 +532,6 @@ $packages = [
 		]
 	],
 	"lua/Advanced Chat" => [
-		"priority" => 1,
 		"author" => "acjoker8818",
 		"description" => "Replaces the chatbox with a more customisable one.",
 		"version" => "0.2.0",
@@ -567,7 +569,7 @@ $packages = [
 		]
 	],
 	"lua/Constructor" => [
-		"priority" => 2,
+		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "hexarobi",
 		"description" => "Load and edit custom map, vehicle and skin files in JSON, XML or INI format.",
 		"version" => "0.40r",
@@ -599,7 +601,7 @@ $packages = [
 		],
 	],
 	"lua/NovaScript" => [
-		"priority" => 2,
+		"priority" => PRIORITY_BLOATWARE,
 		"author" => "Nova",
 		"version" => "1.2.2",
 		"depends" => [
@@ -624,7 +626,7 @@ $packages = [
 		],
 	],
 	"lua/NovaLay" => [
-		"priority" => 1,
+		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "Nova",
 		"version" => "1.0.5",
 		"description" => "A contextual overlay that provides additional information on focused players.",
@@ -639,7 +641,6 @@ $packages = [
 		],
 	],
 	"lua/NovaHook" => [
-		"priority" => 1,
 		"author" => "Nova",
 		"version" => "1.1.2",
 		"description" => "Allows you to send detections, classifications, player list, and in-game chat to a Discord webhook.",
@@ -655,7 +656,7 @@ $packages = [
 		],
 	],
 	"lua/SlotBot" => [
-		"priority" => 2,
+		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "hexarobi",
 		"description" => "Automates spinning and rigging slot machines.",
 		"version" => "0.26r",
@@ -667,7 +668,7 @@ $packages = [
 		],
 	],
 	"lua/Custom Loadout" => [
-		"priority" => 1,
+		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "Davus",
 		"description" => "Manage, store and equip your favourite weapon builds.",
 		"version" => "v1.5.4",
