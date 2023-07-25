@@ -539,6 +539,9 @@ $packages = [
 		"files" => [
 			"Advanced Chat.pluto" => "raw.githubusercontent.com/acjoker8818/Advanced-Chat/0.2.0/Advanced Chat.pluto"
 		],
+		"trash" => [
+			"resources/Advanced Chat",
+		],
 	],
 	"lua/xml2lua" => [
 		"is_dependency" => true,
