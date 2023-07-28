@@ -535,12 +535,12 @@ $packages = [
 	"lua/Advanced Chat" => [
 		"author" => "acjoker8818",
 		"description" => "Replaces the chatbox with a more customisable one.",
-		"version" => "0.2.1",
+		"version" => "0.2.3",
 		"depends" => [
 			"lua/natives-1681379138"
 		],
 		"files" => [
-			"Advanced Chat.pluto" => "raw.githubusercontent.com/acjoker8818/Advanced-Chat/0.2.1/Advanced Chat.pluto"
+			"Advanced Chat.pluto" => "raw.githubusercontent.com/acjoker8818/Advanced-Chat/0.2.3/Advanced Chat.pluto"
 		],
 		"trash" => [
 			"store/Advanced Chat/Messages",
