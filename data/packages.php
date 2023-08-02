@@ -474,7 +474,7 @@ $packages = [
 		"priority" => PRIORITY_BLOATWARE,
 		"author" => "Prisuhm",
 		"depends" => [
-			"lua/natives-1681379138"
+			"lua/natives-2944a"
 		],
 		"version" => "0.43.3",
 		"files" => [
