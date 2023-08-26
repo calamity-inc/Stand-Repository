@@ -712,6 +712,26 @@ $packages = [
 			"lib/custom-loadout/component_resources.lua" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.4/src/lib/custom-loadout/component_resources.lua"
 		]
 	],
+	"lua/luaffi" => [
+		"is_dependency" => true,
+		"author" => "Calamity, Inc.",
+		"version" => "0.1.0",
+		"files" => [
+			"lib/luaffi.dll" => "calamity.zip/luaffi/0.1.0/luaffi.dll"
+		]
+	],
+	"lua/Soup" => [
+		"is_dependency" => true,
+		"author" => "Calamity, Inc.",
+		"depends" => [
+			"lua/luaffi"
+		],
+		"files" => [
+			"lib/soup.lua" => "calamity.zip/soup.lua",
+			"lib/soup-apigen.lua" => "raw.githubusercontent.com/calamity-inc/Soup/92d79a55adc2f87cac7f1fb92e49c5f7d47d76b7/bindings/soup-apigen.lua",
+			"resources/soup.dll" => "calamity.zip/soup/2023-08-26-4f390ea12360b3424bf70a74a74da110459e58c1/soup.dll"
+		]
+	],
 ];
 
 foreach($packages as $name => &$package)
