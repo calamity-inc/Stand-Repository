@@ -712,6 +712,7 @@ foreach($packages as $name => &$package)
 		}
 		$packages[$resources_package_name] = [
 			"is_dependency" => true,
+			"priority" => -9,
 			"files" => $package["resources"]
 		];
 		if(array_key_exists("resources_version", $package))
