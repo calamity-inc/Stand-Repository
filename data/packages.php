@@ -150,22 +150,19 @@ $packages = [
 	],
 	"lua/LanceScript" => [
 		"priority" => PRIORITY_BLOATWARE,
-		"author" => "lance (unmaintained)",
+		"author" => "lance",
 		"depends" => [
-			"lua/natives-1676318796",
+			"lua/natives-2944b",
 		],
-		"version" => "11.2",
+		"version" => "forever-1.0.0-6f4a324",
 		"files" => [
-			"LanceScript.pluto" => "raw.githubusercontent.com/calamity-inc/LanceScript/b73ae187f37a8ab024038145ce11d28204959960/LanceScript.pluto",
-			"store/lancescript/translations/english.lua" => "raw.githubusercontent.com/calamity-inc/LanceScript/9e6100b81539209088822bcab9ba0a261a08b7d6/store/lancescript/translations/english.lua",
-		],
-		"resources" => [
-			"resources/lancescript/lancescript_logo.png" => "raw.githubusercontent.com/calamity-inc/LanceScript/b73ae187f37a8ab024038145ce11d28204959960/resources/lancescript/lancescript_logo.png",
+			"LanceScript.pluto" => "raw.githubusercontent.com/calamity-inc/LanceScript/6f4a324c9c5e864b937fb210c620779b891b5ea1/LanceScript.pluto",
+			"store/lancescript_reloaded/translations/english.lua" => "raw.githubusercontent.com/calamity-inc/LanceScript/6f4a324c9c5e864b937fb210c620779b891b5ea1/store/lancescript_reloaded/translations/english.lua",
 		],
 		"trash" => [
-			"store/lancescript/lyrics",
-			"store/lancescript/translations/selected_language.txt",
-			"store/lancescript",
+			"store/lancescript_reloaded/lyrics",
+			"store/lancescript_reloaded/translations/selected_language.txt",
+			"store/lancescript_reloaded",
 		],
 	],
 	"lua/iniparser" => [
