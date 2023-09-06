@@ -493,7 +493,7 @@ $packages = [
 	"lua/AcjokerScript" => [
 		"priority" => PRIORITY_BLOATWARE,
 		"author" => "acjoker8818",
-		"version" => "0.38.0",
+		"version" => "0.38.0r1",
 		"depends" => [
 			"lua/natives-2944a",
 			"lua/ScaleformLib",
@@ -516,6 +516,7 @@ $packages = [
 			"resources/AcjokerScript/Modules/Vehicle Spawning.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Vehicle Spawning.pluto",
 			"resources/AcjokerScript/Modules/Weapons.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Weapons.pluto",
 			"resources/AcjokerScript/Modules/Globals.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Globals.pluto",
+			"resources/AcjokerScript/Modules/Vehicle Neons.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Vehicle Neons.pluto",
 			"resources/AcjokerScript/Modules/Languages/de.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/de.pluto",
 			"resources/AcjokerScript/Modules/Languages/es.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/es.pluto",
 			"resources/AcjokerScript/Modules/Languages/fr.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/fr.pluto",
