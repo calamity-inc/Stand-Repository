@@ -156,7 +156,7 @@ $packages = [
 		],
 		"version" => "1.0.0",
 		"files" => [
-			"LanceScript Forever.pluto" => "raw.githubusercontent.com/thebitwise/LanceScript-Forever/1.0.0/LanceScript%20Forever.pluto",
+			"LanceScript.pluto" => "raw.githubusercontent.com/thebitwise/LanceScript-Forever/1.0.0/LanceScript%20Forever.pluto",
 		],
 		"resources" => [
 			"store/lancescript_forever/translations/english.lua" => "gist.githubusercontent.com/thebitwise/a7c7e83cbe94aa2d624f8674c50e70cf/raw/d59546b58aacef9a14f82a65dfa4bc39cabbc434/english.lua",
