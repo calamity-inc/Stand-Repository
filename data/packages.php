@@ -174,9 +174,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "2.0.1",
+		"version" => "2.0.2",
 		"files" => [
-			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/Dolos.pluto",
+			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/2.0.2/Dolos.pluto",
 		],
 		"resources_version" => "2.0.1",
 		"resources" => [
