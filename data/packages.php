@@ -168,6 +168,23 @@ $packages = [
 			"store/lancescript_forever",
 		],
 	],
+	"lua/Dolos" => [
+		"priority" => PRIORITY_BLOATWARE,
+		"author" => "lance",
+		"depends" => [
+			"lua/natives-2944b",
+		],
+		"version" => "2.1.0",
+		"files" => [
+			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/2.1.0/Dolos.pluto",
+		],
+		"resources" => [
+			"resources/dolos/attention.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/attention.wav",
+			"resources/dolos/fail.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/fail.wav",
+			"resources/dolos/processing.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/processing.wav",
+			"resources/dolos/success.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/success.wav",
+		],
+	],
 	"lua/iniparser" => [
 		"is_dependency" => true,
 		"author" => "well-in-that-case",
