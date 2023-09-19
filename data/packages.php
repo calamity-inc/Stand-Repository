@@ -179,10 +179,10 @@ $packages = [
 			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/Dolos.pluto",
 		],
 		"resources" => [
-			"resources/dolos/attention.wav" => "github.com/thebitwise/dolos/raw/2.0.1/resources/dolos/attention.wav",
-			"resources/dolos/fail.wav" => "github.com/thebitwise/dolos/raw/2.0.1/resources/dolos/fail.wav",
-			"resources/dolos/processing.wav" => "github.com/thebitwise/dolos/raw/2.0.1/resources/dolos/processing.wav",
-			"resources/dolos/success.wav" => "github.com/thebitwise/dolos/raw/2.0.1/resources/dolos/success.wav",
+			"resources/dolos/attention.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/attention.wav",
+			"resources/dolos/fail.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/fail.wav",
+			"resources/dolos/processing.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/processing.wav",
+			"resources/dolos/success.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/success.wav",
 		],
 	],
 	"lua/iniparser" => [
