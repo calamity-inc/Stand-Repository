@@ -154,17 +154,18 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "forever-1.0.4",
+		"version" => "forever-gh-1.0.1",
 		"files" => [
-			"LanceScript.pluto" => "raw.githubusercontent.com/calamity-inc/LanceScript/406c2135118752b5c12b898157def0f358666e9d/LanceScript.pluto",
+			"LanceScript.pluto" => "raw.githubusercontent.com/thebitwise/LanceScript-Forever/1.0.1/LanceScriptForever.pluto",
 		],
+		"resources_version" => "forever-gh-1.0.0",
 		"resources" => [
-			"store/lancescript_reloaded/translations/english.lua" => "raw.githubusercontent.com/calamity-inc/LanceScript/6f4a324c9c5e864b937fb210c620779b891b5ea1/store/lancescript_reloaded/translations/english.lua",
+			"store/lancescript_forever/translations/english.lua" => "gist.githubusercontent.com/thebitwise/a7c7e83cbe94aa2d624f8674c50e70cf/raw/d59546b58aacef9a14f82a65dfa4bc39cabbc434/english.lua",
 		],
 		"trash" => [
-			"store/lancescript_reloaded/lyrics",
-			"store/lancescript_reloaded/translations/selected_language.txt",
-			"store/lancescript_reloaded",
+			"store/lancescript_forever/lyrics",
+			"store/lancescript_forever/translations/selected_language.txt",
+			"store/lancescript_forever",
 		],
 	],
 	"lua/iniparser" => [
