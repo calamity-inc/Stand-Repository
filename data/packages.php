@@ -148,7 +148,7 @@ $packages = [
 			"lib/slaxdom.lua" => "stand.gg/dl/lua/lib/slaxdom.lua",
 		]
 	],
-	"lua/LanceScriptForever" => [
+	"lua/LanceScript" => [
 		"priority" => PRIORITY_BLOATWARE,
 		"author" => "lance",
 		"depends" => [
