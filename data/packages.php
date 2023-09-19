@@ -178,7 +178,7 @@ $packages = [
 		"files" => [
 			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/Dolos.pluto",
 		],
-		"resources_version" => "2.0.1"
+		"resources_version" => "2.0.1",
 		"resources" => [
 			"resources/dolos/attention.wav" => "github.com/thebitwise/dolos/raw/2.0.1/resources/dolos/attention.wav",
 			"resources/dolos/fail.wav" => "github.com/thebitwise/dolos/raw/2.0.1/resources/dolos/fail.wav",
