@@ -192,7 +192,6 @@ $packages = [
 			"lua/natives-2944b",
 		],	
 		"version" => "3.3.2",
-		"resource-version" => "3.3.2",
 		"files" => [
 			"Dashmaster.pluto" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/dashmaster.lua",
 		],
