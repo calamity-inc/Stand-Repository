@@ -186,7 +186,7 @@ $packages = [
 		],
 	],
 	"lua/Dashmaster" => [
-		"priority" => PRIORITY_USEFUL_POPULAR,
+		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "lance",
 		"depends" => [
 			"lua/natives-2944b",
