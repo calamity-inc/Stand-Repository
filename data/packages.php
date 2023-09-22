@@ -228,7 +228,7 @@ $packages = [
 			"resources/dashmaster/mph_9.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_9.png",
 		],
 	],
-	"lua/Betterchat" => [
+	"lua/BetterChat" => [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "lance",
 		"depends" => [
