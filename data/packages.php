@@ -170,6 +170,7 @@ $packages = [
 	],
 	"lua/Dolos" => [
 		"priority" => PRIORITY_BLOATWARE,
+		"description" => "A big script focused mainly on trolling, adding a whole new list to the top of Player > Trolling.",
 		"author" => "lance",
 		"depends" => [
 			"lua/natives-2944b",
