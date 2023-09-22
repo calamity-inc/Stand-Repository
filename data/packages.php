@@ -229,7 +229,6 @@ $packages = [
 		],
 	],
 	"lua/BetterChat" => [
-		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "lance",
 		"depends" => [
 			"lua/natives-2944b",
