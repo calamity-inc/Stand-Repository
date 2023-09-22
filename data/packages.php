@@ -235,7 +235,6 @@ $packages = [
 			"lua/natives-2944b",
 		],	
 		"version" => "1.3.0",
-		"resource-version" => "1.3.0",
 		"files" => [
 			"BetterChat.pluto" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.0/BetterChat.pluto",
 		],
