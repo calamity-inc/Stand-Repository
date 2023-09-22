@@ -228,6 +228,19 @@ $packages = [
 			"resources/dashmaster/mph_9.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_9.png",
 		],
 	],
+	"lua/BetterChat" => [
+		"author" => "lance",
+		"depends" => [
+			"lua/natives-2944b",
+		],	
+		"version" => "1.3.0",
+		"files" => [
+			"BetterChat.pluto" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.0/BetterChat.pluto",
+		],
+		"resources" => [
+			"resources/betterchat/message.wav" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.0/resources/betterchat/message.wav",
+		],
+	],
 	"lua/iniparser" => [
 		"is_dependency" => true,
 		"author" => "well-in-that-case",
