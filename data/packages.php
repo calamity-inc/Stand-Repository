@@ -186,6 +186,17 @@ $packages = [
 			"resources/dolos/success.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/success.wav",
 		],
 	],
+	"lua/Dripstealer" => [
+		"description" => "Automatically download outfits from the entire session",
+		"author" => "lance",
+		"depends" => [
+			"lua/natives-2944b",
+		],
+		"version" => "1.0.1",
+		"files" => [
+			"DripStealer.pluto" => "https://raw.githubusercontent.com/thebitwise/DripStealer/1.0.1/DripStealer.lua",
+		],
+	],
 	"lua/Dashmaster" => [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "lance",
