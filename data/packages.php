@@ -175,9 +175,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "2.1.0",
+		"version" => "2.2.1",
 		"files" => [
-			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/2.1.0/Dolos.pluto",
+			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/2.2.1/Dolos.pluto",
 		],
 		"resources" => [
 			"resources/dolos/attention.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/attention.wav",
