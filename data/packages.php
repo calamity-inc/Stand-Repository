@@ -557,12 +557,13 @@ $packages = [
 	"lua/JinxScript" => [
 		"priority" => PRIORITY_BLOATWARE,
 		"author" => "Prisuhm",
+		"description" => "A feature-rich script designed to take aim at malicious modders with a handful of unique trolling features and a plethora of modder detections.",
 		"depends" => [
 			"lua/natives-2944a"
 		],
-		"version" => "0.44",
+		"version" => "0.45",
 		"files" => [
-			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/7d863fa3c7be94b8778b4eb6ded1d05ab99d5f4b/JinxScript.pluto",
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/2fba15ecc03ce9449868d589b92926e20670db59/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
