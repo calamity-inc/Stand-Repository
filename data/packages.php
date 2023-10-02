@@ -557,7 +557,6 @@ $packages = [
 	"lua/JinxScript" => [
 		"priority" => PRIORITY_BLOATWARE,
 		"author" => "Prisuhm",
-		"description" => "A feature-rich script designed to take aim at malicious modders with a handful of unique trolling features and a plethora of modder detections.",
 		"depends" => [
 			"lua/natives-2944a"
 		],
