@@ -192,9 +192,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],	
-		"version" => "3.3.2",
+		"version" => "3.3.4",
 		"files" => [
-			"Dashmaster.pluto" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/dashmaster.lua",
+			"Dashmaster.pluto" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.4/dashmaster.lua",
 		],
 		"resources" => [
 			"resources/dashmaster/dial.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/dial.png",
