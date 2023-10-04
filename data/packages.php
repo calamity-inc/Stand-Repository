@@ -229,6 +229,16 @@ $packages = [
 			"resources/dashmaster/mph_9.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_9.png",
 		],
 	],
+	"lua/Lovense" => [
+		"author" => "lance",
+		"depends" => [
+			"lua/natives-2944b",
+		],	
+		"version" => "1.0.1",
+		"files" => [
+			"Lovense.pluto" => "raw.githubusercontent.com/thebitwise/Lovense-Lua/1.0.1/Lovense.pluto",
+		],
+	],
 	"lua/BetterChat" => [
 		"author" => "lance",
 		"depends" => [
