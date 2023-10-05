@@ -192,9 +192,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],	
-		"version" => "3.3.2",
+		"version" => "3.3.4",
 		"files" => [
-			"Dashmaster.pluto" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/dashmaster.lua",
+			"Dashmaster.pluto" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.4/dashmaster.lua",
 		],
 		"resources" => [
 			"resources/dashmaster/dial.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/dial.png",
@@ -560,9 +560,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944a"
 		],
-		"version" => "0.44",
+		"version" => "0.45",
 		"files" => [
-			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/7d863fa3c7be94b8778b4eb6ded1d05ab99d5f4b/JinxScript.pluto",
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/2fba15ecc03ce9449868d589b92926e20670db59/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
