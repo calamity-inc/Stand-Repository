@@ -107,14 +107,6 @@ $packages = [
 			"lib/natives-1627063482.lua" => "stand.gg/dl/lua/lib/natives-1627063482.lua",
 		],
 	],
-	"lua/lunajson" => [
-		"files" => [
-			"lib/lunajson.lua" => "stand.gg/dl/lua/lib/lunajson.lua",
-			"lib/lunajson/decoder.lua" => "stand.gg/dl/lua/lib/lunajson/decoder.lua",
-			"lib/lunajson/encoder.lua" => "stand.gg/dl/lua/lib/lunajson/encoder.lua",
-			"lib/lunajson/sax.lua" => "stand.gg/dl/lua/lib/lunajson/sax.lua",
-		],
-	],
 	"lua/json" => [
 		"files" => [
 			"lib/json.lua" => "stand.gg/dl/lua/lib/json.lua",
