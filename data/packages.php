@@ -146,9 +146,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "forever-gh-1.0.3",
+		"version" => "forever-gh-1.0.4",
 		"files" => [
-			"LanceScript.pluto" => "raw.githubusercontent.com/thebitwise/LanceScript-Forever/1.0.3/LanceScriptForever.pluto",
+			"LanceScript.pluto" => "raw.githubusercontent.com/thebitwise/LanceScript-Forever/1.0.4/LanceScriptForever.pluto",
 		],
 		"resources_version" => "forever-gh-1.0.0",
 		"resources" => [
@@ -167,10 +167,10 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "3.0.1",
+		"version" => "3.0.2",
 		"resources_version" => "2.3.0",
 		"files" => [
-			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/3.0.1/Dolos.pluto",
+			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/3.0.2/Dolos.pluto",
 		],
 		"resources" => [
 			"resources/dolos/attention.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/attention.wav",
@@ -187,9 +187,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],	
-		"version" => "3.3.5",
+		"version" => "3.3.6",
 		"files" => [
-			"Dashmaster.pluto" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.5/dashmaster.lua",
+			"Dashmaster.pluto" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.6/dashmaster.lua",
 		],
 		"resources" => [
 			"resources/dashmaster/dial.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/dial.png",
