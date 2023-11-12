@@ -167,10 +167,10 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "3.0.0",
+		"version" => "3.0.2",
 		"resources_version" => "2.3.0",
 		"files" => [
-			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/3.0.0/Dolos.pluto",
+			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/3.0.2/Dolos.pluto",
 		],
 		"resources" => [
 			"resources/dolos/attention.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/attention.wav",
@@ -187,9 +187,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],	
-		"version" => "3.3.4",
+		"version" => "3.3.6",
 		"files" => [
-			"Dashmaster.pluto" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.4/dashmaster.lua",
+			"Dashmaster.pluto" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.6/dashmaster.lua",
 		],
 		"resources" => [
 			"resources/dashmaster/dial.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/dial.png",
@@ -229,9 +229,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],	
-		"version" => "1.3.2",
+		"version" => "1.3.4",
 		"files" => [
-			"BetterChat.pluto" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.2/BetterChat.pluto",
+			"BetterChat.pluto" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.4/BetterChat.pluto",
 		],
 		"resources" => [
 			"resources/betterchat/message.wav" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.0/resources/betterchat/message.wav",
