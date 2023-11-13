@@ -486,6 +486,8 @@ $packages = [
 		],
 	],
 	"lua/ScaleformLib" => [
+		"is_dependency" => true,
+		"version" => "r1",
 		"author" => "aaronlink127",
 		"files" => [
 			"lib/ScaleformLib.lua" => "stand.gg/dl/lua/lib/ScaleformLib.lua"
