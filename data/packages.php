@@ -780,11 +780,11 @@ $packages = [
 		"depends" => [
 			"lua/luaffi"
 		],
-		"version" => "b33c0c5",
+		"version" => "a695db3",
 		"files" => [
 			"lib/soup/init.lua" => "calamity.zip/stand-soup-ffi-init.lua",
-			"lib/soup/soup-apigen.lua" => "raw.githubusercontent.com/calamity-inc/Soup/b33c0c5445cf1f3214e1ff9f92a98a97fcec8add/bindings/soup-apigen.lua",
-			"lib/soup/soup.dll" => "calamity.zip/soup/2023-10-09-b33c0c5445cf1f3214e1ff9f92a98a97fcec8add/soup.dll"
+			"lib/soup/soup-apigen.lua" => "raw.githubusercontent.com/calamity-inc/Soup/a695db321b758f21c80ddeacdf65cded56c739b0/bindings/soup-apigen.lua",
+			"lib/soup/soup.dll" => "calamity.zip/soup/2023-12-11-a695db321b758f21c80ddeacdf65cded56c739b0/soup.dll"
 		]
 	],
 ];
