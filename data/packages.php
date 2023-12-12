@@ -146,9 +146,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "forever-gh-1.0.2",
+		"version" => "forever-gh-1.0.6",
 		"files" => [
-			"LanceScript.pluto" => "raw.githubusercontent.com/thebitwise/LanceScript-Forever/1.0.2/LanceScriptForever.pluto",
+			"LanceScript.pluto" => "raw.githubusercontent.com/thebitwise/LanceScript-Forever/1.0.6/LanceScriptForever.pluto",
 		],
 		"resources_version" => "forever-gh-1.0.0",
 		"resources" => [
@@ -167,10 +167,10 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "2.3.0",
+		"version" => "4.0.0",
 		"resources_version" => "2.3.0",
 		"files" => [
-			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/Dolos.pluto",
+			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/4.0.0/Dolos.pluto",
 		],
 		"resources" => [
 			"resources/dolos/attention.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/attention.wav",
@@ -486,6 +486,8 @@ $packages = [
 		],
 	],
 	"lua/ScaleformLib" => [
+		"is_dependency" => true,
+		"version" => "r1",
 		"author" => "aaronlink127",
 		"files" => [
 			"lib/ScaleformLib.lua" => "stand.gg/dl/lua/lib/ScaleformLib.lua"
@@ -555,9 +557,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944a"
 		],
-		"version" => "0.45.1",
+		"version" => "0.46",
 		"files" => [
-			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/db4be6da11362525bade43591d036d8f50da081b/JinxScript.pluto",
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/954a9c75cc93ad5d4aaaf41788212c716de7e6f1/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
@@ -653,7 +655,7 @@ $packages = [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "hexarobi",
 		"description" => "Load and edit custom map, vehicle and skin files in JSON, XML or INI format.",
-		"version" => "0.41r",
+		"version" => "0.42r",
 		"depends" => [
 			"lua/natives-1672190175",
 			"lua/iniparser",
@@ -662,11 +664,11 @@ $packages = [
 			"lua/quaternionLib",
 		],
 		"files" => [
-			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/Constructor.lua",
+			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/1bbff356b6e975fefc44b713a47f3289aaccea45/Constructor.lua",
 			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/beab4e384bfca412e6c81514501c98ad7c256042/lib/auto-updater.lua",
 			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/constants.lua",
 			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/constructor_lib.lua",
-			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/convertors.lua",
+			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/1bbff356b6e975fefc44b713a47f3289aaccea45/lib/constructor/convertors.lua",
 			"lib/constructor/translations.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/lib/constructor/translations.lua",
 		],
 		"resources_version" => "r2",
@@ -778,11 +780,11 @@ $packages = [
 		"depends" => [
 			"lua/luaffi"
 		],
-		"version" => "b33c0c5",
+		"version" => "a695db3",
 		"files" => [
 			"lib/soup/init.lua" => "calamity.zip/stand-soup-ffi-init.lua",
-			"lib/soup/soup-apigen.lua" => "raw.githubusercontent.com/calamity-inc/Soup/b33c0c5445cf1f3214e1ff9f92a98a97fcec8add/bindings/soup-apigen.lua",
-			"lib/soup/soup.dll" => "calamity.zip/soup/2023-10-09-b33c0c5445cf1f3214e1ff9f92a98a97fcec8add/soup.dll"
+			"lib/soup/soup-apigen.lua" => "raw.githubusercontent.com/calamity-inc/Soup/a695db321b758f21c80ddeacdf65cded56c739b0/bindings/soup-apigen.lua",
+			"lib/soup/soup.dll" => "calamity.zip/soup/2023-12-11-a695db321b758f21c80ddeacdf65cded56c739b0/soup.dll"
 		]
 	],
 ];
