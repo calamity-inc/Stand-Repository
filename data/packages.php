@@ -754,16 +754,16 @@ $packages = [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "Davus",
 		"description" => "Manage, store and equip your favourite weapon builds.",
-		"version" => "v1.5.4",
+		"version" => "v1.5.5",
 		"depends" => [
 			"lua/natives-1663599433"
 		],
 		"files" => [
-			"Custom Loadout.pluto" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.3/src/custom-loadout.pluto"
+			"Custom Loadout.pluto" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.5/src/custom-loadout.pluto"
 		],
-		"resources_version" => "r2",
+		"resources_version" => "r3",
 		"resources" => [
-			"lib/custom-loadout/component_resources.lua" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.4/src/lib/custom-loadout/component_resources.lua"
+			"lib/custom-loadout/component_resources.lua" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.5/src/lib/custom-loadout/component_resources.lua"
 		]
 	],
 	"lua/luaffi" => [
