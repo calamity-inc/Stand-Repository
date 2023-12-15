@@ -4,6 +4,15 @@ define("PRIORITY_USEFUL_UNPOPULAR", 2);
 define("PRIORITY_BLOATWARE", 1);
 
 $packages = [
+	"lua/natives-3095a" => [
+		"priority" => 11,
+		"files" => [
+			"lib/natives-3095a/init.lua" => "stand.gg/dl/lua/lib/natives-3095a/init.lua",
+			"lib/natives-3095a/init.source.lua" => "stand.gg/dl/lua/lib/natives-3095a/init.source.lua",
+			"lib/natives-3095a/g.lua" => "stand.gg/dl/lua/lib/natives-3095a/g.lua",
+			"lib/natives-3095a/g.source.lua" => "stand.gg/dl/lua/lib/natives-3095a/g.source.lua",
+		],
+	],
 	"lua/natives-2944b" => [
 		"priority" => 10,
 		"files" => [
@@ -107,14 +116,6 @@ $packages = [
 			"lib/natives-1627063482.lua" => "stand.gg/dl/lua/lib/natives-1627063482.lua",
 		],
 	],
-	"lua/lunajson" => [
-		"files" => [
-			"lib/lunajson.lua" => "stand.gg/dl/lua/lib/lunajson.lua",
-			"lib/lunajson/decoder.lua" => "stand.gg/dl/lua/lib/lunajson/decoder.lua",
-			"lib/lunajson/encoder.lua" => "stand.gg/dl/lua/lib/lunajson/encoder.lua",
-			"lib/lunajson/sax.lua" => "stand.gg/dl/lua/lib/lunajson/sax.lua",
-		],
-	],
 	"lua/json" => [
 		"files" => [
 			"lib/json.lua" => "stand.gg/dl/lua/lib/json.lua",
@@ -154,9 +155,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "forever-gh-1.0.1",
+		"version" => "forever-gh-1.0.6",
 		"files" => [
-			"LanceScript.pluto" => "raw.githubusercontent.com/thebitwise/LanceScript-Forever/1.0.1/LanceScriptForever.pluto",
+			"LanceScript.pluto" => "raw.githubusercontent.com/thebitwise/LanceScript-Forever/1.0.6/LanceScriptForever.pluto",
 		],
 		"resources_version" => "forever-gh-1.0.0",
 		"resources" => [
@@ -175,15 +176,18 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "2.2.1",
+		"version" => "4.0.0",
+		"resources_version" => "2.3.0",
 		"files" => [
-			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/2.2.1/Dolos.pluto",
+			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/4.0.0/Dolos.pluto",
 		],
 		"resources" => [
-			"resources/dolos/attention.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/attention.wav",
-			"resources/dolos/fail.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/fail.wav",
-			"resources/dolos/processing.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/processing.wav",
-			"resources/dolos/success.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.0.1/resources/dolos/success.wav",
+			"resources/dolos/attention.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/attention.wav",
+			"resources/dolos/fail.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/fail.wav",
+			"resources/dolos/processing.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/processing.wav",
+			"resources/dolos/success.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/success.wav",
+			"resources/dolos/hello.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/hello.wav",
+			"resources/dolos/goodbye.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/goodbye.wav",
 		],
 	],
 	"lua/Dashmaster" => [
@@ -234,9 +238,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],	
-		"version" => "1.3.1",
+		"version" => "1.3.2",
 		"files" => [
-			"BetterChat.pluto" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.1/BetterChat.pluto",
+			"BetterChat.pluto" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.2/BetterChat.pluto",
 		],
 		"resources" => [
 			"resources/betterchat/message.wav" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.0/resources/betterchat/message.wav",
@@ -491,6 +495,8 @@ $packages = [
 		],
 	],
 	"lua/ScaleformLib" => [
+		"is_dependency" => true,
+		"version" => "r1",
 		"author" => "aaronlink127",
 		"files" => [
 			"lib/ScaleformLib.lua" => "stand.gg/dl/lua/lib/ScaleformLib.lua"
@@ -511,9 +517,9 @@ $packages = [
 	"lua/MusinessBanager" => [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "Stand Development Team; formerly ICYPhoenix & Ren",
-		"version" => "e94d676",
+		"version" => "43895d2",
 		"files" => [
-			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/e94d676c5dd0a599298c787d870e633b3291fbb9/MusinessBanagersource.lua",
+			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/43895d279101af4c71e9b44bd6c1c667cd59bfed/MusinessBanagersource.lua",
 		],
 		"resources_version" => "r5",
 		"resources" => [
@@ -528,24 +534,24 @@ $packages = [
 	"lua/Heist Control" => [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "IceDoomfist",
-		"version" => "3.3.8",
+		"version" => "3.3.9",
 		"depends" => [
 			"lua/natives-1681379138",
 		],
 		"files" => [
-			"Heist Control.lua" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/Heist Control.lua",
-			"store/Heist Control/Language/Chinese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/store/Heist Control/Language/Chinese.txt",
-			"store/Heist Control/Language/Custom.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/store/Heist Control/Language/Custom.txt",
-			"store/Heist Control/Language/English.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/store/Heist Control/Language/English.txt",
-			"store/Heist Control/Language/French.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/store/Heist Control/Language/French.txt",
-			"store/Heist Control/Language/German.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/store/Heist Control/Language/German.txt",
-			"store/Heist Control/Language/Italian.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/store/Heist Control/Language/Italian.txt",
-			"store/Heist Control/Language/Japanese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/store/Heist Control/Language/Japanese.txt",
-			"store/Heist Control/Language/Korean.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/store/Heist Control/Language/Korean.txt",
-			"store/Heist Control/Language/Polish.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/store/Heist Control/Language/Polish.txt",
-			"store/Heist Control/Language/Portuguese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/store/Heist Control/Language/Portuguese.txt",
-			"store/Heist Control/Language/Russian.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/store/Heist Control/Language/Russian.txt",
-			"store/Heist Control/Language/Spanish.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.8/store/Heist Control/Language/Spanish.txt",
+			"Heist Control.lua" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/Heist Control.lua",
+			"store/Heist Control/Language/Chinese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/store/Heist Control/Language/Chinese.txt",
+			"store/Heist Control/Language/Custom.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/store/Heist Control/Language/Custom.txt",
+			"store/Heist Control/Language/English.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/store/Heist Control/Language/English.txt",
+			"store/Heist Control/Language/French.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/store/Heist Control/Language/French.txt",
+			"store/Heist Control/Language/German.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/store/Heist Control/Language/German.txt",
+			"store/Heist Control/Language/Italian.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/store/Heist Control/Language/Italian.txt",
+			"store/Heist Control/Language/Japanese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/store/Heist Control/Language/Japanese.txt",
+			"store/Heist Control/Language/Korean.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/store/Heist Control/Language/Korean.txt",
+			"store/Heist Control/Language/Polish.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/store/Heist Control/Language/Polish.txt",
+			"store/Heist Control/Language/Portuguese.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/store/Heist Control/Language/Portuguese.txt",
+			"store/Heist Control/Language/Russian.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/store/Heist Control/Language/Russian.txt",
+			"store/Heist Control/Language/Spanish.txt" => "raw.githubusercontent.com/IceDoomfist/Stand-Heist-Control/v3.3.9/store/Heist Control/Language/Spanish.txt",
 		],
 		"resources_version" => "r2",
 		"resources" => [
@@ -560,9 +566,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944a"
 		],
-		"version" => "0.45.1",
+		"version" => "0.46.1",
 		"files" => [
-			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/db4be6da11362525bade43591d036d8f50da081b/JinxScript.pluto",
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/024efb1aecd2d623695dd1a7140e0d97f04f7e39/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
@@ -658,7 +664,7 @@ $packages = [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "hexarobi",
 		"description" => "Load and edit custom map, vehicle and skin files in JSON, XML or INI format.",
-		"version" => "0.41r",
+		"version" => "0.42r",
 		"depends" => [
 			"lua/natives-1672190175",
 			"lua/iniparser",
@@ -667,11 +673,11 @@ $packages = [
 			"lua/quaternionLib",
 		],
 		"files" => [
-			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/Constructor.lua",
+			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/1bbff356b6e975fefc44b713a47f3289aaccea45/Constructor.lua",
 			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/beab4e384bfca412e6c81514501c98ad7c256042/lib/auto-updater.lua",
 			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/constants.lua",
 			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/constructor_lib.lua",
-			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/convertors.lua",
+			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/1bbff356b6e975fefc44b713a47f3289aaccea45/lib/constructor/convertors.lua",
 			"lib/constructor/translations.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/lib/constructor/translations.lua",
 		],
 		"resources_version" => "r2",
@@ -753,22 +759,6 @@ $packages = [
 			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/8c2a1d883edfbffd1f1b1af9f064995afba15b44/SlotBot.lua"
 		],
 	],
-	"lua/Custom Loadout" => [
-		"priority" => PRIORITY_USEFUL_UNPOPULAR,
-		"author" => "Davus",
-		"description" => "Manage, store and equip your favourite weapon builds.",
-		"version" => "v1.5.4",
-		"depends" => [
-			"lua/natives-1663599433"
-		],
-		"files" => [
-			"Custom Loadout.pluto" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.3/src/custom-loadout.pluto"
-		],
-		"resources_version" => "r2",
-		"resources" => [
-			"lib/custom-loadout/component_resources.lua" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.4/src/lib/custom-loadout/component_resources.lua"
-		]
-	],
 	"lua/luaffi" => [
 		"is_dependency" => true,
 		"author" => "Calamity, Inc.",
@@ -783,11 +773,11 @@ $packages = [
 		"depends" => [
 			"lua/luaffi"
 		],
-		"version" => "4f390ea",
+		"version" => "a695db3",
 		"files" => [
 			"lib/soup/init.lua" => "calamity.zip/stand-soup-ffi-init.lua",
-			"lib/soup/soup-apigen.lua" => "raw.githubusercontent.com/calamity-inc/Soup/92d79a55adc2f87cac7f1fb92e49c5f7d47d76b7/bindings/soup-apigen.lua",
-			"lib/soup/soup.dll" => "calamity.zip/soup/2023-08-26-4f390ea12360b3424bf70a74a74da110459e58c1/soup.dll"
+			"lib/soup/soup-apigen.lua" => "raw.githubusercontent.com/calamity-inc/Soup/a695db321b758f21c80ddeacdf65cded56c739b0/bindings/soup-apigen.lua",
+			"lib/soup/soup.dll" => "calamity.zip/soup/2023-12-11-a695db321b758f21c80ddeacdf65cded56c739b0/soup.dll"
 		]
 	],
 ];
