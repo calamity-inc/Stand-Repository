@@ -4,6 +4,15 @@ define("PRIORITY_USEFUL_UNPOPULAR", 2);
 define("PRIORITY_BLOATWARE", 1);
 
 $packages = [
+	"lua/natives-3095a" => [
+		"priority" => 11,
+		"files" => [
+			"lib/natives-3095a/init.lua" => "stand.gg/dl/lua/lib/natives-3095a/init.lua",
+			"lib/natives-3095a/init.source.lua" => "stand.gg/dl/lua/lib/natives-3095a/init.source.lua",
+			"lib/natives-3095a/g.lua" => "stand.gg/dl/lua/lib/natives-3095a/g.lua",
+			"lib/natives-3095a/g.source.lua" => "stand.gg/dl/lua/lib/natives-3095a/g.source.lua",
+		],
+	],
 	"lua/natives-2944b" => [
 		"priority" => 10,
 		"files" => [
