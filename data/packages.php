@@ -750,22 +750,6 @@ $packages = [
 			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/8c2a1d883edfbffd1f1b1af9f064995afba15b44/SlotBot.lua"
 		],
 	],
-	"lua/Custom Loadout" => [
-		"priority" => PRIORITY_USEFUL_UNPOPULAR,
-		"author" => "Davus",
-		"description" => "Manage, store and equip your favourite weapon builds.",
-		"version" => "v1.5.5",
-		"depends" => [
-			"lua/natives-1663599433"
-		],
-		"files" => [
-			"Custom Loadout.pluto" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.5/src/custom-loadout.pluto"
-		],
-		"resources_version" => "r3",
-		"resources" => [
-			"lib/custom-loadout/component_resources.lua" => "raw.githubusercontent.com/Davus0717/custom-loadout/v1.5.5/src/lib/custom-loadout/component_resources.lua"
-		]
-	],
 	"lua/luaffi" => [
 		"is_dependency" => true,
 		"author" => "Calamity, Inc.",
