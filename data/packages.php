@@ -566,9 +566,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944a"
 		],
-		"version" => "0.46.1",
+		"version" => "0.47",
 		"files" => [
-			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/024efb1aecd2d623695dd1a7140e0d97f04f7e39/JinxScript.pluto",
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/d9b1ba8f96557837f329f6dffb1ac53debf2fec2/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
@@ -576,7 +576,7 @@ $packages = [
 		"author" => "acjoker8818",
 		"version" => "0.38.0r1",
 		"depends" => [
-			"lua/natives-2944a",
+			"lua/natives-3095a",
 			"lua/ScaleformLib",
 			"lua/quaternionLib",
 			"lua/pretty.json",
