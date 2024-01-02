@@ -176,18 +176,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "4.0.0",
-		"resources_version" => "2.3.0",
+		"version" => "5.0.0",
 		"files" => [
-			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/4.0.0/Dolos.pluto",
-		],
-		"resources" => [
-			"resources/dolos/attention.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/attention.wav",
-			"resources/dolos/fail.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/fail.wav",
-			"resources/dolos/processing.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/processing.wav",
-			"resources/dolos/success.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/success.wav",
-			"resources/dolos/hello.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/hello.wav",
-			"resources/dolos/goodbye.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/goodbye.wav",
+			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/5.0.0/Dolos.pluto",
 		],
 	],
 	"lua/Dashmaster" => [
@@ -196,9 +187,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],	
-		"version" => "3.3.4",
+		"version" => "3.3.8",
 		"files" => [
-			"Dashmaster.pluto" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.4/dashmaster.lua",
+			"Dashmaster.pluto" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.8/dashmaster.lua",
 		],
 		"resources" => [
 			"resources/dashmaster/dial.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/dial.png",
