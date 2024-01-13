@@ -193,7 +193,6 @@ $packages = [
 		],
 		"resources" => [
 			"resources/dashmaster/dial.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/dial.png",
-			"resources/dashmaster/gear_-1.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_-1",
 			"resources/dashmaster/gear_0.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_0.png",
 			"resources/dashmaster/gear_1.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_1.png",
 			"resources/dashmaster/gear_2.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_2.png",
