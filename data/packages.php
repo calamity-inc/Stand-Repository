@@ -176,9 +176,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "5.0.1",
+		"version" => "5.1.0",
 		"files" => [
-			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/5.0.1/Dolos.pluto",
+			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/5.1.0/Dolos.pluto",
 		],
 	],
 	"lua/Dashmaster" => [
