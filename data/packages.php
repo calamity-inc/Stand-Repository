@@ -176,9 +176,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "5.1.1",
+		"version" => "5.2.0",
 		"files" => [
-			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/5.1.1/Dolos.pluto",
+			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/5.2.0/Dolos.pluto",
 		],
 	],
 	"lua/Dashmaster" => [
@@ -230,9 +230,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],	
-		"version" => "1.3.5",
+		"version" => "1.3.6",
 		"files" => [
-			"BetterChat.pluto" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.5/BetterChat.pluto",
+			"BetterChat.pluto" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.6/BetterChat.pluto",
 		],
 		"resources" => [
 			"resources/betterchat/message.wav" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.0/resources/betterchat/message.wav",
