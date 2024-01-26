@@ -230,9 +230,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],	
-		"version" => "1.3.6",
+		"version" => "1.3.7",
 		"files" => [
-			"BetterChat.pluto" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.6/BetterChat.pluto",
+			"BetterChat.pluto" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.7/BetterChat.pluto",
 		],
 		"resources" => [
 			"resources/betterchat/message.wav" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.0/resources/betterchat/message.wav",
