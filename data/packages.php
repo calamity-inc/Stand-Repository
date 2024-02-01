@@ -559,7 +559,7 @@ $packages = [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "hexarobi",
 		"description" => "Load and edit custom map, vehicle and skin files in JSON, XML or INI format.",
-		"version" => "0.42r",
+		"version" => "0.42.3r",
 		"depends" => [
 			"lua/natives-1672190175",
 			"lua/iniparser",
@@ -568,7 +568,7 @@ $packages = [
 			"lua/quaternionLib",
 		],
 		"files" => [
-			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/1bbff356b6e975fefc44b713a47f3289aaccea45/Constructor.lua",
+			"Constructor.lua" => "raw.githubusercontent.com/calamity-inc/stand-lua-constructor/db57be271c046a7d5f81f3e83caf2a067db0d83d/Constructor.lua",
 			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/beab4e384bfca412e6c81514501c98ad7c256042/lib/auto-updater.lua",
 			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/constants.lua",
 			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/constructor_lib.lua",
