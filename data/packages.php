@@ -155,9 +155,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "forever-gh-1.0.6r2",
+		"version" => "forever-gh-1.0.6r3",
 		"files" => [
-			"LanceScript.pluto" => "raw.githubusercontent.com/calamity-inc/LanceScript/27cd0a4ff31a40fe66e54a6b07371485d8ccdcfb/LanceScript.pluto",
+			"LanceScript.pluto" => "raw.githubusercontent.com/calamity-inc/LanceScript/eaaa1b2e58ccd4a54e61aeabb78a8b9dd3e4560f/LanceScript.pluto",
 		],
 		"resources_version" => "forever-gh-1.0.0",
 		"resources" => [
