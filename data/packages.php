@@ -654,6 +654,23 @@ $packages = [
 			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/8c2a1d883edfbffd1f1b1af9f064995afba15b44/SlotBot.lua"
 		],
 	],
+	"lua/TriviaBot" => [
+		"priority" => PRIORITY_USEFUL_POPULAR,
+		"author" => "hexarobi",
+		"description" => "Ask Jeopardy trivia questions in lobby and reward correct answers.",
+		"version" => "0.8.1r",
+		"depends" => [
+			"lua/natives-3095a",
+		],
+		"files" => [
+			"TriviaBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-triviabot/089e6173039f2ec2e845e29573c9d075305f1371/TriviaBot.lua",
+		],
+		"resources_version" => "r1",
+		"resources" => [
+			"resources/TriviaBot/kids_teen.tsv" => "raw.githubusercontent.com/hexarobi/stand-lua-triviabot/089e6173039f2ec2e845e29573c9d075305f1371/resources/TriviaBot/kids_teen.tsv",
+			"resources/TriviaBot/master_season1-35.tsv" => "raw.githubusercontent.com/hexarobi/stand-lua-triviabot/089e6173039f2ec2e845e29573c9d075305f1371/resources/TriviaBot/master_season1-35.tsv",
+		],
+	],
 	"lua/luaffi" => [
 		"is_dependency" => true,
 		"author" => "Calamity, Inc.",
