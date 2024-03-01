@@ -2,6 +2,8 @@
 define("PRIORITY_USEFUL_POPULAR", 3);
 define("PRIORITY_USEFUL_UNPOPULAR", 2);
 define("PRIORITY_BLOATWARE", 1);
+define("PRIORITY_GIMMICK", -1);
+define("PRIORITY_FOR_DEVELOPERS", -2);
 
 $packages = [
 	"lua/natives-3095a" => [
@@ -268,7 +270,7 @@ $packages = [
 		]
 	],
 	"lua/Example Scripts" => [
-		"priority" => -1,
+		"priority" => PRIORITY_FOR_DEVELOPERS,
 		"version" => "e86ed2c",
 		"author" => "Stand Development Team",
 		"depends" => [
@@ -315,6 +317,7 @@ $packages = [
 		]
 	],
 	"lua/FlappyStand" => [
+		"priority" => PRIORITY_GIMMICK,
 		"version" => "0.1",
 		"author" => "CocoW",
 		"depends" => [
