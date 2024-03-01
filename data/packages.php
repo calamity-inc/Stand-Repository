@@ -267,16 +267,6 @@ $packages = [
 			"resources/WiriTextures.ytd" => "raw.githubusercontent.com/nowiry/WiriScript/v18/resources/WiriTextures.ytd"
 		]
 	],
-	"lua/Keramis Sounds" => [
-		"version" => "01-25-repo",
-		"author" => "scriptcat",
-		"depends" => [
-			"lua/natives-1640181023"
-		],
-		"files" => [
-			"Keramis Sounds.lua" => "stand.gg/dl/lua/Keramis Sounds 01-25-repo.lua"
-		]
-	],
 	"lua/Example Scripts" => [
 		"priority" => -1,
 		"version" => "e86ed2c",
