@@ -650,12 +650,12 @@ $packages = [
 	"lua/TriviaBot" => [
 		"author" => "hexarobi",
 		"description" => "Ask Jeopardy trivia questions in lobby and reward correct answers.",
-		"version" => "0.8.1r",
+		"version" => "0.9r",
 		"depends" => [
 			"lua/natives-3095a",
 		],
 		"files" => [
-			"TriviaBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-triviabot/089e6173039f2ec2e845e29573c9d075305f1371/TriviaBot.lua",
+			"TriviaBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-triviabot/8246fd8853c427ee74a297daebccbf8dd4e1f20e/TriviaBot.lua",
 		],
 		"resources" => [
 			"resources/TriviaBot/kids_teen.tsv" => "raw.githubusercontent.com/hexarobi/stand-lua-triviabot/089e6173039f2ec2e845e29573c9d075305f1371/resources/TriviaBot/kids_teen.tsv",
