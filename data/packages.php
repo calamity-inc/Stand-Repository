@@ -527,10 +527,11 @@ $packages = [
 	],
 	"lua/xml2lua" => [
 		"is_dependency" => true,
-		"author" => "Paul Chakravarti",
-		"version" => "1.5-2",
+		"author" => "Paul Chakravarti, Manoel Campos da Silva Filho",
+		"version" => "1.6-1",
 		"files" => [
-			"lib/xml2lua.lua" => "stand.gg/dl/lua/lib/xml2lua.lua"
+			"lib/xml2lua.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/xml2lua.lua",
+			"lib/XmlParser.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/XmlParser.lua"
 		]
 	],
 	"lua/inspect.lua" => [
