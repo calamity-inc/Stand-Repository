@@ -243,9 +243,9 @@ $packages = [
 	"lua/iniparser" => [
 		"is_dependency" => true,
 		"author" => "well-in-that-case",
-		"version" => "0.2.11",
+		"version" => "0.2.12",
 		"files" => [
-			"lib/iniparser.lua" => "raw.githubusercontent.com/calamity-inc/iniparser/0.2.11/iniparser.lua",
+			"lib/iniparser.lua" => "raw.githubusercontent.com/calamity-inc/iniparser/0.2.12/iniparser.lua",
 		],
 	],
 	"lua/WiriScript" => [
