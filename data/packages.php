@@ -532,6 +532,9 @@ $packages = [
 		"files" => [
 			"lib/xml2lua.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/xml2lua.lua",
 			"lib/XmlParser.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/XmlParser.lua"
+			"lib/xmlhandler/tree.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/xmlhandler/tree.lua"
+			"lib/xmlhandler/dom.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/xmlhandler/dom.lua"
+			"lib/xmlhandler/print.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/xmlhandler/print.lua"
 		]
 	],
 	"lua/inspect.lua" => [
