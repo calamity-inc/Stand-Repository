@@ -534,6 +534,14 @@ $packages = [
 			"lib/XmlParser.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/XmlParser.lua"
 		]
 	],
+	"lua/xml2lua-handler-tree" => [
+		"is_dependency" => true,
+		"author" => "Paul Chakravarti, Manoel Campos da Silva Filho",
+		"version" => "1.6-1",
+		"files" => [
+			"lib/xmlhandler/tree.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/xmlhandler/tree.lua"
+		]
+	],
 	"lua/inspect.lua" => [
 		"is_dependency" => true,
 		"author" => "Enrique García Cota",
@@ -553,20 +561,21 @@ $packages = [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "hexarobi",
 		"description" => "Load and edit custom map, vehicle and skin files in JSON, XML or INI format.",
-		"version" => "0.42.3r",
+		"version" => "0.45r",
 		"depends" => [
 			"lua/natives-1672190175",
 			"lua/iniparser",
 			"lua/xml2lua",
+			"lua/xml2lua-handler-tree",
 			"lua/inspect.lua",
 			"lua/quaternionLib",
 		],
 		"files" => [
-			"Constructor.lua" => "raw.githubusercontent.com/calamity-inc/stand-lua-constructor/db57be271c046a7d5f81f3e83caf2a067db0d83d/Constructor.lua",
+			"Constructor.lua" => "raw.githubusercontent.com/calamity-inc/stand-lua-constructor/d6bf0b7f74c2285918677edd6dec4de9b2f828e7/Constructor.lua",
 			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/beab4e384bfca412e6c81514501c98ad7c256042/lib/auto-updater.lua",
 			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/constants.lua",
-			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/constructor_lib.lua",
-			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/1bbff356b6e975fefc44b713a47f3289aaccea45/lib/constructor/convertors.lua",
+			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/d6bf0b7f74c2285918677edd6dec4de9b2f828e7/lib/constructor/constructor_lib.lua",
+			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/d6bf0b7f74c2285918677edd6dec4de9b2f828e7/lib/constructor/convertors.lua",
 			"lib/constructor/translations.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/lib/constructor/translations.lua",
 		],
 		"resources_version" => "r2",
