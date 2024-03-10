@@ -392,14 +392,14 @@ $packages = [
 	],
 	"lua/LazScript" => [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
-		"author" => "Leandro Zazzi",
-		"description" => "Great for people who want additional vehicle appearance options.",
-		"version" => "1.1",
+		"author" => "LAZ13",
+		"description" => "Great for people who want additional vehicle appearance options. This also includes LAZDrift.",
+		"version" => "1.3",
 		"depends" => [
-			"lua/natives-1640181023"
+			"lua/natives-3095a"
 		],
 		"files" => [
-			"LazScript.lua" => "raw.githubusercontent.com/leandrocoding/lazscript/v1.1/LAZScript.lua"
+			"LazScript.lua" => "raw.githubusercontent.com/leandrocoding/lazscript/v1.3/LAZScript.lua"
 		]
 	],
 	"lua/MusinessBanager" => [
