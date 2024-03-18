@@ -672,6 +672,17 @@ $packages = [
 			"resources/TriviaBot/master_season1-35.tsv" => "raw.githubusercontent.com/hexarobi/stand-lua-triviabot/089e6173039f2ec2e845e29573c9d075305f1371/resources/TriviaBot/master_season1-35.tsv",
 		],
 	],
+	"lua/AR-GPS" => [
+		"author" => "Murten, McThickness & Hexarobi",
+		"description" => "AugmentedReality-GPS makes driving easier by showing your waypoint and objective paths in-world, similar to Forza.",
+		"version" => "0.3.1r",
+		"depends" => [
+			"lua/natives-2944b",
+		],
+		"files" => [
+			"TriviaBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-argps/54f8279492cb365d38bab0a85cee2a364bf8aaeb/AR-GPS.lua",
+		]
+	],
 	"lua/luaffi" => [
 		"is_dependency" => true,
 		"author" => "Calamity, Inc.",
