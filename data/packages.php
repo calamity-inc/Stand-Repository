@@ -680,7 +680,7 @@ $packages = [
 			"lua/natives-2944b",
 		],
 		"files" => [
-			"TriviaBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-argps/54f8279492cb365d38bab0a85cee2a364bf8aaeb/AR-GPS.lua",
+			"AR-GPS.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-argps/54f8279492cb365d38bab0a85cee2a364bf8aaeb/AR-GPS.lua",
 		]
 	],
 	"lua/luaffi" => [
