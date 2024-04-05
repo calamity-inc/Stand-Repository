@@ -38,7 +38,7 @@ $packages = [
 		],
 	],
 	"lua/natives-1681379138" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"version" => "r2",
 		"priority" => 8,
 		"files" => [
@@ -125,7 +125,7 @@ $packages = [
 	],
 	"lua/pretty.json" => [
 		"version" => "r2",
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"files" => [
 			"lib/pretty/json.lua" => "stand.gg/dl/lua/lib/pretty/json.lua",
 			"lib/pretty/json/constant.lua" => "stand.gg/dl/lua/lib/pretty/json/constant.lua",
@@ -241,7 +241,7 @@ $packages = [
 		],
 	],
 	"lua/iniparser" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"author" => "well-in-that-case",
 		"version" => "0.2.12",
 		"files" => [
@@ -367,7 +367,7 @@ $packages = [
 		"resources_version" => "r2",
 	],
 	"lua/JSlangLib" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"version" => "1.14.8",
 		"author" => "jerry123",
 		"files" => [
@@ -375,7 +375,7 @@ $packages = [
 		],
 	],
 	"lua/JSkeyLib" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"version" => "1.14.5",
 		"author" => "jerry123",
 		"files" => [
@@ -383,7 +383,7 @@ $packages = [
 		],
 	],
 	"lua/ScaleformLib" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"version" => "r1",
 		"author" => "aaronlink127",
 		"files" => [
@@ -526,7 +526,7 @@ $packages = [
 		],
 	],
 	"lua/xml2lua" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"author" => "Paul Chakravarti, Manoel Campos da Silva Filho",
 		"version" => "1.6-1",
 		"files" => [
@@ -535,7 +535,7 @@ $packages = [
 		]
 	],
 	"lua/xml2lua-handler-tree" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"author" => "Paul Chakravarti, Manoel Campos da Silva Filho",
 		"version" => "1.6-1",
 		"files" => [
@@ -543,7 +543,7 @@ $packages = [
 		]
 	],
 	"lua/inspect.lua" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"author" => "Enrique García Cota",
 		"version" => "3.1.0",
 		"files" => [
@@ -551,7 +551,7 @@ $packages = [
 		]
 	],
 	"lua/quaternionLib" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"author" => "Murten",
 		"files" => [
 			"lib/quaternionLib.lua" => "stand.gg/dl/lua/lib/quaternionLib.lua"
@@ -673,7 +673,7 @@ $packages = [
 		],
 	],
 	"lua/luaffi" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"author" => "Calamity, Inc.",
 		"version" => "0.1.1",
 		"files" => [
@@ -681,7 +681,7 @@ $packages = [
 		]
 	],
 	"lua/Soup" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"author" => "Calamity, Inc.",
 		"depends" => [
 			"lua/luaffi"
@@ -710,7 +710,7 @@ foreach($packages as $name => &$package)
 			$package["depends"] = [$resources_package_name];
 		}
 		$packages[$resources_package_name] = [
-			"is_dependency" => true,
+			"is_dependency" => true, "type" => "library",
 			"priority" => -9,
 			"files" => $package["resources"]
 		];
