@@ -2,6 +2,8 @@
 define("PRIORITY_USEFUL_POPULAR", 3);
 define("PRIORITY_USEFUL_UNPOPULAR", 2);
 define("PRIORITY_BLOATWARE", 1);
+define("PRIORITY_GIMMICK", -1);
+define("PRIORITY_FOR_DEVELOPERS", -2);
 
 $packages = [
 	"lua/natives-3095a" => [
@@ -36,7 +38,7 @@ $packages = [
 		],
 	],
 	"lua/natives-1681379138" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"version" => "r2",
 		"priority" => 8,
 		"files" => [
@@ -123,7 +125,7 @@ $packages = [
 	],
 	"lua/pretty.json" => [
 		"version" => "r2",
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"files" => [
 			"lib/pretty/json.lua" => "stand.gg/dl/lua/lib/pretty/json.lua",
 			"lib/pretty/json/constant.lua" => "stand.gg/dl/lua/lib/pretty/json/constant.lua",
@@ -151,17 +153,16 @@ $packages = [
 	],
 	"lua/LanceScript" => [
 		"priority" => PRIORITY_BLOATWARE,
-		"author" => "lance",
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "forever-gh-1.0.6",
+		"version" => "67a62ee",
 		"files" => [
-			"LanceScript.pluto" => "raw.githubusercontent.com/thebitwise/LanceScript-Forever/1.0.6/LanceScriptForever.pluto",
+			"LanceScript.pluto" => "raw.githubusercontent.com/calamity-inc/LanceScript/67a62eeedc06028ae38201847a74ec0059899cef/LanceScript.pluto",
 		],
 		"resources_version" => "forever-gh-1.0.0",
 		"resources" => [
-			"store/lancescript_forever/translations/english.lua" => "gist.githubusercontent.com/thebitwise/a7c7e83cbe94aa2d624f8674c50e70cf/raw/d59546b58aacef9a14f82a65dfa4bc39cabbc434/english.lua",
+			"store/lancescript_forever/translations/english.lua" => "raw.githubusercontent.com/calamity-inc/LanceScript/87fdbd3ad566f38e1ef2c709443f32acc4728bae/store/lancescript_forever/translations/english.lua",
 		],
 		"trash" => [
 			"store/lancescript_forever/lyrics",
@@ -172,86 +173,63 @@ $packages = [
 	"lua/Dolos" => [
 		"priority" => PRIORITY_BLOATWARE,
 		"description" => "A big script focused mainly on trolling, adding a whole new list to the top of Player > Trolling.",
-		"author" => "lance",
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "4.0.0",
-		"resources_version" => "2.3.0",
+		"version" => "82c4483",
 		"files" => [
-			"Dolos.pluto" => "raw.githubusercontent.com/thebitwise/dolos/4.0.0/Dolos.pluto",
-		],
-		"resources" => [
-			"resources/dolos/attention.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/attention.wav",
-			"resources/dolos/fail.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/fail.wav",
-			"resources/dolos/processing.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/processing.wav",
-			"resources/dolos/success.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/success.wav",
-			"resources/dolos/hello.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/hello.wav",
-			"resources/dolos/goodbye.wav" => "raw.githubusercontent.com/thebitwise/dolos/2.3.0/resources/dolos/goodbye.wav",
+			"Dolos.pluto" => "raw.githubusercontent.com/calamity-inc/Dolos/82c44837cb4709d0c22e2cc6177e4761a379e7aa/Dolos.pluto",
 		],
 	],
 	"lua/Dashmaster" => [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
-		"author" => "lance",
 		"depends" => [
 			"lua/natives-2944b",
-		],	
-		"version" => "3.3.4",
+		],
+		"version" => "0c069bd",
 		"files" => [
-			"Dashmaster.pluto" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.4/dashmaster.lua",
+			"Dashmaster.pluto" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/Dashmaster.pluto",
 		],
+		"resources_version" => "3.4.0",
 		"resources" => [
-			"resources/dashmaster/dial.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/dial.png",
-			"resources/dashmaster/gear_-1.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_-1",
-			"resources/dashmaster/gear_0.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_0.png",
-			"resources/dashmaster/gear_1.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_1.png",
-			"resources/dashmaster/gear_2.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_2.png",
-			"resources/dashmaster/gear_3.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_3.png",
-			"resources/dashmaster/gear_4.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_4.png",
-			"resources/dashmaster/gear_5.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_5.png",
-			"resources/dashmaster/gear_6.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_6.png",
-			"resources/dashmaster/gear_7.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_7.png",
-			"resources/dashmaster/gear_8.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_8.png",
-			"resources/dashmaster/gear_9.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_9.png",
-			"resources/dashmaster/gear_ring.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/gear_ring.png",
-			"resources/dashmaster/kph_label.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/kph_label.png",
-			"resources/dashmaster/mph_label.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_label.png",
-			"resources/dashmaster/ms_label.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/ms_label.png",
-			"resources/dashmaster/percent.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/percent.png",
-			"resources/dashmaster/needle.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/needle.png",
-			"resources/dashmaster/redline.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/redline.png",
-			"resources/dashmaster/wrench.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/wrench.png",
-			"resources/dashmaster/mph_0.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_0.png",
-			"resources/dashmaster/mph_1.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_1.png",
-			"resources/dashmaster/mph_2.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_2.png",
-			"resources/dashmaster/mph_3.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_3.png",
-			"resources/dashmaster/mph_4.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_4.png",
-			"resources/dashmaster/mph_5.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_5.png",
-			"resources/dashmaster/mph_6.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_6.png",
-			"resources/dashmaster/mph_7.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_7.png",
-			"resources/dashmaster/mph_8.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_8.png",
-			"resources/dashmaster/mph_9.png" => "raw.githubusercontent.com/thebitwise/Dashmaster/3.3.2/resources/dashmaster/mph_9.png",
-		],
-	],
-	"lua/BetterChat" => [
-		"author" => "lance",
-		"depends" => [
-			"lua/natives-2944b",
-		],	
-		"version" => "1.3.2",
-		"files" => [
-			"BetterChat.pluto" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.2/BetterChat.pluto",
-		],
-		"resources" => [
-			"resources/betterchat/message.wav" => "raw.githubusercontent.com/thebitwise/BetterChat/1.3.0/resources/betterchat/message.wav",
+			"resources/dashmaster/dial.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/dial.png",
+			"resources/dashmaster/gear_0.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/gear_0.png",
+			"resources/dashmaster/gear_1.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/gear_1.png",
+			"resources/dashmaster/gear_2.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/gear_2.png",
+			"resources/dashmaster/gear_3.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/gear_3.png",
+			"resources/dashmaster/gear_4.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/gear_4.png",
+			"resources/dashmaster/gear_5.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/gear_5.png",
+			"resources/dashmaster/gear_6.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/gear_6.png",
+			"resources/dashmaster/gear_7.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/gear_7.png",
+			"resources/dashmaster/gear_8.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/gear_8.png",
+			"resources/dashmaster/gear_9.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/gear_9.png",
+			"resources/dashmaster/gear_ring.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/gear_ring.png",
+			"resources/dashmaster/kph_label.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/kph_label.png",
+			"resources/dashmaster/mph_label.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/mph_label.png",
+			"resources/dashmaster/knots_label.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/knots_label.png",
+			"resources/dashmaster/ms_label.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/ms_label.png",
+			"resources/dashmaster/percent.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/percent.png",
+			"resources/dashmaster/needle.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/needle.png",
+			"resources/dashmaster/redline.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/redline.png",
+			"resources/dashmaster/wrench.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/wrench.png",
+			"resources/dashmaster/mph_0.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/mph_0.png",
+			"resources/dashmaster/mph_1.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/mph_1.png",
+			"resources/dashmaster/mph_2.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/mph_2.png",
+			"resources/dashmaster/mph_3.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/mph_3.png",
+			"resources/dashmaster/mph_4.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/mph_4.png",
+			"resources/dashmaster/mph_5.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/mph_5.png",
+			"resources/dashmaster/mph_6.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/mph_6.png",
+			"resources/dashmaster/mph_7.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/mph_7.png",
+			"resources/dashmaster/mph_8.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/mph_8.png",
+			"resources/dashmaster/mph_9.png" => "raw.githubusercontent.com/calamity-inc/Dashmaster/0c069bd45b9a4f7a2c043decc35055523618b5c7/resources/dashmaster/mph_9.png",
 		],
 	],
 	"lua/iniparser" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"author" => "well-in-that-case",
-		"version" => "0.2.11",
+		"version" => "0.2.12",
 		"files" => [
-			"lib/iniparser.lua" => "raw.githubusercontent.com/calamity-inc/iniparser/0.2.11/iniparser.lua",
+			"lib/iniparser.lua" => "raw.githubusercontent.com/calamity-inc/iniparser/0.2.12/iniparser.lua",
 		],
 	],
 	"lua/WiriScript" => [
@@ -275,40 +253,30 @@ $packages = [
 			"resources/WiriTextures.ytd" => "raw.githubusercontent.com/nowiry/WiriScript/v18/resources/WiriTextures.ytd"
 		]
 	],
-	"lua/Keramis Sounds" => [
-		"version" => "01-25-repo",
-		"author" => "scriptcat",
-		"depends" => [
-			"lua/natives-1640181023"
-		],
-		"files" => [
-			"Keramis Sounds.lua" => "stand.gg/dl/lua/Keramis Sounds 01-25-repo.lua"
-		]
-	],
 	"lua/Example Scripts" => [
-		"priority" => -1,
-		"version" => "106",
+		"priority" => PRIORITY_FOR_DEVELOPERS,
+		"version" => "e86ed2c",
 		"author" => "Stand Development Team",
 		"depends" => [
 			"lua/natives-1663599433",
 		],
 		"files" => [
-			"Example Scripts/Async HTTP.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/105.2/Async HTTP.pluto",
-			"Example Scripts/Chat.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Chat.pluto",
-			"Example Scripts/Countdown.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Countdown.pluto",
-			"Example Scripts/DirectX.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/DirectX.pluto",
-			"Example Scripts/Draw Loop.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Draw Loop.pluto",
-			"Example Scripts/Dump Runtime.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Dump Runtime.pluto",
-			"Example Scripts/Explosive Hits.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/106/Explosive Hits.pluto",
-			"Example Scripts/Lang 1.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Lang 1.pluto",
-			"Example Scripts/Lang 2.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Lang 2.pluto",
-			"Example Scripts/Lang 3.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/105.2/Lang 3.pluto",
-			"Example Scripts/Notification Colours.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/Notification Colours.pluto",
-			"Example Scripts/Online Version.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Online Version.pluto",
-			"Example Scripts/Player Commands.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/105.1/Player Commands.pluto",
-			"Example Scripts/UI3D.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/UI3D.pluto",
-			"Example Scripts/Vehicle No Decals.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/102/Vehicle No Decals.pluto",
-			"Example Scripts/Vehicle Spawn.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/103/Vehicle Spawn.pluto",
+			"Example Scripts/Async HTTP.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Async HTTP.pluto",
+			"Example Scripts/Chat.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Chat.pluto",
+			"Example Scripts/Countdown.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Countdown.pluto",
+			"Example Scripts/DirectX.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/DirectX.pluto",
+			"Example Scripts/Draw Loop.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Draw Loop.pluto",
+			"Example Scripts/Dump Runtime.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Dump Runtime.pluto",
+			"Example Scripts/Explosive Hits.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Explosive Hits.pluto",
+			"Example Scripts/Lang 1.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Lang 1.pluto",
+			"Example Scripts/Lang 2.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Lang 2.pluto",
+			"Example Scripts/Lang 3.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Lang 3.pluto",
+			"Example Scripts/Notification Colours.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Notification Colours.pluto",
+			"Example Scripts/Online Version.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Online Version.pluto",
+			"Example Scripts/Player Commands.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Player Commands.pluto",
+			"Example Scripts/UI3D.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/UI3D.pluto",
+			"Example Scripts/Vehicle No Decals.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Vehicle No Decals.pluto",
+			"Example Scripts/Vehicle Spawn.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Vehicle Spawn.pluto",
 		],
 		"resources" => [
 			"resources/Example Scripts/Heart.png" => "stand.gg/dl/lua/resources/Example Scripts/Heart.png",
@@ -333,6 +301,7 @@ $packages = [
 		]
 	],
 	"lua/FlappyStand" => [
+		"priority" => PRIORITY_GIMMICK,
 		"version" => "0.1",
 		"author" => "CocoW",
 		"depends" => [
@@ -350,103 +319,6 @@ $packages = [
 			"resources/FlappyStand/tube.png" => "stand.gg/dl/lua/resources/FlappyStand/tube.png",
 			"resources/FlappyStand/tube_g.png" => "stand.gg/dl/lua/resources/FlappyStand/tube_g.png",
 			"resources/FlappyStand/tube_pain.png" => "stand.gg/dl/lua/resources/FlappyStand/tube_pain.png",
-		]
-	],
-	"lua/No Police Helicopters" => [
-		"version" => "1.1",
-		"author" => "Jackz",
-		"depends" => [
-			"lua/natives-1627063482",
-		],
-		"files" => [
-			"No Police Helicopters.lua" => "jackz.me/stand/get-lua.php?script=no_police_helis.lua&source=repo",
-		],
-	],
-	"lua/translations" => [
-		"author" => "Jackz",
-		"is_dependency" => true,
-		"version" => "1.4.3",
-		"files" => [
-			"lib/translations.lua" => "jackz.me/stand/get-lua.php?script=lib/translations&source=repo",
-		]
-	],
-	"lua/jackzvehiclelib" => [
-		"author" => "Jackz",
-		"is_dependency" => true,
-		"version" => "1.3.2",
-		"files" => [
-			"lib/jackzvehiclelib.lua" => "jackz.me/stand/get-lua.php?script=lib/jackzvehiclelib&source=repo",
-		]
-	],
-	"lua/Vehicle Options" => [
-		"author" => "Jackz",
-		"depends" => [
-			"lua/natives-1627063482",
-			"lua/json",
-			"lua/translations",
-			"lua/jackzvehiclelib",
-		],
-		"version" => "3.10.7",
-		"files" => [
-			"Vehicle Options.lua" => "jackz.me/stand/get-lua.php?script=jackz_vehicles&source=repo",
-		]
-	],
-	"lua/Actions" => [
-		"priority" => PRIORITY_USEFUL_UNPOPULAR,
-		"author" => "Jackz",
-		"depends" => [
-			"lua/natives-1627063482",
-			"lua/translations",
-		],
-		"version" => "1.11.9",
-		"files" => [
-			"Actions.lua" => "jackz.me/stand/get-lua.php?script=actions&source=repo",
-		],
-		"resources_version" => "r3",
-		"resources" => [
-			"resources/jackz_actions/animations.txt" => "jackz.me/stand/get-lua.php?script=resources/jackz_actions/animations.txt&source=repo",
-			"resources/jackz_actions/actions_data.lua" => "jackz.me/stand/get-lua.php?script=resources/jackz_actions/actions_data.lua&source=repo",
-		],
-	],
-	"lua/Stand Chat" => [
-		"author" => "Jackz",
-		"depends" => [
-			"lua/natives-1627063482",
-			"lua/json",
-			"lua/translations",
-		],
-		"version" => "1.2.30",
-		"files" => [
-			"Stand Chat.lua" => "jackz.me/stand/get-lua.php?script=jackz_chat&source=repo",
-		]
-	],
-	"lua/Train Control" => [
-		"author" => "Jackz",
-		"depends" => [
-			"lua/natives-1627063482",
-		],
-		"version" => "1.1.9",
-		"files" => [
-			"Train Control.lua" => "jackz.me/stand/get-lua.php?script=train_control&source=repo",
-		]
-	],
-	"lua/Jackz Vehicle Builder" => [
-		"author" => "Jackz",
-		"depends" => [
-			"lua/natives-1627063482",
-			"lua/json",
-			"lua/jackzvehiclelib",
-		],
-		"version" => "1.25.10",
-		"files" => [
-			"Jackz Vehicle Builder.lua" => "jackz.me/stand/get-lua.php?script=jackz_vehicle_builder&source=repo",
-		],
-		"resources_version" => "r2",
-		"resources" => [
-			"resources/objects.txt" => "jackz.me/stand/get-lua.php?script=resources/objects.txt&source=repo",
-			"resources/peds.txt" => "jackz.me/stand/get-lua.php?script=resources/peds.txt&source=repo",
-			"resources/vehicles.txt" => "jackz.me/stand/get-lua.php?script=resources/vehicles.txt&source=repo",
-			"resources/particles.txt" => "jackz.me/stand/get-lua.php?script=resources/particles.txt&source=repo",
 		]
 	],
 	"lua/JerryScript" => [
@@ -479,7 +351,7 @@ $packages = [
 		"resources_version" => "r2",
 	],
 	"lua/JSlangLib" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"version" => "1.14.8",
 		"author" => "jerry123",
 		"files" => [
@@ -487,7 +359,7 @@ $packages = [
 		],
 	],
 	"lua/JSkeyLib" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"version" => "1.14.5",
 		"author" => "jerry123",
 		"files" => [
@@ -495,7 +367,7 @@ $packages = [
 		],
 	],
 	"lua/ScaleformLib" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"version" => "r1",
 		"author" => "aaronlink127",
 		"files" => [
@@ -504,22 +376,22 @@ $packages = [
 	],
 	"lua/LazScript" => [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
-		"author" => "Leandro Zazzi",
-		"description" => "Great for people who want additional vehicle appearance options.",
-		"version" => "1.1",
+		"author" => "LAZ13",
+		"description" => "Great for people who want additional vehicle appearance options. This also includes LAZDrift.",
+		"version" => "1.3",
 		"depends" => [
-			"lua/natives-1640181023"
+			"lua/natives-3095a"
 		],
 		"files" => [
-			"LazScript.lua" => "raw.githubusercontent.com/leandrocoding/lazscript/v1.1/LAZScript.lua"
+			"LazScript.lua" => "raw.githubusercontent.com/leandrocoding/lazscript/v1.3/LAZScript.lua"
 		]
 	],
 	"lua/MusinessBanager" => [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "Stand Development Team; formerly ICYPhoenix & Ren",
-		"version" => "43895d2",
+		"version" => "808cedc",
 		"files" => [
-			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/43895d279101af4c71e9b44bd6c1c667cd59bfed/MusinessBanagersource.lua",
+			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/808cedc51f28343b610c857b950d607074610a52/MusinessBanagersource.lua",
 		],
 		"resources_version" => "r5",
 		"resources" => [
@@ -564,17 +436,17 @@ $packages = [
 		"priority" => PRIORITY_BLOATWARE,
 		"author" => "Prisuhm",
 		"depends" => [
-			"lua/natives-2944a"
+			"lua/natives-3095a"
 		],
-		"version" => "0.46.1",
+		"version" => "0.50.2",
 		"files" => [
-			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/024efb1aecd2d623695dd1a7140e0d97f04f7e39/JinxScript.pluto",
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/13b34c99ef4506a61cf5a5508ea33a0c83f2a104/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
 		"priority" => PRIORITY_BLOATWARE,
 		"author" => "acjoker8818",
-		"version" => "0.38.0r1",
+		"version" => "0.38.0-d031c31",
 		"depends" => [
 			"lua/natives-2944a",
 			"lua/ScaleformLib",
@@ -582,32 +454,32 @@ $packages = [
 			"lua/pretty.json",
 		],
 		"files" => [
-			"AcjokerScript.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/AcjokerScript.pluto",
-			"resources/AcjokerScript/ACJSTables.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/ACJSTables.pluto",
-			"resources/AcjokerScript/translations.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/translations.pluto",
-			"resources/AcjokerScript/Modules/Bodyguards.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Bodyguards.pluto",
-			"resources/AcjokerScript/Modules/Functions.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Functions.pluto",
-			"resources/AcjokerScript/Modules/Online.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Online.pluto",
-			"resources/AcjokerScript/Modules/Players.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Players.pluto",
-			"resources/AcjokerScript/Modules/Scaleform.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Scaleform.pluto",
-			"resources/AcjokerScript/Modules/Self.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Self.pluto",
-			"resources/AcjokerScript/Modules/Settings.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Settings.pluto",
-			"resources/AcjokerScript/Modules/Vehicles.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Vehicles.pluto",
-			"resources/AcjokerScript/Modules/Advanced Homing Missiles.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Advanced Homing Missiles.pluto",
-			"resources/AcjokerScript/Modules/Vehicle Spawning.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Vehicle Spawning.pluto",
-			"resources/AcjokerScript/Modules/Weapons.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Weapons.pluto",
-			"resources/AcjokerScript/Modules/Globals.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Globals.pluto",
-			"resources/AcjokerScript/Modules/Vehicle Neons.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Vehicle Neons.pluto",
-			"resources/AcjokerScript/Modules/Languages/de.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/de.pluto",
-			"resources/AcjokerScript/Modules/Languages/es.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/es.pluto",
-			"resources/AcjokerScript/Modules/Languages/fr.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/fr.pluto",
-			"resources/AcjokerScript/Modules/Languages/ko.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/ko.pluto",
-			"resources/AcjokerScript/Modules/Languages/lt.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/lt.pluto",
-			"resources/AcjokerScript/Modules/Languages/nl.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/nl.pluto",
-			"resources/AcjokerScript/Modules/Languages/pl.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/pl.pluto",
-			"resources/AcjokerScript/Modules/Languages/pt.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/pt.pluto",
-			"resources/AcjokerScript/Modules/Languages/ru.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/ru.pluto",
-			"resources/AcjokerScript/Modules/Languages/zh.pluto" => "raw.githubusercontent.com/acjoker8818/AcjokerScript/0.38.0/resources/AcjokerScript/Modules/Languages/zh.pluto",
+			"AcjokerScript.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/AcjokerScript.pluto",
+			"resources/AcjokerScript/ACJSTables.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/ACJSTables.pluto",
+			"resources/AcjokerScript/translations.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/translations.pluto",
+			"resources/AcjokerScript/Modules/Bodyguards.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Bodyguards.pluto",
+			"resources/AcjokerScript/Modules/Functions.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Functions.pluto",
+			"resources/AcjokerScript/Modules/Online.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Online.pluto",
+			"resources/AcjokerScript/Modules/Players.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Players.pluto",
+			"resources/AcjokerScript/Modules/Scaleform.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Scaleform.pluto",
+			"resources/AcjokerScript/Modules/Self.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Self.pluto",
+			"resources/AcjokerScript/Modules/Settings.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Settings.pluto",
+			"resources/AcjokerScript/Modules/Vehicles.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Vehicles.pluto",
+			"resources/AcjokerScript/Modules/Advanced Homing Missiles.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Advanced Homing Missiles.pluto",
+			"resources/AcjokerScript/Modules/Vehicle Spawning.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Vehicle Spawning.pluto",
+			"resources/AcjokerScript/Modules/Weapons.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Weapons.pluto",
+			"resources/AcjokerScript/Modules/Globals.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Globals.pluto",
+			"resources/AcjokerScript/Modules/Vehicle Neons.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Vehicle Neons.pluto",
+			"resources/AcjokerScript/Modules/Languages/de.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/de.pluto",
+			"resources/AcjokerScript/Modules/Languages/es.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/es.pluto",
+			"resources/AcjokerScript/Modules/Languages/fr.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/fr.pluto",
+			"resources/AcjokerScript/Modules/Languages/ko.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/ko.pluto",
+			"resources/AcjokerScript/Modules/Languages/lt.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/lt.pluto",
+			"resources/AcjokerScript/Modules/Languages/nl.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/nl.pluto",
+			"resources/AcjokerScript/Modules/Languages/pl.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/pl.pluto",
+			"resources/AcjokerScript/Modules/Languages/pt.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/pt.pluto",
+			"resources/AcjokerScript/Modules/Languages/ru.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/ru.pluto",
+			"resources/AcjokerScript/Modules/Languages/zh.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/zh.pluto",
 		],
 		"resources_version" => "r4",
 		"resources" => [
@@ -638,15 +510,24 @@ $packages = [
 		],
 	],
 	"lua/xml2lua" => [
-		"is_dependency" => true,
-		"author" => "Paul Chakravarti",
-		"version" => "1.5-2",
+		"is_dependency" => true, "type" => "library",
+		"author" => "Paul Chakravarti, Manoel Campos da Silva Filho",
+		"version" => "1.6-1",
 		"files" => [
-			"lib/xml2lua.lua" => "stand.gg/dl/lua/lib/xml2lua.lua"
+			"lib/xml2lua.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/xml2lua.lua",
+			"lib/XmlParser.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/XmlParser.lua"
+		]
+	],
+	"lua/xml2lua-handler-tree" => [
+		"is_dependency" => true, "type" => "library",
+		"author" => "Paul Chakravarti, Manoel Campos da Silva Filho",
+		"version" => "1.6-1",
+		"files" => [
+			"lib/xmlhandler/tree.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/xmlhandler/tree.lua"
 		]
 	],
 	"lua/inspect.lua" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"author" => "Enrique García Cota",
 		"version" => "3.1.0",
 		"files" => [
@@ -654,7 +535,7 @@ $packages = [
 		]
 	],
 	"lua/quaternionLib" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"author" => "Murten",
 		"files" => [
 			"lib/quaternionLib.lua" => "stand.gg/dl/lua/lib/quaternionLib.lua"
@@ -664,20 +545,21 @@ $packages = [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "hexarobi",
 		"description" => "Load and edit custom map, vehicle and skin files in JSON, XML or INI format.",
-		"version" => "0.42r",
+		"version" => "0.45.1r",
 		"depends" => [
 			"lua/natives-1672190175",
 			"lua/iniparser",
 			"lua/xml2lua",
+			"lua/xml2lua-handler-tree",
 			"lua/inspect.lua",
 			"lua/quaternionLib",
 		],
 		"files" => [
-			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/1bbff356b6e975fefc44b713a47f3289aaccea45/Constructor.lua",
-			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/beab4e384bfca412e6c81514501c98ad7c256042/lib/auto-updater.lua",
+			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/983b7f088a504d7e387dd9bc8e2b423a4e94f6ee/Constructor.lua",
+			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/983b7f088a504d7e387dd9bc8e2b423a4e94f6ee/lib/auto-updater.lua",
 			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/constants.lua",
-			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/constructor_lib.lua",
-			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/1bbff356b6e975fefc44b713a47f3289aaccea45/lib/constructor/convertors.lua",
+			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/d6bf0b7f74c2285918677edd6dec4de9b2f828e7/lib/constructor/constructor_lib.lua",
+			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/ded4ace5d1fb73ea8cf94f8a741863ad93955fdb/lib/constructor/convertors.lua",
 			"lib/constructor/translations.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/lib/constructor/translations.lua",
 		],
 		"resources_version" => "r2",
@@ -695,23 +577,23 @@ $packages = [
 	"lua/NovaScript" => [
 		"priority" => PRIORITY_BLOATWARE,
 		"author" => "Nova",
-		"version" => "1.2.2-d6e30b7",
+		"version" => "1.2.2-d8a2d9d",
 		"depends" => [
 			"lua/ScaleformLib",
 		],
 		"files" => [
-			"NovaScript.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d6e30b70c07821d9fbc80a2fcb494f9bc7ec2212/NovaScript.pluto",
-			"lib/NovaScript/Modules/self.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d6e30b70c07821d9fbc80a2fcb494f9bc7ec2212/lib/NovaScript/Modules/self.pluto",
-			"lib/NovaScript/Modules/online.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d6e30b70c07821d9fbc80a2fcb494f9bc7ec2212/lib/NovaScript/Modules/online.pluto",
-			"lib/NovaScript/Modules/vehicle.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d6e30b70c07821d9fbc80a2fcb494f9bc7ec2212/lib/NovaScript/Modules/vehicle.pluto",
-			"lib/NovaScript/Modules/weapon.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d6e30b70c07821d9fbc80a2fcb494f9bc7ec2212/lib/NovaScript/Modules/weapon.pluto",
-			"lib/NovaScript/Modules/world.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d6e30b70c07821d9fbc80a2fcb494f9bc7ec2212/lib/NovaScript/Modules/world.pluto",
-			"lib/NovaScript/Modules/bodyguards.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d6e30b70c07821d9fbc80a2fcb494f9bc7ec2212/lib/NovaScript/Modules/bodyguards.pluto",
-			"lib/NovaScript/Modules/player_menu.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d6e30b70c07821d9fbc80a2fcb494f9bc7ec2212/lib/NovaScript/Modules/player_menu.pluto",
-			"lib/NovaScript/functions.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d6e30b70c07821d9fbc80a2fcb494f9bc7ec2212/lib/NovaScript/functions.pluto",
-			"lib/NovaScript/tables.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d6e30b70c07821d9fbc80a2fcb494f9bc7ec2212/lib/NovaScript/tables.pluto",
-			"lib/NovaScript/NovaScript_natives.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d6e30b70c07821d9fbc80a2fcb494f9bc7ec2212/lib/NovaScript/NovaScript_natives.pluto",
-			"lib/NovaScript/NovaS_translations.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d6e30b70c07821d9fbc80a2fcb494f9bc7ec2212/lib/NovaScript/NovaS_translations.pluto",
+			"NovaScript.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d8a2d9df5e1d62934db319ce03471057fefabe0f/NovaScript.pluto",
+			"lib/NovaScript/Modules/self.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d8a2d9df5e1d62934db319ce03471057fefabe0f/lib/NovaScript/Modules/self.pluto",
+			"lib/NovaScript/Modules/online.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d8a2d9df5e1d62934db319ce03471057fefabe0f/lib/NovaScript/Modules/online.pluto",
+			"lib/NovaScript/Modules/vehicle.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d8a2d9df5e1d62934db319ce03471057fefabe0f/lib/NovaScript/Modules/vehicle.pluto",
+			"lib/NovaScript/Modules/weapon.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d8a2d9df5e1d62934db319ce03471057fefabe0f/lib/NovaScript/Modules/weapon.pluto",
+			"lib/NovaScript/Modules/world.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d8a2d9df5e1d62934db319ce03471057fefabe0f/lib/NovaScript/Modules/world.pluto",
+			"lib/NovaScript/Modules/bodyguards.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d8a2d9df5e1d62934db319ce03471057fefabe0f/lib/NovaScript/Modules/bodyguards.pluto",
+			"lib/NovaScript/Modules/player_menu.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d8a2d9df5e1d62934db319ce03471057fefabe0f/lib/NovaScript/Modules/player_menu.pluto",
+			"lib/NovaScript/functions.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d8a2d9df5e1d62934db319ce03471057fefabe0f/lib/NovaScript/functions.pluto",
+			"lib/NovaScript/tables.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d8a2d9df5e1d62934db319ce03471057fefabe0f/lib/NovaScript/tables.pluto",
+			"lib/NovaScript/NovaScript_natives.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d8a2d9df5e1d62934db319ce03471057fefabe0f/lib/NovaScript/NovaScript_natives.pluto",
+			"lib/NovaScript/NovaS_translations.pluto" => "raw.githubusercontent.com/calamity-inc/NovaScript/d8a2d9df5e1d62934db319ce03471057fefabe0f/lib/NovaScript/NovaS_translations.pluto",
 		],
 		"resources" => [
 			"lib/NovaScript/NovaScript_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaScript/1.0.0/lib/NovaScript/NovaScript_logo.png",
@@ -759,8 +641,23 @@ $packages = [
 			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/8c2a1d883edfbffd1f1b1af9f064995afba15b44/SlotBot.lua"
 		],
 	],
+	"lua/TriviaBot" => [
+		"author" => "hexarobi",
+		"description" => "Ask Jeopardy trivia questions in lobby and reward correct answers.",
+		"version" => "0.9r",
+		"depends" => [
+			"lua/natives-3095a",
+		],
+		"files" => [
+			"TriviaBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-triviabot/8246fd8853c427ee74a297daebccbf8dd4e1f20e/TriviaBot.lua",
+		],
+		"resources" => [
+			"resources/TriviaBot/kids_teen.tsv" => "raw.githubusercontent.com/hexarobi/stand-lua-triviabot/089e6173039f2ec2e845e29573c9d075305f1371/resources/TriviaBot/kids_teen.tsv",
+			"resources/TriviaBot/master_season1-35.tsv" => "raw.githubusercontent.com/hexarobi/stand-lua-triviabot/089e6173039f2ec2e845e29573c9d075305f1371/resources/TriviaBot/master_season1-35.tsv",
+		],
+	],
 	"lua/luaffi" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"author" => "Calamity, Inc.",
 		"version" => "0.1.1",
 		"files" => [
@@ -768,7 +665,7 @@ $packages = [
 		]
 	],
 	"lua/Soup" => [
-		"is_dependency" => true,
+		"is_dependency" => true, "type" => "library",
 		"author" => "Calamity, Inc.",
 		"depends" => [
 			"lua/luaffi"
@@ -797,7 +694,7 @@ foreach($packages as $name => &$package)
 			$package["depends"] = [$resources_package_name];
 		}
 		$packages[$resources_package_name] = [
-			"is_dependency" => true,
+			"is_dependency" => true, "type" => "library",
 			"priority" => -9,
 			"files" => $package["resources"]
 		];
