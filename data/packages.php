@@ -685,6 +685,13 @@ $packages = [
 			"lib/soup/soup.dll" => "calamity.zip/soup/2023-12-11-a695db321b758f21c80ddeacdf65cded56c739b0/soup.dll"
 		]
 	],
+	"lua_compat_layer/Kiddion's Modest Menu" => [
+		"author" => "Calamity, Inc.",
+		"version" => "a695db3",
+		"files" => [
+			"lib/kiddions_compat.pluto" => "raw.githubusercontent.com/calamity-inc/kiddions_compat/efe2f15445f18cf70dd01ef29b464c4e8907de6a/kiddions_compat.pluto",
+		]
+	],
 ];
 
 foreach($packages as $name => &$package)
