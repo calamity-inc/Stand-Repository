@@ -553,10 +553,10 @@ $packages = [
 			"lua/xml2lua-handler-tree",
 			"lua/inspect.lua",
 			"lua/quaternionLib",
+			"lua/auto-updater",
 		],
 		"files" => [
 			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/983b7f088a504d7e387dd9bc8e2b423a4e94f6ee/Constructor.lua",
-			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/983b7f088a504d7e387dd9bc8e2b423a4e94f6ee/lib/auto-updater.lua",
 			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/constants.lua",
 			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/d6bf0b7f74c2285918677edd6dec4de9b2f828e7/lib/constructor/constructor_lib.lua",
 			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/ded4ace5d1fb73ea8cf94f8a741863ad93955fdb/lib/constructor/convertors.lua",
@@ -572,6 +572,14 @@ $packages = [
 			"Constructs Installer.lua",
 			"../Constructs/Curated",
 			"../Constructs",
+		],
+	],
+	"lua/auto-updater" => [
+		"is_dependency" => true, "type" => "library",
+		"author" => "hexarobi",
+		"version" => "0.29r",
+		"files" => [
+			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/983b7f088a504d7e387dd9bc8e2b423a4e94f6ee/lib/auto-updater.lua",
 		],
 	],
 	"lua/NovaScript" => [
@@ -675,6 +683,13 @@ $packages = [
 			"lib/soup/init.lua" => "calamity.zip/stand-soup-ffi-init.lua",
 			"lib/soup/soup-apigen.lua" => "raw.githubusercontent.com/calamity-inc/Soup/a695db321b758f21c80ddeacdf65cded56c739b0/bindings/soup-apigen.lua",
 			"lib/soup/soup.dll" => "calamity.zip/soup/2023-12-11-a695db321b758f21c80ddeacdf65cded56c739b0/soup.dll"
+		]
+	],
+	"lua_compat_layer/Kiddion's Modest Menu" => [
+		"author" => "Calamity, Inc.",
+		"version" => "a695db3",
+		"files" => [
+			"lib/kiddions_compat.pluto" => "raw.githubusercontent.com/calamity-inc/kiddions_compat/efe2f15445f18cf70dd01ef29b464c4e8907de6a/kiddions_compat.pluto",
 		]
 	],
 ];
