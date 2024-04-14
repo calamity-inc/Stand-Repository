@@ -641,12 +641,12 @@ $packages = [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "hexarobi",
 		"description" => "Automates spinning and rigging slot machines.",
-		"version" => "0.26r",
+		"version" => "0.27r",
 		"depends" => [
 			"lua/natives-1663599433"
 		],
 		"files" => [
-			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/8c2a1d883edfbffd1f1b1af9f064995afba15b44/SlotBot.lua"
+			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/6e0220a10a017ccd271941d8561cc584724e44b1/SlotBot.lua"
 		],
 	],
 	"lua/TriviaBot" => [
