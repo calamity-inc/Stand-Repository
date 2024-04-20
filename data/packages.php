@@ -4,6 +4,7 @@ define("PRIORITY_USEFUL_UNPOPULAR", 2);
 define("PRIORITY_BLOATWARE", 1);
 define("PRIORITY_GIMMICK", -1);
 define("PRIORITY_FOR_DEVELOPERS", -2);
+define("PRIORITY_RESOURCES", -9);
 
 $packages = [
 	"lua/natives-3095a" => [
@@ -710,7 +711,7 @@ foreach($packages as $name => &$package)
 		}
 		$packages[$resources_package_name] = [
 			"is_dependency" => true, "type" => "library",
-			"priority" => -9,
+			"priority" => PRIORITY_RESOURCES,
 			"files" => $package["resources"]
 		];
 		if(array_key_exists("resources_version", $package))
