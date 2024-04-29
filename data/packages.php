@@ -527,7 +527,7 @@ $packages = [
 			"lib/xmlhandler/tree.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/xmlhandler/tree.lua"
 		]
 	],
-	"lua/inspect.lua" => [
+	"lua/inspect" => [
 		"type" => "library",
 		"author" => "Enrique García Cota",
 		"version" => "3.1.0",
@@ -552,7 +552,7 @@ $packages = [
 			"lua/iniparser",
 			"lua/xml2lua",
 			"lua/xml2lua-handler-tree",
-			"lua/inspect.lua",
+			"lua/inspect",
 			"lua/quaternionLib",
 			"lua/auto-updater",
 		],
