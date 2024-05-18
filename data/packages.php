@@ -546,7 +546,7 @@ $packages = [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "hexarobi",
 		"description" => "Load and edit custom map, vehicle and skin files in JSON, XML or INI format.",
-		"version" => "0.48r",
+		"version" => "0.49r",
 		"depends" => [
 			"lua/natives-2944a",
 			"lua/iniparser",
@@ -557,10 +557,10 @@ $packages = [
 			"lua/auto-updater",
 		],
 		"files" => [
-			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/5a5dfeb7086c9e9a023b037a0f647a93b838838f/Constructor.lua",
-			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/5a5dfeb7086c9e9a023b037a0f647a93b838838f/lib/constructor/constants.lua",
-			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/5a5dfeb7086c9e9a023b037a0f647a93b838838f/lib/constructor/constructor_lib.lua",
-			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/5a5dfeb7086c9e9a023b037a0f647a93b838838f/lib/constructor/convertors.lua",
+			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/8ac0fc1348301ea5e81886656cc5ad61663a81ea/Constructor.lua",
+			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/8ac0fc1348301ea5e81886656cc5ad61663a81ea/lib/constructor/constants.lua",
+			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/8ac0fc1348301ea5e81886656cc5ad61663a81ea/lib/constructor/constructor_lib.lua",
+			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/8ac0fc1348301ea5e81886656cc5ad61663a81ea/lib/constructor/convertors.lua",
 			"lib/constructor/translations.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/5a5dfeb7086c9e9a023b037a0f647a93b838838f/lib/constructor/translations.lua",
 		],
 		"resources_version" => "r3",
