@@ -578,9 +578,9 @@ $packages = [
 	"lua/auto-updater" => [
 		"type" => "library",
 		"author" => "hexarobi",
-		"version" => "2.11r",
+		"version" => "2.12r",
 		"files" => [
-			"lib/auto-updater.lua" => "raw.githubusercontent.com/calamity-inc/stand-lua-auto-updater/fcc95a6929aa6f87bb8ae8f1cae8e18db25c7049/auto-updater.lua",
+			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-auto-updater/b644a777fa83ac48295f5beecce21e39117ec74f/auto-updater.lua",
 		],
 	],
 	"lua/NovaScript" => [
