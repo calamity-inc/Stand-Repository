@@ -4,6 +4,7 @@ define("PRIORITY_USEFUL_UNPOPULAR", 2);
 define("PRIORITY_BLOATWARE", 1);
 define("PRIORITY_GIMMICK", -1);
 define("PRIORITY_FOR_DEVELOPERS", -2);
+define("PRIORITY_RESOURCES", -9);
 
 $packages = [
 	"lua/natives-3095a" => [
@@ -38,7 +39,7 @@ $packages = [
 		],
 	],
 	"lua/natives-1681379138" => [
-		"is_dependency" => true, "type" => "library",
+		"type" => "library",
 		"version" => "r2",
 		"priority" => 8,
 		"files" => [
@@ -125,7 +126,7 @@ $packages = [
 	],
 	"lua/pretty.json" => [
 		"version" => "r2",
-		"is_dependency" => true, "type" => "library",
+		"type" => "library",
 		"files" => [
 			"lib/pretty/json.lua" => "stand.gg/dl/lua/lib/pretty/json.lua",
 			"lib/pretty/json/constant.lua" => "stand.gg/dl/lua/lib/pretty/json/constant.lua",
@@ -225,7 +226,7 @@ $packages = [
 		],
 	],
 	"lua/iniparser" => [
-		"is_dependency" => true, "type" => "library",
+		"type" => "library",
 		"author" => "well-in-that-case",
 		"version" => "0.2.12",
 		"files" => [
@@ -351,7 +352,7 @@ $packages = [
 		"resources_version" => "r2",
 	],
 	"lua/JSlangLib" => [
-		"is_dependency" => true, "type" => "library",
+		"type" => "library",
 		"version" => "1.14.8",
 		"author" => "jerry123",
 		"files" => [
@@ -359,7 +360,7 @@ $packages = [
 		],
 	],
 	"lua/JSkeyLib" => [
-		"is_dependency" => true, "type" => "library",
+		"type" => "library",
 		"version" => "1.14.5",
 		"author" => "jerry123",
 		"files" => [
@@ -367,7 +368,7 @@ $packages = [
 		],
 	],
 	"lua/ScaleformLib" => [
-		"is_dependency" => true, "type" => "library",
+		"type" => "library",
 		"version" => "r1",
 		"author" => "aaronlink127",
 		"files" => [
@@ -438,15 +439,15 @@ $packages = [
 		"depends" => [
 			"lua/natives-3095a"
 		],
-		"version" => "0.50.2",
+		"version" => "0.50.3",
 		"files" => [
-			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/13b34c99ef4506a61cf5a5508ea33a0c83f2a104/JinxScript.pluto",
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/c3595ff7fd0044f998814fba941d7b15a90dc3db/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
 		"priority" => PRIORITY_BLOATWARE,
 		"author" => "acjoker8818",
-		"version" => "0.38.0-d031c31",
+		"version" => "0.38.0-40ae18a",
 		"depends" => [
 			"lua/natives-2944a",
 			"lua/ScaleformLib",
@@ -454,32 +455,32 @@ $packages = [
 			"lua/pretty.json",
 		],
 		"files" => [
-			"AcjokerScript.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/AcjokerScript.pluto",
-			"resources/AcjokerScript/ACJSTables.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/ACJSTables.pluto",
-			"resources/AcjokerScript/translations.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/translations.pluto",
-			"resources/AcjokerScript/Modules/Bodyguards.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Bodyguards.pluto",
-			"resources/AcjokerScript/Modules/Functions.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Functions.pluto",
-			"resources/AcjokerScript/Modules/Online.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Online.pluto",
-			"resources/AcjokerScript/Modules/Players.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Players.pluto",
-			"resources/AcjokerScript/Modules/Scaleform.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Scaleform.pluto",
-			"resources/AcjokerScript/Modules/Self.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Self.pluto",
-			"resources/AcjokerScript/Modules/Settings.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Settings.pluto",
-			"resources/AcjokerScript/Modules/Vehicles.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Vehicles.pluto",
-			"resources/AcjokerScript/Modules/Advanced Homing Missiles.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Advanced Homing Missiles.pluto",
-			"resources/AcjokerScript/Modules/Vehicle Spawning.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Vehicle Spawning.pluto",
-			"resources/AcjokerScript/Modules/Weapons.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Weapons.pluto",
-			"resources/AcjokerScript/Modules/Globals.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Globals.pluto",
-			"resources/AcjokerScript/Modules/Vehicle Neons.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Vehicle Neons.pluto",
-			"resources/AcjokerScript/Modules/Languages/de.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/de.pluto",
-			"resources/AcjokerScript/Modules/Languages/es.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/es.pluto",
-			"resources/AcjokerScript/Modules/Languages/fr.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/fr.pluto",
-			"resources/AcjokerScript/Modules/Languages/ko.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/ko.pluto",
-			"resources/AcjokerScript/Modules/Languages/lt.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/lt.pluto",
-			"resources/AcjokerScript/Modules/Languages/nl.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/nl.pluto",
-			"resources/AcjokerScript/Modules/Languages/pl.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/pl.pluto",
-			"resources/AcjokerScript/Modules/Languages/pt.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/pt.pluto",
-			"resources/AcjokerScript/Modules/Languages/ru.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/ru.pluto",
-			"resources/AcjokerScript/Modules/Languages/zh.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/d031c31d989c06bcc49b0b72b5b7a6ae91e8dc72/resources/AcjokerScript/Modules/Languages/zh.pluto",
+			"AcjokerScript.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/AcjokerScript.pluto",
+			"resources/AcjokerScript/ACJSTables.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/ACJSTables.pluto",
+			"resources/AcjokerScript/translations.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/translations.pluto",
+			"resources/AcjokerScript/Modules/Bodyguards.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Bodyguards.pluto",
+			"resources/AcjokerScript/Modules/Functions.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Functions.pluto",
+			"resources/AcjokerScript/Modules/Online.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Online.pluto",
+			"resources/AcjokerScript/Modules/Players.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Players.pluto",
+			"resources/AcjokerScript/Modules/Scaleform.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Scaleform.pluto",
+			"resources/AcjokerScript/Modules/Self.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Self.pluto",
+			"resources/AcjokerScript/Modules/Settings.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Settings.pluto",
+			"resources/AcjokerScript/Modules/Vehicles.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Vehicles.pluto",
+			"resources/AcjokerScript/Modules/Advanced Homing Missiles.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Advanced Homing Missiles.pluto",
+			"resources/AcjokerScript/Modules/Vehicle Spawning.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Vehicle Spawning.pluto",
+			"resources/AcjokerScript/Modules/Weapons.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Weapons.pluto",
+			"resources/AcjokerScript/Modules/Globals.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Globals.pluto",
+			"resources/AcjokerScript/Modules/Vehicle Neons.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Vehicle Neons.pluto",
+			"resources/AcjokerScript/Modules/Languages/de.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Languages/de.pluto",
+			"resources/AcjokerScript/Modules/Languages/es.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Languages/es.pluto",
+			"resources/AcjokerScript/Modules/Languages/fr.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Languages/fr.pluto",
+			"resources/AcjokerScript/Modules/Languages/ko.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Languages/ko.pluto",
+			"resources/AcjokerScript/Modules/Languages/lt.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Languages/lt.pluto",
+			"resources/AcjokerScript/Modules/Languages/nl.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Languages/nl.pluto",
+			"resources/AcjokerScript/Modules/Languages/pl.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Languages/pl.pluto",
+			"resources/AcjokerScript/Modules/Languages/pt.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Languages/pt.pluto",
+			"resources/AcjokerScript/Modules/Languages/ru.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Languages/ru.pluto",
+			"resources/AcjokerScript/Modules/Languages/zh.pluto" => "raw.githubusercontent.com/calamity-inc/AcjokerScript/40ae18acc36715f0a38887a6ebdfca19fb4cad01/resources/AcjokerScript/Modules/Languages/zh.pluto",
 		],
 		"resources_version" => "r4",
 		"resources" => [
@@ -510,7 +511,7 @@ $packages = [
 		],
 	],
 	"lua/xml2lua" => [
-		"is_dependency" => true, "type" => "library",
+		"type" => "library",
 		"author" => "Paul Chakravarti, Manoel Campos da Silva Filho",
 		"version" => "1.6-1",
 		"files" => [
@@ -519,15 +520,15 @@ $packages = [
 		]
 	],
 	"lua/xml2lua-handler-tree" => [
-		"is_dependency" => true, "type" => "library",
+		"type" => "library",
 		"author" => "Paul Chakravarti, Manoel Campos da Silva Filho",
 		"version" => "1.6-1",
 		"files" => [
 			"lib/xmlhandler/tree.lua" => "raw.githubusercontent.com/manoelcampos/xml2lua/v1.6-1/xmlhandler/tree.lua"
 		]
 	],
-	"lua/inspect.lua" => [
-		"is_dependency" => true, "type" => "library",
+	"lua/inspect" => [
+		"type" => "library",
 		"author" => "Enrique García Cota",
 		"version" => "3.1.0",
 		"files" => [
@@ -535,7 +536,7 @@ $packages = [
 		]
 	],
 	"lua/quaternionLib" => [
-		"is_dependency" => true, "type" => "library",
+		"type" => "library",
 		"author" => "Murten",
 		"files" => [
 			"lib/quaternionLib.lua" => "stand.gg/dl/lua/lib/quaternionLib.lua"
@@ -545,28 +546,28 @@ $packages = [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "hexarobi",
 		"description" => "Load and edit custom map, vehicle and skin files in JSON, XML or INI format.",
-		"version" => "0.47r",
+		"version" => "0.49.1r",
 		"depends" => [
-			"lua/natives-1672190175",
+			"lua/natives-3095a",
 			"lua/iniparser",
 			"lua/xml2lua",
 			"lua/xml2lua-handler-tree",
-			"lua/inspect.lua",
+			"lua/inspect",
 			"lua/quaternionLib",
 			"lua/auto-updater",
 		],
 		"files" => [
-			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/49160367b5dc0b54ab36deb4c77ae83b1e2c278c/Constructor.lua",
-			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/e73d371c64d54581e73cbc0352a977b10478cb56/lib/constructor/constants.lua",
-			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/49160367b5dc0b54ab36deb4c77ae83b1e2c278c/lib/constructor/constructor_lib.lua",
-			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/49160367b5dc0b54ab36deb4c77ae83b1e2c278c/lib/constructor/convertors.lua",
-			"lib/constructor/translations.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/dc8c2e443c593c3029b17956ab17c453da554cad/lib/constructor/translations.lua",
+			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/46fabb8ad63e0808ebd07f8d48f918ff0aa65b3a/Constructor.lua",
+			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/46fabb8ad63e0808ebd07f8d48f918ff0aa65b3a/lib/constructor/constants.lua",
+			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/46fabb8ad63e0808ebd07f8d48f918ff0aa65b3a/lib/constructor/constructor_lib.lua",
+			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/46fabb8ad63e0808ebd07f8d48f918ff0aa65b3a/lib/constructor/convertors.lua",
+			"lib/constructor/translations.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/46fabb8ad63e0808ebd07f8d48f918ff0aa65b3a/lib/constructor/translations.lua",
 		],
-		"resources_version" => "r2",
+		"resources_version" => "r3",
 		"resources" => [
-			"lib/constructor/constructor_logo.png" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/91d07cd1c8a647254b8da770d34c7c6670d8404e/lib/constructor/constructor_logo.png",
-			"lib/constructor/curated_attachments.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/0c497111261bc961c4720c58424e8c0d853165d1/lib/constructor/curated_attachments.lua",
-			"lib/constructor/objects_complete.txt" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/0c497111261bc961c4720c58424e8c0d853165d1/lib/constructor/objects_complete.txt",
+			"lib/constructor/constructor_logo.png" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/5a5dfeb7086c9e9a023b037a0f647a93b838838f/lib/constructor/constructor_logo.png",
+			"lib/constructor/curated_attachments.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/5a5dfeb7086c9e9a023b037a0f647a93b838838f/lib/constructor/curated_attachments.lua",
+			"lib/constructor/objects_complete.txt" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/5a5dfeb7086c9e9a023b037a0f647a93b838838f/lib/constructor/objects_complete.txt",
 		],
 		"trash" => [
 			"Constructs Installer.lua",
@@ -575,7 +576,7 @@ $packages = [
 		],
 	],
 	"lua/auto-updater" => [
-		"is_dependency" => true, "type" => "library",
+		"type" => "library",
 		"author" => "hexarobi",
 		"version" => "2.11r",
 		"files" => [
@@ -665,7 +666,7 @@ $packages = [
 		],
 	],
 	"lua/luaffi" => [
-		"is_dependency" => true, "type" => "library",
+		"type" => "library",
 		"author" => "Calamity, Inc.",
 		"version" => "0.1.1",
 		"files" => [
@@ -673,7 +674,7 @@ $packages = [
 		]
 	],
 	"lua/Soup" => [
-		"is_dependency" => true, "type" => "library",
+		"type" => "library",
 		"author" => "Calamity, Inc.",
 		"depends" => [
 			"lua/luaffi"
@@ -709,8 +710,8 @@ foreach($packages as $name => &$package)
 			$package["depends"] = [$resources_package_name];
 		}
 		$packages[$resources_package_name] = [
-			"is_dependency" => true, "type" => "library",
-			"priority" => -9,
+			"type" => "library",
+			"priority" => PRIORITY_RESOURCES,
 			"files" => $package["resources"]
 		];
 		if(array_key_exists("resources_version", $package))
