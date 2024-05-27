@@ -693,6 +693,17 @@ $packages = [
 			"lib/kiddions_compat.pluto" => "raw.githubusercontent.com/calamity-inc/kiddions_compat/efe2f15445f18cf70dd01ef29b464c4e8907de6a/kiddions_compat.pluto",
 		]
 	],
+	"lua/Ji9sw - Gun Van" => [
+		"priority" => PRIORITY_USEFUL_UNPOPULAR,
+		"author" => "Ji9sw",
+		"version" => "1.68",
+		"depends" => [
+			"lua/natives-3095a"
+		],
+		"files" => [
+			"Ji9sw - Gun Van.lua" => "stand.gg/dl/lua/Ji9sw - Gun Van.lua"
+		],
+	],
 ];
 
 foreach($packages as $name => &$package)
