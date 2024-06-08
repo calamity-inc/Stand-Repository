@@ -626,17 +626,17 @@ $packages = [
 	],
 	"lua/NovaHook" => [
 		"author" => "Nova",
-		"version" => "1.1.2",
+		"version" => "1.2.0",
 		"description" => "Allows you to send detections, classifications, player list, and in-game chat to a Discord webhook.",
 		"depends" => [
 			"lua/natives-1681379138"
 		],
 		"files" => [
-			"NovaHook.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.1.2/NovaHook.pluto",
+			"NovaHook.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.2.0/NovaHook.pluto",
 		],
 		"resources" => [
-			"resources/NovaHook/NovaHook_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.1.2/resources/NovaHook/NovaHook_logo.png",
-			"resources/NovaHook/webhook_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.1.2/resources/NovaHook/webhook_logo.png"
+			"resources/NovaHook/NovaHook_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.2.0/resources/NovaHook/NovaHook_logo.png",
+			"resources/NovaHook/webhook_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.2.0/resources/NovaHook/webhook_logo.png"
 		],
 	],
 	"lua/SlotBot" => [
