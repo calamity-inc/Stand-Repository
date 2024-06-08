@@ -635,8 +635,8 @@ $packages = [
 			"NovaHook.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.2.0/NovaHook.pluto",
 		],
 		"resources" => [
-			"resources/NovaHook/NovaHook_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.2.0/resources/NovaHook/NovaHook_logo.png",
-			"resources/NovaHook/webhook_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.2.0/resources/NovaHook/webhook_logo.png"
+			"resources/NovaHook/NovaHook_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.1.2/resources/NovaHook/NovaHook_logo.png",
+			"resources/NovaHook/webhook_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.1.2/resources/NovaHook/webhook_logo.png"
 		],
 	],
 	"lua/SlotBot" => [
