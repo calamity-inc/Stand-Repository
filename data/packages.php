@@ -714,7 +714,7 @@ $packages = [
 			"lua/natives-3095a"
 		],
 		"files" => [
-			"ChatCommander.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/86da54120c5580f42f3f576fa1367f988be9ddba/ChatCommander.lua",
+			"ChatCommander.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/265ebba3dcec8c1761a315bea3e70c78c7feb021/ChatCommander.lua",
 			"lib/chat_commander/config.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/86da54120c5580f42f3f576fa1367f988be9ddba/lib/chat_commander/config.lua",
 			"lib/chat_commander/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/86da54120c5580f42f3f576fa1367f988be9ddba/lib/chat_commander/constants.lua",
 			"lib/chat_commander/item_browser.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f5ee33dd96beb42fbce5ced77bd4d05a09291684/lib/chat_commander/item_browser.lua",
