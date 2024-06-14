@@ -714,13 +714,13 @@ $packages = [
 			"lua/natives-3095a"
 		],
 		"files" => [
-			"ChatCommander.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/b9a15306d9e4d7e49c8ba22f7a5fd4fd8bbd57f6/ChatCommander.lua",
+			"ChatCommander.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/c0a875597c9163b78ada4709189e1f12994bb841/ChatCommander.lua",
 			"lib/chat_commander/config.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/86da54120c5580f42f3f576fa1367f988be9ddba/lib/chat_commander/config.lua",
-			"lib/chat_commander/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/86da54120c5580f42f3f576fa1367f988be9ddba/lib/chat_commander/constants.lua",
+			"lib/chat_commander/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/c0a875597c9163b78ada4709189e1f12994bb841/lib/chat_commander/constants.lua",
 			"lib/chat_commander/item_browser.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f5ee33dd96beb42fbce5ced77bd4d05a09291684/lib/chat_commander/item_browser.lua",
 			"lib/chat_commander/user_database.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f5ee33dd96beb42fbce5ced77bd4d05a09291684/lib/chat_commander/user_database.lua",
 			"lib/chat_commander/utils.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/86da54120c5580f42f3f576fa1367f988be9ddba/lib/chat_commander/utils.lua",
-			"lib/chat_commander/vehicle_utils.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/86da54120c5580f42f3f576fa1367f988be9ddba/lib/chat_commander/vehicle_utils.lua",
+			"lib/chat_commander/vehicle_utils.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/c0a875597c9163b78ada4709189e1f12994bb841/lib/chat_commander/vehicle_utils.lua",
 			"lib/file_database.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f5ee33dd96beb42fbce5ced77bd4d05a09291684/lib/file_database.lua",
 			"lib/ChatCommands/other/event.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f5ee33dd96beb42fbce5ced77bd4d05a09291684/lib/ChatCommands/other/event.lua",
 			"lib/ChatCommands/other/kick.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f5ee33dd96beb42fbce5ced77bd4d05a09291684/lib/ChatCommands/other/kick.lua",
