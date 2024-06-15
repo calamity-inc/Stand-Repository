@@ -709,7 +709,7 @@ $packages = [
 		"priority" => PRIORITY_GIMMICK,
 		"author" => "hexarobi",
 		"description" => "Advanced chat commands. Includes fine grained access controls, additional vehicle commands, and help system.",
-		"version" => "0.17.2r",
+		"version" => "0.18r",
 		"depends" => [
 			"lua/natives-3095a"
 		],
