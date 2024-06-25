@@ -709,12 +709,12 @@ $packages = [
 		"priority" => PRIORITY_GIMMICK,
 		"author" => "hexarobi",
 		"description" => "Advanced chat commands. Includes fine grained access controls, additional vehicle commands, and help system.",
-		"version" => "0.19r",
+		"version" => "0.19.1r",
 		"depends" => [
 			"lua/natives-3095a"
 		],
 		"files" => [
-			"ChatCommander.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/ChatCommander.lua",
+			"ChatCommander.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/eca565ca9b1aff98ae6e09e380f22d22bfac14ef/ChatCommander.lua",
 			"lib/chat_commander/config.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/chat_commander/config.lua",
 			"lib/chat_commander/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/chat_commander/constants.lua",
 			"lib/chat_commander/item_browser.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/chat_commander/item_browser.lua",
