@@ -666,7 +666,7 @@ $packages = [
 			"resources/TriviaBot/master_season1-35.tsv" => "raw.githubusercontent.com/hexarobi/stand-lua-triviabot/089e6173039f2ec2e845e29573c9d075305f1371/resources/TriviaBot/master_season1-35.tsv",
 		],
 	],
-	"lua/luaffi" => [
+	/*"lua/luaffi" => [
 		"type" => "library",
 		"author" => "Calamity, Inc.",
 		"version" => "0.1.1",
@@ -686,7 +686,7 @@ $packages = [
 			"lib/soup/soup-apigen.lua" => "raw.githubusercontent.com/calamity-inc/Soup/a695db321b758f21c80ddeacdf65cded56c739b0/bindings/soup-apigen.lua",
 			"lib/soup/soup.dll" => "calamity.zip/soup/2023-12-11-a695db321b758f21c80ddeacdf65cded56c739b0/soup.dll"
 		]
-	],
+	],*/
 	"lua_compat_layer/Kiddion's Modest Menu" => [
 		"author" => "Calamity, Inc.",
 		"version" => "a695db3",
