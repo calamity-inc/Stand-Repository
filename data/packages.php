@@ -697,7 +697,7 @@ $packages = [
 	"lua/Ji9sw - Gun Van" => [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "Ji9sw",
-		"version" => "1.68",
+		"version" => "1.69-3258",
 		"depends" => [
 			"lua/natives-3095a"
 		],
