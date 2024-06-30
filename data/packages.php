@@ -390,9 +390,9 @@ $packages = [
 	"lua/MusinessBanager" => [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "Stand Development Team; formerly ICYPhoenix & Ren",
-		"version" => "808cedc",
+		"version" => "3bdbf03",
 		"files" => [
-			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/808cedc51f28343b610c857b950d607074610a52/MusinessBanagersource.lua",
+			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/3bdbf037470e6cf081d72f2e62c4b44bec96749f/MusinessBanagersource.lua",
 		],
 		"resources_version" => "r5",
 		"resources" => [
@@ -439,9 +439,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-3095a"
 		],
-		"version" => "0.50.3",
+		"version" => "0.51.1",
 		"files" => [
-			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/c3595ff7fd0044f998814fba941d7b15a90dc3db/JinxScript.pluto",
+			"JinxScript.pluto" => "raw.githubusercontent.com/Prisuhm/JinxScript/33630048272b09db607ea64bbddbe2a777fbaa49/JinxScript.pluto",
 		],
 	],
 	"lua/AcjokerScript" => [
@@ -546,7 +546,7 @@ $packages = [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "hexarobi",
 		"description" => "Load and edit custom map, vehicle and skin files in JSON, XML or INI format.",
-		"version" => "0.49.1r",
+		"version" => "0.51.2r",
 		"depends" => [
 			"lua/natives-3095a",
 			"lua/iniparser",
@@ -554,14 +554,15 @@ $packages = [
 			"lua/xml2lua-handler-tree",
 			"lua/inspect",
 			"lua/quaternionLib",
+			"lua/ScaleformLib",
 			"lua/auto-updater",
 		],
 		"files" => [
-			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/46fabb8ad63e0808ebd07f8d48f918ff0aa65b3a/Constructor.lua",
-			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/46fabb8ad63e0808ebd07f8d48f918ff0aa65b3a/lib/constructor/constants.lua",
-			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/46fabb8ad63e0808ebd07f8d48f918ff0aa65b3a/lib/constructor/constructor_lib.lua",
-			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/46fabb8ad63e0808ebd07f8d48f918ff0aa65b3a/lib/constructor/convertors.lua",
-			"lib/constructor/translations.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/46fabb8ad63e0808ebd07f8d48f918ff0aa65b3a/lib/constructor/translations.lua",
+			"Constructor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/58c082c534e20528e24cdd07c556801db73535fa/Constructor.lua",
+			"lib/constructor/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/93ad4684606008fa8b19841f252fd92f9ac124d5/lib/constructor/constants.lua",
+			"lib/constructor/constructor_lib.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/58c082c534e20528e24cdd07c556801db73535fa/lib/constructor/constructor_lib.lua",
+			"lib/constructor/convertors.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/58c082c534e20528e24cdd07c556801db73535fa/lib/constructor/convertors.lua",
+			"lib/constructor/translations.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-constructor/93ad4684606008fa8b19841f252fd92f9ac124d5/lib/constructor/translations.lua",
 		],
 		"resources_version" => "r3",
 		"resources" => [
@@ -578,9 +579,9 @@ $packages = [
 	"lua/auto-updater" => [
 		"type" => "library",
 		"author" => "hexarobi",
-		"version" => "2.11r",
+		"version" => "2.12r",
 		"files" => [
-			"lib/auto-updater.lua" => "raw.githubusercontent.com/calamity-inc/stand-lua-auto-updater/fcc95a6929aa6f87bb8ae8f1cae8e18db25c7049/auto-updater.lua",
+			"lib/auto-updater.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-auto-updater/b644a777fa83ac48295f5beecce21e39117ec74f/auto-updater.lua",
 		],
 	],
 	"lua/NovaScript" => [
@@ -625,13 +626,13 @@ $packages = [
 	],
 	"lua/NovaHook" => [
 		"author" => "Nova",
-		"version" => "1.1.2",
+		"version" => "1.2.0",
 		"description" => "Allows you to send detections, classifications, player list, and in-game chat to a Discord webhook.",
 		"depends" => [
 			"lua/natives-1681379138"
 		],
 		"files" => [
-			"NovaHook.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.1.2/NovaHook.pluto",
+			"NovaHook.pluto" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.2.0/NovaHook.pluto",
 		],
 		"resources" => [
 			"resources/NovaHook/NovaHook_logo.png" => "raw.githubusercontent.com/NovaPlays134/NovaHook/1.1.2/resources/NovaHook/NovaHook_logo.png",
@@ -642,12 +643,12 @@ $packages = [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "hexarobi",
 		"description" => "Automates spinning and rigging slot machines.",
-		"version" => "0.27r",
+		"version" => "0.28.2r",
 		"depends" => [
 			"lua/natives-1663599433"
 		],
 		"files" => [
-			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/6e0220a10a017ccd271941d8561cc584724e44b1/SlotBot.lua"
+			"SlotBot.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-slotbot/19a684abcac9a737e414a9c9f822c5a8def5eb78/SlotBot.lua"
 		],
 	],
 	"lua/TriviaBot" => [
@@ -665,7 +666,7 @@ $packages = [
 			"resources/TriviaBot/master_season1-35.tsv" => "raw.githubusercontent.com/hexarobi/stand-lua-triviabot/089e6173039f2ec2e845e29573c9d075305f1371/resources/TriviaBot/master_season1-35.tsv",
 		],
 	],
-	"lua/luaffi" => [
+	/*"lua/luaffi" => [
 		"type" => "library",
 		"author" => "Calamity, Inc.",
 		"version" => "0.1.1",
@@ -685,13 +686,88 @@ $packages = [
 			"lib/soup/soup-apigen.lua" => "raw.githubusercontent.com/calamity-inc/Soup/a695db321b758f21c80ddeacdf65cded56c739b0/bindings/soup-apigen.lua",
 			"lib/soup/soup.dll" => "calamity.zip/soup/2023-12-11-a695db321b758f21c80ddeacdf65cded56c739b0/soup.dll"
 		]
-	],
+	],*/
 	"lua_compat_layer/Kiddion's Modest Menu" => [
 		"author" => "Calamity, Inc.",
 		"version" => "a695db3",
 		"files" => [
 			"lib/kiddions_compat.pluto" => "raw.githubusercontent.com/calamity-inc/kiddions_compat/efe2f15445f18cf70dd01ef29b464c4e8907de6a/kiddions_compat.pluto",
 		]
+	],
+	"lua/Ji9sw - Gun Van" => [
+		"priority" => PRIORITY_USEFUL_UNPOPULAR,
+		"author" => "Ji9sw",
+		"version" => "1.69-3258",
+		"depends" => [
+			"lua/natives-3095a"
+		],
+		"files" => [
+			"Ji9sw - Gun Van.lua" => "stand.gg/dl/lua/Ji9sw - Gun Van.lua"
+		],
+	],
+	"lua/ChatCommander" => [
+		"priority" => PRIORITY_GIMMICK,
+		"author" => "hexarobi",
+		"description" => "Advanced chat commands. Includes fine grained access controls, additional vehicle commands, and help system.",
+		"version" => "0.19.1r",
+		"depends" => [
+			"lua/natives-3095a"
+		],
+		"files" => [
+			"ChatCommander.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/eca565ca9b1aff98ae6e09e380f22d22bfac14ef/ChatCommander.lua",
+			"lib/chat_commander/config.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/chat_commander/config.lua",
+			"lib/chat_commander/constants.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/chat_commander/constants.lua",
+			"lib/chat_commander/item_browser.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/chat_commander/item_browser.lua",
+			"lib/chat_commander/user_database.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/chat_commander/user_database.lua",
+			"lib/chat_commander/utils.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/chat_commander/utils.lua",
+			"lib/chat_commander/vehicle_utils.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/chat_commander/vehicle_utils.lua",
+			"lib/file_database.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/file_database.lua",
+			"lib/ChatCommands/other/event.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/other/event.lua",
+			"lib/ChatCommands/other/kick.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/other/kick.lua",
+			"lib/ChatCommands/other/newlobby.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/other/newlobby.lua",
+			"lib/ChatCommands/other/ping.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/other/ping.lua",
+			"lib/ChatCommands/other/roulette.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/other/roulette.lua",
+			"lib/ChatCommands/player/allguns.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/allguns.lua",
+			"lib/ChatCommands/player/ammo.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/ammo.lua",
+			"lib/ChatCommands/player/autoheal.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/autoheal.lua",
+			"lib/ChatCommands/player/bail.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/bail.lua",
+			"lib/ChatCommands/player/casino.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/casino.lua",
+			"lib/ChatCommands/player/ceopay.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/ceopay.lua",
+			"lib/ChatCommands/player/cleanup.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/cleanup.lua",
+			"lib/ChatCommands/player/collectibles.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/collectibles.lua",
+			"lib/ChatCommands/player/escape.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/escape.lua",
+			"lib/ChatCommands/player/levelup.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/levelup.lua",
+			"lib/ChatCommands/player/parachute.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/parachute.lua",
+			"lib/ChatCommands/player/stuntjump.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/stuntjump.lua",
+			"lib/ChatCommands/player/teleport.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/teleport.lua",
+			"lib/ChatCommands/player/unstick.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/unstick.lua",
+			"lib/ChatCommands/player/vip.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/vip.lua",
+			"lib/ChatCommands/player/wanted.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/player/wanted.lua",
+			"lib/ChatCommands/vehicle/copy.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/copy.lua",
+			"lib/ChatCommands/vehicle/deletevehicle.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/deletevehicle.lua",
+			"lib/ChatCommands/vehicle/fast.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/fast.lua",
+			"lib/ChatCommands/vehicle/fav.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/fav.lua",
+			"lib/ChatCommands/vehicle/gift.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/gift.lua",
+			"lib/ChatCommands/vehicle/headlights.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/headlights.lua",
+			"lib/ChatCommands/vehicle/horn.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/horn.lua",
+			"lib/ChatCommands/vehicle/livery.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/livery.lua",
+			"lib/ChatCommands/vehicle/mods.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/mods.lua",
+			"lib/ChatCommands/vehicle/modsmax.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/modsmax.lua",
+			"lib/ChatCommands/vehicle/neonlights.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/neonlights.lua",
+			"lib/ChatCommands/vehicle/paint.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/paint.lua",
+			"lib/ChatCommands/vehicle/plate.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/plate.lua",
+			"lib/ChatCommands/vehicle/platetype.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/platetype.lua",
+			"lib/ChatCommands/vehicle/repair.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/repair.lua",
+			"lib/ChatCommands/vehicle/shuffle.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/shuffle.lua",
+			"lib/ChatCommands/vehicle/spawn.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/spawn.lua",
+			"lib/ChatCommands/vehicle/tires.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/tires.lua",
+			"lib/ChatCommands/vehicle/tiresmoke.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/tiresmoke.lua",
+			"lib/ChatCommands/vehicle/tune.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/tune.lua",
+			"lib/ChatCommands/vehicle/wash.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/wash.lua",
+			"lib/ChatCommands/vehicle/wheelcolor.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/wheelcolor.lua",
+			"lib/ChatCommands/vehicle/wheels.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/wheels.lua",
+			"lib/ChatCommands/vehicle/windowtint.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/windowtint.lua"
+		],
 	],
 ];
 
