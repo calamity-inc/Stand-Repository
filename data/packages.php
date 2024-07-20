@@ -770,20 +770,43 @@ $packages = [
 			"lib/ChatCommands/vehicle/windowtint.lua" => "raw.githubusercontent.com/hexarobi/stand-lua-chatcommander/f3c6ce624b38ad6dc4c49a0ce92b6bdca56b540b/lib/ChatCommands/vehicle/windowtint.lua"
 		],
 	],
+	"lua/AdventureScript" => [
+		"author" => "Adventure Tours",
+		"version" => "1.4.0",
+		"description" => "A script for hosting Adventure Tours.",
+		"depends" => [
+			"lua/3095a",
+		],
+		"files" => [
+			"AdventureTours.lua" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/AdventureScript.lua",
+			"lib/AdventureScript/config.lua" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/config.lua",
+			"lib/AdventureScript/controls.lua" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/controls.lua",
+			"lib/AdventureScript/data.lua" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/data.lua",
+			"lib/AdventureScript/gridspawn.lua" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/gridspawn.lua",
+			"lib/AdventureScript/menu.lua" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/menu.lua",
+			"lib/AdventureScript/passengers.lua" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/passengers.lua",
+			"lib/AdventureScript/state.lua" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/state.lua",
+			"lib/AdventureScript/tour.lua" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/tour.lua",
+			"lib/AdventureScript/ui.lua" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/ui.lua",
+			"lib/AdventureScript/vehicles.lua" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/vehicles.lua",
+		],
+		"resources_version" => "1.4.0",
+		"resources" => [
+			"lib/AdventureScript/assets/banner.jpg" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/assets/banner.jpg",
+			"lib/AdventureScript/assets/controls-bus.png" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/assets/controls-bus.png",
+			"lib/AdventureScript/assets/controls-foot.png" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/assets/controls-foot.png",
+			"lib/AdventureScript/assets/logo.png" => "raw.githubusercontent.com/diskomo/adventure-script/e106f42b75179d0c5a2429665f9020a5d12bcd66/lib/AdventureScript/assets/logo.png",
+		],
+	],
 ];
 
-foreach($packages as $name => &$package)
-{
-	if(array_key_exists("resources", $package))
-	{
+foreach ($packages as $name => &$package) {
+	if (array_key_exists("resources", $package)) {
 		$arr = explode("/", $name);
-		$resources_package_name = $arr[0]."/Resources for ".$arr[1];
-		if(array_key_exists("depends", $package))
-		{
+		$resources_package_name = $arr[0] . "/Resources for " . $arr[1];
+		if (array_key_exists("depends", $package)) {
 			array_push($package["depends"], $resources_package_name);
-		}
-		else
-		{
+		} else {
 			$package["depends"] = [$resources_package_name];
 		}
 		$packages[$resources_package_name] = [
@@ -791,12 +814,10 @@ foreach($packages as $name => &$package)
 			"priority" => PRIORITY_RESOURCES,
 			"files" => $package["resources"]
 		];
-		if(array_key_exists("resources_version", $package))
-		{
+		if (array_key_exists("resources_version", $package)) {
 			$packages[$resources_package_name]["version"] = $package["resources_version"];
 		}
-		if(array_key_exists("author", $package))
-		{
+		if (array_key_exists("author", $package)) {
 			$packages[$resources_package_name]["author"] = $package["author"];
 		}
 		unset($package["resources"]);
