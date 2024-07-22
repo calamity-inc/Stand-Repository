@@ -690,7 +690,7 @@ $packages = [
 	],
 	"lua_compat_layer/Kiddion's Modest Menu" => [
 		"author" => "Calamity, Inc.",
-		"version" => "a695db3",
+		"version" => "efe2f15",
 		"files" => [
 			"lib/kiddions_compat.pluto" => "raw.githubusercontent.com/calamity-inc/kiddions_compat/efe2f15445f18cf70dd01ef29b464c4e8907de6a/kiddions_compat.pluto",
 		]
