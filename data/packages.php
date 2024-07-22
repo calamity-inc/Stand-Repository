@@ -695,6 +695,13 @@ $packages = [
 			"lib/kiddions_compat.pluto" => "raw.githubusercontent.com/calamity-inc/kiddions_compat/efe2f15445f18cf70dd01ef29b464c4e8907de6a/kiddions_compat.pluto",
 		]
 	],
+	"lua_compat_layer/2Take1Menu" => [
+		"author" => "Calamity, Inc. & Murten",
+		"version" => "0c0d88c",
+		"files" => [
+			"lib/2take1 compat.pluto" => "raw.githubusercontent.com/calamity-inc/2take1_lua_loader/main/lib/2take1 compat.lua",
+		]
+	],
 	"lua/Ji9sw - Gun Van" => [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "Ji9sw",
