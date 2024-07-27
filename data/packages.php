@@ -7,6 +7,15 @@ define("PRIORITY_FOR_DEVELOPERS", -2);
 define("PRIORITY_RESOURCES", -9);
 
 $packages = [
+	"lua/natives-3274a" => [
+		"priority" => 12,
+		"files" => [
+			"lib/natives-3274a/init.lua" => "stand.gg/dl/lua/lib/natives-3274a/init.lua",
+			"lib/natives-3274a/init.source.lua" => "stand.gg/dl/lua/lib/natives-3274a/init.source.lua",
+			"lib/natives-3274a/g.lua" => "stand.gg/dl/lua/lib/natives-3274a/g.lua",
+			"lib/natives-3274a/g.source.lua" => "stand.gg/dl/lua/lib/natives-3274a/g.source.lua",
+		],
+	],
 	"lua/natives-3095a" => [
 		"priority" => 11,
 		"files" => [
