@@ -10,41 +10,41 @@ $packages = [
 	"lua/natives-3274a" => [
 		"priority" => 12,
 		"files" => [
-			"lib/natives-3274a/init.lua" => "stand.gg/dl/lua/lib/natives-3274a/init.lua",
-			"lib/natives-3274a/init.source.lua" => "stand.gg/dl/lua/lib/natives-3274a/init.source.lua",
-			"lib/natives-3274a/g.lua" => "stand.gg/dl/lua/lib/natives-3274a/g.lua",
-			"lib/natives-3274a/g.source.lua" => "stand.gg/dl/lua/lib/natives-3274a/g.source.lua",
+			"lib/natives-3274a/init.lua" => "stand.sh/dl/lua/lib/natives-3274a/init.lua",
+			"lib/natives-3274a/init.source.lua" => "stand.sh/dl/lua/lib/natives-3274a/init.source.lua",
+			"lib/natives-3274a/g.lua" => "stand.sh/dl/lua/lib/natives-3274a/g.lua",
+			"lib/natives-3274a/g.source.lua" => "stand.sh/dl/lua/lib/natives-3274a/g.source.lua",
 		],
 	],
 	"lua/natives-3095a" => [
 		"priority" => 11,
 		"files" => [
-			"lib/natives-3095a/init.lua" => "stand.gg/dl/lua/lib/natives-3095a/init.lua",
-			"lib/natives-3095a/init.source.lua" => "stand.gg/dl/lua/lib/natives-3095a/init.source.lua",
-			"lib/natives-3095a/g.lua" => "stand.gg/dl/lua/lib/natives-3095a/g.lua",
-			"lib/natives-3095a/g.source.lua" => "stand.gg/dl/lua/lib/natives-3095a/g.source.lua",
+			"lib/natives-3095a/init.lua" => "stand.sh/dl/lua/lib/natives-3095a/init.lua",
+			"lib/natives-3095a/init.source.lua" => "stand.sh/dl/lua/lib/natives-3095a/init.source.lua",
+			"lib/natives-3095a/g.lua" => "stand.sh/dl/lua/lib/natives-3095a/g.lua",
+			"lib/natives-3095a/g.source.lua" => "stand.sh/dl/lua/lib/natives-3095a/g.source.lua",
 		],
 	],
 	"lua/natives-2944b" => [
 		"priority" => 10,
 		"files" => [
-			"lib/natives-2944b/init.lua" => "stand.gg/dl/lua/lib/natives-2944b/init.lua",
-			"lib/natives-2944b/init.source.lua" => "stand.gg/dl/lua/lib/natives-2944b/init.source.lua",
-			"lib/natives-2944b/g.lua" => "stand.gg/dl/lua/lib/natives-2944b/g.lua",
-			"lib/natives-2944b/g.source.lua" => "stand.gg/dl/lua/lib/natives-2944b/g.source.lua",
+			"lib/natives-2944b/init.lua" => "stand.sh/dl/lua/lib/natives-2944b/init.lua",
+			"lib/natives-2944b/init.source.lua" => "stand.sh/dl/lua/lib/natives-2944b/init.source.lua",
+			"lib/natives-2944b/g.lua" => "stand.sh/dl/lua/lib/natives-2944b/g.lua",
+			"lib/natives-2944b/g.source.lua" => "stand.sh/dl/lua/lib/natives-2944b/g.source.lua",
 		],
 	],
 	"lua/natives-2944a" => [
 		"priority" => 9,
 		"files" => [
-			"lib/natives-2944a/init.lua" => "stand.gg/dl/lua/lib/natives-2944a/init.lua",
-			"lib/natives-2944a/init.source.lua" => "stand.gg/dl/lua/lib/natives-2944a/init.source.lua",
-			"lib/natives-2944a/uno.lua" => "stand.gg/dl/lua/lib/natives-2944a/uno.lua",
-			"lib/natives-2944a/uno.source.lua" => "stand.gg/dl/lua/lib/natives-2944a/uno.source.lua",
-			"lib/natives-2944a/g.lua" => "stand.gg/dl/lua/lib/natives-2944a/g.lua",
-			"lib/natives-2944a/g.source.lua" => "stand.gg/dl/lua/lib/natives-2944a/g.source.lua",
-			"lib/natives-2944a/g-uno.lua" => "stand.gg/dl/lua/lib/natives-2944a/g-uno.lua",
-			"lib/natives-2944a/g-uno.source.lua" => "stand.gg/dl/lua/lib/natives-2944a/g-uno.source.lua",
+			"lib/natives-2944a/init.lua" => "stand.sh/dl/lua/lib/natives-2944a/init.lua",
+			"lib/natives-2944a/init.source.lua" => "stand.sh/dl/lua/lib/natives-2944a/init.source.lua",
+			"lib/natives-2944a/uno.lua" => "stand.sh/dl/lua/lib/natives-2944a/uno.lua",
+			"lib/natives-2944a/uno.source.lua" => "stand.sh/dl/lua/lib/natives-2944a/uno.source.lua",
+			"lib/natives-2944a/g.lua" => "stand.sh/dl/lua/lib/natives-2944a/g.lua",
+			"lib/natives-2944a/g.source.lua" => "stand.sh/dl/lua/lib/natives-2944a/g.source.lua",
+			"lib/natives-2944a/g-uno.lua" => "stand.sh/dl/lua/lib/natives-2944a/g-uno.lua",
+			"lib/natives-2944a/g-uno.source.lua" => "stand.sh/dl/lua/lib/natives-2944a/g-uno.source.lua",
 		],
 	],
 	"lua/natives-1681379138" => [
@@ -52,95 +52,95 @@ $packages = [
 		"version" => "r2",
 		"priority" => 8,
 		"files" => [
-			"lib/natives-1681379138/init.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/init.lua",
-			"lib/natives-1681379138/init.source.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/init.source.lua",
-			"lib/natives-1681379138/uno.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/uno.lua",
-			"lib/natives-1681379138/uno.source.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/uno.source.lua",
-			"lib/natives-1681379138/g.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/g.lua",
-			"lib/natives-1681379138/g.source.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/g.source.lua",
-			"lib/natives-1681379138/g-uno.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/g-uno.lua",
-			"lib/natives-1681379138/g-uno.source.lua" => "stand.gg/dl/lua/lib/natives-1681379138-r2/g-uno.source.lua",
+			"lib/natives-1681379138/init.lua" => "stand.sh/dl/lua/lib/natives-1681379138-r2/init.lua",
+			"lib/natives-1681379138/init.source.lua" => "stand.sh/dl/lua/lib/natives-1681379138-r2/init.source.lua",
+			"lib/natives-1681379138/uno.lua" => "stand.sh/dl/lua/lib/natives-1681379138-r2/uno.lua",
+			"lib/natives-1681379138/uno.source.lua" => "stand.sh/dl/lua/lib/natives-1681379138-r2/uno.source.lua",
+			"lib/natives-1681379138/g.lua" => "stand.sh/dl/lua/lib/natives-1681379138-r2/g.lua",
+			"lib/natives-1681379138/g.source.lua" => "stand.sh/dl/lua/lib/natives-1681379138-r2/g.source.lua",
+			"lib/natives-1681379138/g-uno.lua" => "stand.sh/dl/lua/lib/natives-1681379138-r2/g-uno.lua",
+			"lib/natives-1681379138/g-uno.source.lua" => "stand.sh/dl/lua/lib/natives-1681379138-r2/g-uno.source.lua",
 		],
 	],
 	"lua/natives-1676318796" => [
 		"priority" => 7,
 		"files" => [
-			"lib/natives-1676318796.lua" => "stand.gg/dl/lua/lib/natives-1676318796.lua",
+			"lib/natives-1676318796.lua" => "stand.sh/dl/lua/lib/natives-1676318796.lua",
 		],
 	],
 	"lua/natives-1676318796-uno" => [
 		"priority" => 7,
 		"files" => [
-			"lib/natives-1676318796-uno.lua" => "stand.gg/dl/lua/lib/natives-1676318796-uno.lua",
+			"lib/natives-1676318796-uno.lua" => "stand.sh/dl/lua/lib/natives-1676318796-uno.lua",
 		],
 	],
 	"lua/natives-1672190175" => [
 		"priority" => 6,
 		"files" => [
-			"lib/natives-1672190175.lua" => "stand.gg/dl/lua/lib/natives-1672190175.lua",
+			"lib/natives-1672190175.lua" => "stand.sh/dl/lua/lib/natives-1672190175.lua",
 		],
 	],
 	"lua/natives-1672190175-uno" => [
 		"priority" => 6,
 		"files" => [
-			"lib/natives-1672190175-uno.lua" => "stand.gg/dl/lua/lib/natives-1672190175-uno.lua",
+			"lib/natives-1672190175-uno.lua" => "stand.sh/dl/lua/lib/natives-1672190175-uno.lua",
 		],
 	],
 	"lua/natives-1663599433" => [
 		"priority" => 5,
 		"files" => [
-			"lib/natives-1663599433.lua" => "stand.gg/dl/lua/lib/natives-1663599433.lua",
+			"lib/natives-1663599433.lua" => "stand.sh/dl/lua/lib/natives-1663599433.lua",
 		],
 	],
 	"lua/natives-1663599433-uno" => [
 		"priority" => 5,
 		"files" => [
-			"lib/natives-1663599433-uno.lua" => "stand.gg/dl/lua/lib/natives-1663599433-uno.lua",
+			"lib/natives-1663599433-uno.lua" => "stand.sh/dl/lua/lib/natives-1663599433-uno.lua",
 		],
 	],
 	"lua/natives-1660775568" => [
 		"priority" => 4,
 		"files" => [
-			"lib/natives-1660775568.lua" => "stand.gg/dl/lua/lib/natives-1660775568.lua",
+			"lib/natives-1660775568.lua" => "stand.sh/dl/lua/lib/natives-1660775568.lua",
 		],
 	],
 	"lua/natives-1660775568-uno" => [
 		"priority" => 4,
 		"files" => [
-			"lib/natives-1660775568-uno.lua" => "stand.gg/dl/lua/lib/natives-1660775568-uno.lua",
+			"lib/natives-1660775568-uno.lua" => "stand.sh/dl/lua/lib/natives-1660775568-uno.lua",
 		],
 	],
 	"lua/natives-1651208000" => [
 		"priority" => 3,
 		"files" => [
-			"lib/natives-1651208000.lua" => "stand.gg/dl/lua/lib/natives-1651208000.lua",
+			"lib/natives-1651208000.lua" => "stand.sh/dl/lua/lib/natives-1651208000.lua",
 		],
 	],
 	"lua/natives-1640181023" => [
 		"priority" => 2,
 		"files" => [
-			"lib/natives-1640181023.lua" => "stand.gg/dl/lua/lib/natives-1640181023.lua",
+			"lib/natives-1640181023.lua" => "stand.sh/dl/lua/lib/natives-1640181023.lua",
 		],
 	],
 	"lua/natives-1627063482" => [
 		"priority" => 1,
 		"files" => [
-			"lib/natives-1627063482.lua" => "stand.gg/dl/lua/lib/natives-1627063482.lua",
+			"lib/natives-1627063482.lua" => "stand.sh/dl/lua/lib/natives-1627063482.lua",
 		],
 	],
 	"lua/json" => [
 		"files" => [
-			"lib/json.lua" => "stand.gg/dl/lua/lib/json.lua",
+			"lib/json.lua" => "stand.sh/dl/lua/lib/json.lua",
 		],
 	],
 	"lua/pretty.json" => [
 		"version" => "r2",
 		"type" => "library",
 		"files" => [
-			"lib/pretty/json.lua" => "stand.gg/dl/lua/lib/pretty/json.lua",
-			"lib/pretty/json/constant.lua" => "stand.gg/dl/lua/lib/pretty/json/constant.lua",
-			"lib/pretty/json/parser.lua" => "stand.gg/dl/lua/lib/pretty/json/parser.lua",
-			"lib/pretty/json/serializer.lua" => "stand.gg/dl/lua/lib/pretty/json/serializer.lua",
+			"lib/pretty/json.lua" => "stand.sh/dl/lua/lib/pretty/json.lua",
+			"lib/pretty/json/constant.lua" => "stand.sh/dl/lua/lib/pretty/json/constant.lua",
+			"lib/pretty/json/parser.lua" => "stand.sh/dl/lua/lib/pretty/json/parser.lua",
+			"lib/pretty/json/serializer.lua" => "stand.sh/dl/lua/lib/pretty/json/serializer.lua",
 		],
 	],
 	"lua/imGUI-V2.1.2" => [
@@ -149,16 +149,16 @@ $packages = [
 			"lua/natives-1640181023",
 		],
 		"files" => [
-			"resources/ImGUI_checkmark.png" => "stand.gg/dl/lua/resources/ImGUI_checkmark.png",
-			"resources/ImGUI_cursor.png" => "stand.gg/dl/lua/resources/ImGUI_cursor.png",
-			"lib/lua_imGUI V2-1.lua" => "stand.gg/dl/lua/lib/lua_imGUI V2.1.2.lua",
+			"resources/ImGUI_checkmark.png" => "stand.sh/dl/lua/resources/ImGUI_checkmark.png",
+			"resources/ImGUI_cursor.png" => "stand.sh/dl/lua/resources/ImGUI_cursor.png",
+			"lib/lua_imGUI V2-1.lua" => "stand.sh/dl/lua/lib/lua_imGUI V2.1.2.lua",
 		],
 	],
 	"lua/SLAXML" => [
 		"author" => "Phrogz",
 		"files" => [
-			"lib/slaxml.lua" => "stand.gg/dl/lua/lib/slaxml.lua",
-			"lib/slaxdom.lua" => "stand.gg/dl/lua/lib/slaxdom.lua",
+			"lib/slaxml.lua" => "stand.sh/dl/lua/lib/slaxml.lua",
+			"lib/slaxdom.lua" => "stand.sh/dl/lua/lib/slaxdom.lua",
 		]
 	],
 	"lua/LanceScript" => [
@@ -289,25 +289,25 @@ $packages = [
 			"Example Scripts/Vehicle Spawn.pluto" => "raw.githubusercontent.com/calamity-inc/Stand-Example-Scripts/e86ed2c4b0d9c1fcb0574aff47454d9db8836778/Vehicle Spawn.pluto",
 		],
 		"resources" => [
-			"resources/Example Scripts/Heart.png" => "stand.gg/dl/lua/resources/Example Scripts/Heart.png",
+			"resources/Example Scripts/Heart.png" => "stand.sh/dl/lua/resources/Example Scripts/Heart.png",
 		]
 	],
 	"lua/Crosshair" => [
 		"version" => "0.1",
 		"author" => "CocoW",
 		"files" => [
-			"Crosshair.lua" => "stand.gg/dl/lua/Crosshair 0.1.lua",
+			"Crosshair.lua" => "stand.sh/dl/lua/Crosshair 0.1.lua",
 		],
 		"resources" => [
-			"cr1.png" => "stand.gg/dl/lua/resources/cr1.png",
-			"cr2.png" => "stand.gg/dl/lua/resources/cr2.png",
+			"cr1.png" => "stand.sh/dl/lua/resources/cr1.png",
+			"cr2.png" => "stand.sh/dl/lua/resources/cr2.png",
 		]
 	],
 	"lua/Chat Interface" => [
 		"version" => "1.0.2",
 		"description" => "A simple interface for the in-game chat which allows you to read and write via the web interface.",
 		"files" => [
-			"Chat Interface.lua" => "stand.gg/dl/lua/Chat Interface 1.0.2.lua",
+			"Chat Interface.lua" => "stand.sh/dl/lua/Chat Interface 1.0.2.lua",
 		]
 	],
 	"lua/FlappyStand" => [
@@ -318,17 +318,17 @@ $packages = [
 			"lua/natives-1627063482",
 		],
 		"files" => [
-			"FlappyStand.lua" => "stand.gg/dl/lua/FlappyStand 0.1.lua",
+			"FlappyStand.lua" => "stand.sh/dl/lua/FlappyStand 0.1.lua",
 		],
 		"resources" => [
-			"resources/FlappyStand/flappy.png" => "stand.gg/dl/lua/resources/FlappyStand/flappy.png",
-			"resources/FlappyStand/flappy_y.png" => "stand.gg/dl/lua/resources/FlappyStand/flappy_y.png",
-			"resources/FlappyStand/gameover.png" => "stand.gg/dl/lua/resources/FlappyStand/gameover.png",
-			"resources/FlappyStand/logo.png" => "stand.gg/dl/lua/resources/FlappyStand/logo.png",
-			"resources/FlappyStand/stand.png" => "stand.gg/dl/lua/resources/FlappyStand/stand.png",
-			"resources/FlappyStand/tube.png" => "stand.gg/dl/lua/resources/FlappyStand/tube.png",
-			"resources/FlappyStand/tube_g.png" => "stand.gg/dl/lua/resources/FlappyStand/tube_g.png",
-			"resources/FlappyStand/tube_pain.png" => "stand.gg/dl/lua/resources/FlappyStand/tube_pain.png",
+			"resources/FlappyStand/flappy.png" => "stand.sh/dl/lua/resources/FlappyStand/flappy.png",
+			"resources/FlappyStand/flappy_y.png" => "stand.sh/dl/lua/resources/FlappyStand/flappy_y.png",
+			"resources/FlappyStand/gameover.png" => "stand.sh/dl/lua/resources/FlappyStand/gameover.png",
+			"resources/FlappyStand/logo.png" => "stand.sh/dl/lua/resources/FlappyStand/logo.png",
+			"resources/FlappyStand/stand.png" => "stand.sh/dl/lua/resources/FlappyStand/stand.png",
+			"resources/FlappyStand/tube.png" => "stand.sh/dl/lua/resources/FlappyStand/tube.png",
+			"resources/FlappyStand/tube_g.png" => "stand.sh/dl/lua/resources/FlappyStand/tube_g.png",
+			"resources/FlappyStand/tube_pain.png" => "stand.sh/dl/lua/resources/FlappyStand/tube_pain.png",
 		]
 	],
 	"lua/JerryScript" => [
@@ -381,7 +381,7 @@ $packages = [
 		"version" => "r1",
 		"author" => "aaronlink127",
 		"files" => [
-			"lib/ScaleformLib.lua" => "stand.gg/dl/lua/lib/ScaleformLib.lua"
+			"lib/ScaleformLib.lua" => "stand.sh/dl/lua/lib/ScaleformLib.lua"
 		]
 	],
 	"lua/LazScript" => [
@@ -542,14 +542,14 @@ $packages = [
 		"author" => "Enrique García Cota",
 		"version" => "3.1.0",
 		"files" => [
-			"lib/inspect.lua" => "stand.gg/dl/lua/lib/inspect.lua"
+			"lib/inspect.lua" => "stand.sh/dl/lua/lib/inspect.lua"
 		]
 	],
 	"lua/quaternionLib" => [
 		"type" => "library",
 		"author" => "Murten",
 		"files" => [
-			"lib/quaternionLib.lua" => "stand.gg/dl/lua/lib/quaternionLib.lua"
+			"lib/quaternionLib.lua" => "stand.sh/dl/lua/lib/quaternionLib.lua"
 		]
 	],
 	"lua/Constructor" => [
@@ -719,7 +719,7 @@ $packages = [
 			"lua/natives-3095a"
 		],
 		"files" => [
-			"Ji9sw - Gun Van.lua" => "stand.gg/dl/lua/Ji9sw - Gun Van.lua"
+			"Ji9sw - Gun Van.lua" => "stand.sh/dl/lua/Ji9sw - Gun Van.lua"
 		],
 	],
 	"lua/ChatCommander" => [
