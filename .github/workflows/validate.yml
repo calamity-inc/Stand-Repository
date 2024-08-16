@@ -1,8 +1,8 @@
-name: Validate Syntax
+name: Validate
 on: [ push, pull_request ]
 jobs:
-  validate-syntax:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: php -l data/packages.php
+      - run: php validate.php
