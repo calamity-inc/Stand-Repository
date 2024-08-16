@@ -396,6 +396,23 @@ $packages = [
 			"LazScript.lua" => "raw.githubusercontent.com/leandrocoding/lazscript/v1.3/LAZScript.lua"
 		]
 	],
+	"lua/MusinessBanager" => [
+		"priority" => PRIORITY_USEFUL_POPULAR,
+		"author" => "Stand Development Team; formerly ICYPhoenix & Ren",
+		"version" => "3bdbf03",
+		"files" => [
+			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/3bdbf037470e6cf081d72f2e62c4b44bec96749f/MusinessBanagersource.lua",
+		],
+		"resources_version" => "r5",
+		"resources" => [
+			"resources/Musiness Banager/Translations/de.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/resources/Musiness Banager/Translations/de.txt",
+			"resources/Musiness Banager/Translations/es.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/resources/Musiness Banager/Translations/es.txt",
+			"resources/Musiness Banager/Translations/fr.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/resources/Musiness Banager/Translations/fr.txt",
+			"resources/Musiness Banager/Translations/ko.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/resources/Musiness Banager/Translations/ko.txt",
+			"resources/Musiness Banager/Translations/pl.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/resources/Musiness Banager/Translations/pl.txt",
+			"resources/Musiness Banager/Translations/zh.txt" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/64e4ecd872c292288f2f51d49d37842fc3b3c120/resources/Musiness Banager/Translations/zh.txt",
+		]
+	],
 	"lua/Heist Control" => [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "IceDoomfist",
