@@ -400,9 +400,9 @@ $packages = [
 		"hidden" => true, "description" => "This package is no longer maintained. We suggest uninstalling it.",
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "Stand Development Team; formerly ICYPhoenix & Ren",
-		"version" => "3bdbf03",
+		"version" => "48738fa",
 		"files" => [
-			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/3bdbf037470e6cf081d72f2e62c4b44bec96749f/MusinessBanagersource.lua",
+			"MusinessBanager.lua" => "raw.githubusercontent.com/calamity-inc/MusinessBanager/48738fa99ea4f0a2ad032506cbf1b13fea3f4072/MusinessBanagersource.lua",
 		],
 		"resources_version" => "r5",
 		"resources" => [
