@@ -715,12 +715,13 @@ $packages = [
 	"lua/Ji9sw - Gun Van" => [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "Ji9sw",
-		"version" => "1.69-3258",
+		"description" => "Easily change the contents of the in-game Gun Van to purchase unlisted weapons.",
+		"version" => "1.69-3258-r2",
 		"depends" => [
 			"lua/natives-3095a"
 		],
 		"files" => [
-			"Ji9sw - Gun Van.lua" => "stand.sh/dl/lua/Ji9sw - Gun Van.lua"
+			"Ji9sw - Gun Van.lua" => "https://raw.githubusercontent.com/ji8sw/Stand-Lua-Scripts/1e3e691f3acc417fa0f54015d3f941dd71513264/Ji9sw%20-%20Gun%20Van.lua"
 		],
 	],
 	"lua/ChatCommander" => [
