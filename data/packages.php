@@ -397,7 +397,6 @@ $packages = [
 		]
 	],
 	"lua/MusinessBanager" => [
-		"hidden" => true, "description" => "This package is no longer maintained. We suggest uninstalling it.",
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "Stand Development Team; formerly ICYPhoenix & Ren",
 		"version" => "48738fa",
