@@ -681,7 +681,7 @@ $packages = [
 		"author" => "Calamity, Inc.",
 		"version" => "0.1.1",
 		"files" => [
-			"lib/luaffi.dll" => "files-that-will-make-your-head-explode.com/luaffi/0.1.1/luaffi.dll"
+			"lib/luaffi.dll" => "files-that-make-your-head-explode.com/luaffi/0.1.1/luaffi.dll"
 		]
 	],
 	"lua/Soup" => [
@@ -692,9 +692,9 @@ $packages = [
 		],
 		"version" => "a695db3",
 		"files" => [
-			"lib/soup/init.lua" => "files-that-will-make-your-head-explode.com/stand-soup-ffi-init.lua",
+			"lib/soup/init.lua" => "files-that-make-your-head-explode.com/stand-soup-ffi-init.lua",
 			"lib/soup/soup-apigen.lua" => "raw.githubusercontent.com/calamity-inc/Soup/a695db321b758f21c80ddeacdf65cded56c739b0/bindings/soup-apigen.lua",
-			"lib/soup/soup.dll" => "files-that-will-make-your-head-explode.com/soup/2023-12-11-a695db321b758f21c80ddeacdf65cded56c739b0/soup.dll"
+			"lib/soup/soup.dll" => "files-that-make-your-head-explode.com/soup/2023-12-11-a695db321b758f21c80ddeacdf65cded56c739b0/soup.dll"
 		]
 	],
 	"lua_compat_layer/Kiddion's Modest Menu" => [
