@@ -335,7 +335,7 @@ $packages = [
 	"lua/JerryScript" => [
 		"priority" => PRIORITY_BLOATWARE,
 		"author" => "jerry123",
-		"version" => "1.14.8",
+		"version" => "5a800e2",
 		"depends" => [
 			"lua/natives-1660775568-uno",
 			"lua/JSkeyLib",
@@ -343,7 +343,7 @@ $packages = [
 			"lua/ScaleformLib",
 		],
 		"files" => [
-			"JerryScript.lua" => "raw.githubusercontent.com/Jerrrry123/JerryScript/1.14.8/JerryScript.lua",
+			"JerryScript.lua" => "raw.githubusercontent.com/calamity-inc/JerryScript/5a800e203443797052132b3338ffd5683ac58ce9/JerryScript.lua",
 			"store/JerryScript/Language/Dutch.lua" => "raw.githubusercontent.com/Jerrrry123/JerryScript/1.14.8/store/JerryScript/Language/Dutch.lua",
 			"store/JerryScript/Language/Simplified_Chinese.lua" => "raw.githubusercontent.com/Jerrrry123/JerryScript/1.14.8/store/JerryScript/Language/Simplified_Chinese.lua",
 			"store/JerryScript/Language/French.lua" => "raw.githubusercontent.com/Jerrrry123/JerryScript/1.14.8/store/JerryScript/Language/French.lua",
@@ -363,10 +363,10 @@ $packages = [
 	],
 	"lua/JSlangLib" => [
 		"type" => "library",
-		"version" => "1.14.8",
+		"version" => "5a800e2",
 		"author" => "jerry123",
 		"files" => [
-			"lib/JSlangLib.lua" => "raw.githubusercontent.com/Jerrrry123/JerryScript/1.14.8/lib/JSlangLib.lua",
+			"lib/JSlangLib.lua" => "raw.githubusercontent.com/calamity-inc/JerryScript/5a800e203443797052132b3338ffd5683ac58ce9/lib/JSlangLib.lua",
 		],
 	],
 	"lua/JSkeyLib" => [
