@@ -186,9 +186,9 @@ $packages = [
 		"depends" => [
 			"lua/natives-2944b",
 		],
-		"version" => "82c4483",
+		"version" => "43ec215",
 		"files" => [
-			"Dolos.pluto" => "raw.githubusercontent.com/calamity-inc/Dolos/82c44837cb4709d0c22e2cc6177e4761a379e7aa/Dolos.pluto",
+			"Dolos.pluto" => "raw.githubusercontent.com/calamity-inc/Dolos/43ec215a4434439ce29c7eeb5b1bb5c0b2874f84/Dolos.pluto",
 		],
 	],
 	"lua/Dashmaster" => [
