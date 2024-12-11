@@ -715,12 +715,12 @@ $packages = [
 	"lua/Ji9sw - Gun Van" => [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "Ji9sw",
-		"version" => "1e3e691",
+		"version" => "55a5d2",
 		"depends" => [
-			"lua/natives-3095a"
+			"lua/natives-3274a"
 		],
 		"files" => [
-			"Ji9sw - Gun Van.lua" => "raw.githubusercontent.com/ji8sw/Stand-Lua-Scripts/1e3e691f3acc417fa0f54015d3f941dd71513264/Ji9sw - Gun Van.lua"
+			"Ji9sw - Gun Van.lua" => "raw.githubusercontent.com/ji8sw/Stand-Lua-Scripts/55a5d21ae314014237b90cdfc6b0dfdc846977e4/GunVan.lua"
 		],
 	],
 	"lua/ChatCommander" => [
