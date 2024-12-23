@@ -426,13 +426,13 @@ $packages = [
 	"lua/Heist Control" => [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "Calamity, Inc.; formerly IceDoomfist",
-		"version" => "083377e",
+		"version" => "cc2287c",
 		"depends" => [
 			"lua/natives-1681379138",
 		],
 		"files" => [
 			"Heist Control.lua" => "raw.githubusercontent.com/calamity-inc/Stand-Heist-Control/083377ea7fd8b508eabfdaa1145243792ae95426/Heist Control.lua",
-			"store/Heist Control/Language/Chinese.txt" => "raw.githubusercontent.com/calamity-inc/Stand-Heist-Control/083377ea7fd8b508eabfdaa1145243792ae95426/store/Heist Control/Language/Chinese.txt",
+			"store/Heist Control/Language/Chinese.txt" => "raw.githubusercontent.com/calamity-inc/Stand-Heist-Control/cc2287cc5dae8a47379d152a437e7b295b47c954/store/Heist Control/Language/Chinese.txt",
 			"store/Heist Control/Language/Custom.txt" => "raw.githubusercontent.com/calamity-inc/Stand-Heist-Control/083377ea7fd8b508eabfdaa1145243792ae95426/store/Heist Control/Language/Custom.txt",
 			"store/Heist Control/Language/English.txt" => "raw.githubusercontent.com/calamity-inc/Stand-Heist-Control/083377ea7fd8b508eabfdaa1145243792ae95426/store/Heist Control/Language/English.txt",
 			"store/Heist Control/Language/French.txt" => "raw.githubusercontent.com/calamity-inc/Stand-Heist-Control/083377ea7fd8b508eabfdaa1145243792ae95426/store/Heist Control/Language/French.txt",
