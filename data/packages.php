@@ -426,12 +426,12 @@ $packages = [
 	"lua/Heist Control" => [
 		"priority" => PRIORITY_USEFUL_POPULAR,
 		"author" => "Calamity, Inc.; formerly IceDoomfist",
-		"version" => "f06932a",
+		"version" => "85e052f",
 		"depends" => [
 			"lua/natives-1681379138",
 		],
 		"files" => [
-			"Heist Control.lua" => "raw.githubusercontent.com/calamity-inc/Stand-Heist-Control/f06932ab9966077be25601c9eec19b699748ec5a/Heist Control.lua",
+			"Heist Control.lua" => "raw.githubusercontent.com/calamity-inc/Stand-Heist-Control/85e052f063dabf17108e6be809a17d83c57fca75/Heist Control.lua",
 			"store/Heist Control/Language/Chinese.txt" => "raw.githubusercontent.com/calamity-inc/Stand-Heist-Control/f06932ab9966077be25601c9eec19b699748ec5a/store/Heist Control/Language/Chinese.txt",
 			"store/Heist Control/Language/Custom.txt" => "raw.githubusercontent.com/calamity-inc/Stand-Heist-Control/083377ea7fd8b508eabfdaa1145243792ae95426/store/Heist Control/Language/Custom.txt",
 			"store/Heist Control/Language/English.txt" => "raw.githubusercontent.com/calamity-inc/Stand-Heist-Control/f06932ab9966077be25601c9eec19b699748ec5a/store/Heist Control/Language/English.txt",
