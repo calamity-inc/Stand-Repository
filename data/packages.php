@@ -729,7 +729,7 @@ $packages = [
 			"lua/natives-3274a"
 		],
 		"files" => [
-			"Ji9sw - Gun Van.lua" => "raw.githubusercontent.com/ji8sw/Stand-Lua-Scripts/55a5d21ae314014237b90cdfc6b0dfdc846977e4/GunVan.lua"
+			"Ji9sw - Gun Van.lua" => "raw.githubusercontent.com/ji8sw/Stand-Lua-Scripts/7c0d7bcfc3906c953305b084a62a265e1f473794/GunVan.lua"
 		],
 	],
 	"lua/ChatCommander" => [
