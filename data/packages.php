@@ -724,12 +724,12 @@ $packages = [
 	"lua/Ji9sw - Gun Van" => [
 		"priority" => PRIORITY_USEFUL_UNPOPULAR,
 		"author" => "Ji9sw",
-		"version" => "55a5d2",
+		"version" => "75f8fcb",
 		"depends" => [
 			"lua/natives-3274a"
 		],
 		"files" => [
-			"Ji9sw - Gun Van.lua" => "raw.githubusercontent.com/ji8sw/Stand-Lua-Scripts/7c0d7bcfc3906c953305b084a62a265e1f473794/GunVan.lua"
+			"Ji9sw - Gun Van.lua" => "raw.githubusercontent.com/ji8sw/Stand-Lua-Scripts/75f8fcb3432ecf9731d5595c9e84a8c14bb5759a/GunVan.lua"
 		],
 	],
 	"lua/ChatCommander" => [
@@ -829,3 +829,4 @@ foreach($packages as $name => &$package)
 		unset($package["resources_version"]);
 	}
 }
+
